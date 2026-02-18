@@ -1,0 +1,35 @@
+services:
+  # ── Backend API ──
+  - type: web
+    name: jarvis-backend
+    runtime: docker
+    dockerfilePath: ./backend.Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DB_BACKEND
+        value: firebase
+      - key: FIREBASE_SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FRONTEND_ORIGIN
+        value: https://jarvis-frontend.onrender.com
+      - key: APP_ENV
+        value: production
+
+  # ── Frontend (Nginx + SPA) ──
+  - type: web
+    name: jarvis-frontend
+    runtime: docker
+    dockerfilePath: ./frontend.Dockerfile
+    plan: free
+    envVars:
+      - key: BACKEND_URL
+        value: https://jarvis-backend.onrender.com
+      - key: PORT
+        value: "10000"

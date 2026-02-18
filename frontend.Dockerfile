@@ -18,11 +18,17 @@ RUN npm run build
 # ── Stage 2: Serve ──
 FROM nginx:alpine
 
+RUN apk add --no-cache gettext
+
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Use Render-specific nginx config
-COPY deploy/nginx-render.conf /etc/nginx/conf.d/default.conf
+# Nginx config template (envsubst replaces $PORT and $BACKEND_URL at runtime)
+COPY deploy/nginx-render.conf /etc/nginx/templates/default.conf.template
 
-EXPOSE 8000
+# Entrypoint script
+COPY deploy/frontend-entrypoint.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
 
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 10000
+
+CMD ["/docker-entrypoint.sh"]

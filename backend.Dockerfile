@@ -9,20 +9,24 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Python deps
-COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY backend/requirements.txt ./backend/
+RUN pip install --no-cache-dir -r backend/requirements.txt
 
-# Copy application code
-COPY backend/ .
-COPY project_jarvis/ /app/project_jarvis/
-COPY skills/ /app/skills/
+# Copy application code (maintain package structure)
+COPY backend/ ./backend/
+COPY project_jarvis/ ./project_jarvis/
+COPY skills/ ./skills/
 
 # Remove dev/test files
-RUN rm -f test_*.py
+RUN rm -f backend/test_*.py
+
+# Create data directory
+RUN mkdir -p /app/data
 
 ENV PYTHONPATH="/app/project_jarvis:/app"
 ENV APP_ENV=production
 
 EXPOSE 8000
 
-CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", $PORT"]
+# Shell form so $PORT expands at runtime (Render sets PORT)
+CMD uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}
