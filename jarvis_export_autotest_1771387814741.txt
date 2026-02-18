@@ -1,0 +1,1004 @@
+======================================================================
+  JARVIS EVC Export — Session: autotest_1771387814741
+  Total turns: 100
+======================================================================
+
+--- Turn 1 ---
+  Message : ขอบคุณมากเลย ช่วยได้เยอะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.25) + Love(0.25)
+  Dominant: Joy (0.3004)
+  Trust   : 0.5380
+  Hormones: Dopamine=0.605  Serotonin=0.817  Oxytocin=0.569  Endorphin=0.549  Cortisol=0.272  Adrenaline=0.331  GABA=0.584  Norepinephrine=0.326
+  Emotions: Joy=0.300  Serenity=0.253  Love=0.245  Excitement=0.152  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.050
+  H Delta : Dopamine=+0.1054  Serotonin=+0.2169  Oxytocin=+0.1687  Endorphin=+0.2488  Cortisol=-0.0281  Adrenaline=+0.1305  GABA=+0.0843  Norepinephrine=+0.0256
+
+--- Turn 2 ---
+  Message : เก่งมากเลยนะ
+  Signals : S=0.800  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.29) + Love(0.26)
+  Dominant: Joy (0.3182)
+  Trust   : 0.5810
+  Hormones: Dopamine=0.772  Serotonin=1.000  Oxytocin=0.736  Endorphin=0.799  Cortisol=0.097  Adrenaline=0.263  GABA=0.741  Norepinephrine=0.259
+  Emotions: Joy=0.318  Serenity=0.286  Love=0.260  Excitement=0.127  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.009
+  H Delta : Dopamine=+0.1662  Serotonin=+0.1831  Oxytocin=+0.1672  Endorphin=+0.2507  Cortisol=-0.1745  Adrenaline=-0.0671  GABA=+0.1563  Norepinephrine=-0.0666
+
+--- Turn 3 ---
+  Message : ชอบคำตอบนี้จัง
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3097)
+  Trust   : 0.6190
+  Hormones: Dopamine=0.631  Serotonin=1.000  Oxytocin=0.681  Endorphin=0.923  Cortisol=0.093  Adrenaline=0.335  GABA=0.780  Norepinephrine=0.316
+  Emotions: Joy=0.310  Serenity=0.290  Love=0.253  Excitement=0.131  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.017
+  H Delta : Dopamine=-0.1404  Serotonin=+0.0000  Oxytocin=-0.0546  Endorphin=+0.1232  Cortisol=-0.0048  Adrenaline=+0.0716  GABA=+0.0392  Norepinephrine=+0.0566
+
+--- Turn 4 ---
+  Message : ทำดีมากครับ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3096)
+  Trust   : 0.6570
+  Hormones: Dopamine=0.621  Serotonin=1.000  Oxytocin=0.664  Endorphin=1.000  Cortisol=0.088  Adrenaline=0.345  GABA=0.811  Norepinephrine=0.324
+  Emotions: Joy=0.310  Serenity=0.291  Love=0.250  Excitement=0.132  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.017
+  H Delta : Dopamine=-0.0105  Serotonin=+0.0000  Oxytocin=-0.0172  Endorphin=+0.0773  Cortisol=-0.0046  Adrenaline=+0.0104  GABA=+0.0312  Norepinephrine=+0.0083
+
+--- Turn 5 ---
+  Message : น่ารักจัง
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3102)
+  Trust   : 0.6950
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.659  Endorphin=1.000  Cortisol=0.084  Adrenaline=0.347  GABA=0.836  Norepinephrine=0.325
+  Emotions: Joy=0.310  Serenity=0.294  Love=0.250  Excitement=0.131  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.015
+  H Delta : Dopamine=-0.0006  Serotonin=+0.0000  Oxytocin=-0.0052  Endorphin=+0.0000  Cortisol=-0.0044  Adrenaline=+0.0013  GABA=+0.0249  Norepinephrine=+0.0010
+
+--- Turn 6 ---
+  Message : รักเลย
+  Signals : S=0.900  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3216)
+  Trust   : 0.7440
+  Hormones: Dopamine=0.873  Serotonin=1.000  Oxytocin=0.842  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.273  GABA=0.980  Norepinephrine=0.267
+  Emotions: Joy=0.322  Serenity=0.295  Love=0.262  Excitement=0.121  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.2530  Serotonin=+0.0000  Oxytocin=+0.1830  Endorphin=+0.0000  Cortisol=-0.0836  Adrenaline=-0.0739  GABA=+0.1445  Norepinephrine=-0.0577
+
+--- Turn 7 ---
+  Message : สุดยอดไปเลย!
+  Signals : S=0.900  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.29) + Love(0.27)
+  Dominant: Joy (0.3210)
+  Trust   : 0.7930
+  Hormones: Dopamine=0.893  Serotonin=1.000  Oxytocin=0.902  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.260  GABA=1.000  Norepinephrine=0.257
+  Emotions: Joy=0.321  Serenity=0.295  Love=0.267  Excitement=0.118  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.0200  Serotonin=+0.0000  Oxytocin=+0.0599  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=-0.0133  GABA=+0.0196  Norepinephrine=-0.0103
+
+--- Turn 8 ---
+  Message : ขอบใจนะ
+  Signals : S=0.800  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.30) + Love(0.27)
+  Dominant: Joy (0.3191)
+  Trust   : 0.8360
+  Hormones: Dopamine=0.798  Serotonin=1.000  Oxytocin=0.848  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.246  GABA=1.000  Norepinephrine=0.244
+  Emotions: Joy=0.319  Serenity=0.304  Love=0.266  Excitement=0.111  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.0956  Serotonin=+0.0000  Oxytocin=-0.0538  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=-0.0134  GABA=+0.0000  Norepinephrine=-0.0133
+
+--- Turn 9 ---
+  Message : ดีใจที่มีเธอ
+  Signals : S=0.800  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.31) + Love(0.27)
+  Dominant: Joy (0.3193)
+  Trust   : 0.8790
+  Hormones: Dopamine=0.790  Serotonin=1.000  Oxytocin=0.831  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.244  GABA=1.000  Norepinephrine=0.242
+  Emotions: Joy=0.319  Serenity=0.305  Love=0.265  Excitement=0.110  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.0074  Serotonin=+0.0000  Oxytocin=-0.0172  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=-0.0020  GABA=+0.0000  Norepinephrine=-0.0020
+
+--- Turn 10 ---
+  Message : วันนี้มีความสุขมาก
+  Signals : S=0.900  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.30) + Love(0.27)
+  Dominant: Joy (0.3210)
+  Trust   : 0.9280
+  Hormones: Dopamine=0.887  Serotonin=1.000  Oxytocin=0.898  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.255  GABA=1.000  Norepinephrine=0.253
+  Emotions: Joy=0.321  Serenity=0.296  Love=0.267  Excitement=0.117  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.0966  Serotonin=+0.0000  Oxytocin=+0.0676  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=+0.0109  GABA=+0.0000  Norepinephrine=+0.0113
+
+--- Turn 11 ---
+  Message : เธอเป็นเพื่อนที่ดีที่สุด
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3131)
+  Trust   : 0.9660
+  Hormones: Dopamine=0.688  Serotonin=1.000  Oxytocin=0.772  Endorphin=1.000  Cortisol=0.006  Adrenaline=0.356  GABA=0.999  Norepinephrine=0.335
+  Emotions: Joy=0.313  Serenity=0.301  Love=0.259  Excitement=0.122  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.004
+  H Delta : Dopamine=-0.1989  Serotonin=+0.0000  Oxytocin=-0.1266  Endorphin=+0.0000  Cortisol=+0.0059  Adrenaline=+0.1013  GABA=-0.0013  Norepinephrine=+0.0824
+
+--- Turn 12 ---
+  Message : ฉันรู้สึกดีขึ้นเยอะเลย
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3123)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.672  Serotonin=1.000  Oxytocin=0.731  Endorphin=1.000  Cortisol=0.011  Adrenaline=0.372  GABA=0.997  Norepinephrine=0.348
+  Emotions: Joy=0.312  Serenity=0.301  Love=0.256  Excitement=0.124  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.006
+  H Delta : Dopamine=-0.0154  Serotonin=+0.0000  Oxytocin=-0.0408  Endorphin=+0.0000  Cortisol=+0.0056  Adrenaline=+0.0155  GABA=-0.0014  Norepinephrine=+0.0126
+
+--- Turn 13 ---
+  Message : Thank you so much!
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3137)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.625  Serotonin=1.000  Oxytocin=0.682  Endorphin=1.000  Cortisol=0.017  Adrenaline=0.348  GABA=0.984  Norepinephrine=0.327
+  Emotions: Joy=0.314  Serenity=0.310  Love=0.255  Excitement=0.120  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.001
+  H Delta : Dopamine=-0.0479  Serotonin=+0.0000  Oxytocin=-0.0493  Endorphin=+0.0000  Cortisol=+0.0055  Adrenaline=-0.0235  GABA=-0.0136  Norepinephrine=-0.0211
+
+--- Turn 14 ---
+  Message : You're amazing!
+  Signals : S=0.900  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3214)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.874  Serotonin=1.000  Oxytocin=0.850  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.271  GABA=1.000  Norepinephrine=0.266
+  Emotions: Joy=0.321  Serenity=0.297  Love=0.263  Excitement=0.119  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.2493  Serotonin=+0.0000  Oxytocin=+0.1686  Endorphin=+0.0000  Cortisol=-0.0169  Adrenaline=-0.0771  GABA=+0.0163  Norepinephrine=-0.0607
+
+--- Turn 15 ---
+  Message : คุยกับเธอแล้วสบายใจ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3141)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.640  Serotonin=1.000  Oxytocin=0.720  Endorphin=1.000  Cortisol=0.007  Adrenaline=0.333  GABA=0.986  Norepinephrine=0.314
+  Emotions: Joy=0.314  Serenity=0.309  Love=0.259  Excitement=0.118  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.2337  Serotonin=+0.0000  Oxytocin=-0.1301  Endorphin=+0.0000  Cortisol=+0.0066  Adrenaline=+0.0617  GABA=-0.0137  Norepinephrine=+0.0482
+
+--- Turn 16 ---
+  Message : เยี่ยมไปเลย ทำต่อแบบนี้นะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3141)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.622  Serotonin=1.000  Oxytocin=0.678  Endorphin=1.000  Cortisol=0.013  Adrenaline=0.343  GABA=0.975  Norepinephrine=0.322
+  Emotions: Joy=0.314  Serenity=0.310  Love=0.255  Excitement=0.120  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.001
+  H Delta : Dopamine=-0.0181  Serotonin=+0.0000  Oxytocin=-0.0419  Endorphin=+0.0000  Cortisol=+0.0062  Adrenaline=+0.0096  GABA=-0.0112  Norepinephrine=+0.0075
+
+--- Turn 17 ---
+  Message : ปลื้มมากเลย
+  Signals : S=0.900  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3214)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.874  Serotonin=1.000  Oxytocin=0.849  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.270  GABA=1.000  Norepinephrine=0.265
+  Emotions: Joy=0.321  Serenity=0.297  Love=0.263  Excitement=0.119  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.2516  Serotonin=+0.0000  Oxytocin=+0.1710  Endorphin=+0.0000  Cortisol=-0.0128  Adrenaline=-0.0721  GABA=+0.0249  Norepinephrine=-0.0563
+
+--- Turn 18 ---
+  Message : หัวเราะออกมาเลย 555
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3133)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.687  Serotonin=1.000  Oxytocin=0.756  Endorphin=1.000  Cortisol=0.006  Adrenaline=0.359  GABA=0.999  Norepinephrine=0.337
+  Emotions: Joy=0.313  Serenity=0.301  Love=0.258  Excitement=0.123  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.004
+  H Delta : Dopamine=-0.1869  Serotonin=+0.0000  Oxytocin=-0.0932  Endorphin=+0.0000  Cortisol=+0.0060  Adrenaline=+0.0883  GABA=-0.0014  Norepinephrine=+0.0719
+
+--- Turn 19 ---
+  Message : วันนี้เป็นวันดีๆ
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3124)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.672  Serotonin=1.000  Oxytocin=0.726  Endorphin=1.000  Cortisol=0.012  Adrenaline=0.372  GABA=0.997  Norepinephrine=0.348
+  Emotions: Joy=0.312  Serenity=0.301  Love=0.255  Excitement=0.125  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.007
+  H Delta : Dopamine=-0.0144  Serotonin=+0.0000  Oxytocin=-0.0301  Endorphin=+0.0000  Cortisol=+0.0056  Adrenaline=+0.0135  GABA=-0.0014  Norepinephrine=+0.0109
+
+--- Turn 20 ---
+  Message : ช่วยฉันได้ทุกเรื่องเลยนะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3137)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.625  Serotonin=1.000  Oxytocin=0.680  Endorphin=1.000  Cortisol=0.017  Adrenaline=0.348  GABA=0.984  Norepinephrine=0.327
+  Emotions: Joy=0.314  Serenity=0.310  Love=0.255  Excitement=0.120  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.001
+  H Delta : Dopamine=-0.0478  Serotonin=+0.0000  Oxytocin=-0.0459  Endorphin=+0.0000  Cortisol=+0.0055  Adrenaline=-0.0238  GABA=-0.0136  Norepinephrine=-0.0214
+
+--- Turn 21 ---
+  Message : ดีจัง มีเธอคอยช่วย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.25)
+  Dominant: Joy (0.3140)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.621  Serotonin=1.000  Oxytocin=0.665  Endorphin=1.000  Cortisol=0.022  Adrenaline=0.345  GABA=0.973  Norepinephrine=0.324
+  Emotions: Joy=0.314  Serenity=0.310  Love=0.254  Excitement=0.120  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.002
+  H Delta : Dopamine=-0.0038  Serotonin=+0.0000  Oxytocin=-0.0148  Endorphin=+0.0000  Cortisol=+0.0049  Adrenaline=-0.0034  GABA=-0.0108  Norepinephrine=-0.0031
+
+--- Turn 22 ---
+  Message : ตลกดีนะ ชอบ
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3125)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.667  Serotonin=1.000  Oxytocin=0.697  Endorphin=1.000  Cortisol=0.026  Adrenaline=0.371  GABA=0.977  Norepinephrine=0.346
+  Emotions: Joy=0.312  Serenity=0.301  Love=0.252  Excitement=0.126  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.008
+  H Delta : Dopamine=+0.0463  Serotonin=+0.0000  Oxytocin=+0.0314  Endorphin=+0.0000  Cortisol=+0.0037  Adrenaline=+0.0256  GABA=+0.0038  Norepinephrine=+0.0228
+
+--- Turn 23 ---
+  Message : เธอฉลาดมากเลย
+  Signals : S=0.800  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3197)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.780  Serotonin=1.000  Oxytocin=0.782  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.264  GABA=1.000  Norepinephrine=0.258
+  Emotions: Joy=0.320  Serenity=0.306  Love=0.261  Excitement=0.113  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.1128  Serotonin=+0.0000  Oxytocin=+0.0852  Endorphin=+0.0000  Cortisol=-0.0256  Adrenaline=-0.1071  GABA=+0.0234  Norepinephrine=-0.0889
+
+--- Turn 24 ---
+  Message : ขอบคุณที่อยู่เป็นเพื่อน
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3144)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.633  Serotonin=1.000  Oxytocin=0.698  Endorphin=1.000  Cortisol=0.007  Adrenaline=0.332  GABA=0.986  Norepinephrine=0.313
+  Emotions: Joy=0.314  Serenity=0.311  Love=0.257  Excitement=0.117  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.1470  Serotonin=+0.0000  Oxytocin=-0.0837  Endorphin=+0.0000  Cortisol=+0.0068  Adrenaline=+0.0683  GABA=-0.0138  Norepinephrine=+0.0554
+
+--- Turn 25 ---
+  Message : I love talking to you
+  Signals : S=0.900  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.30) + Love(0.26)
+  Dominant: Joy (0.3213)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.875  Serotonin=1.000  Oxytocin=0.856  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.269  GABA=1.000  Norepinephrine=0.264
+  Emotions: Joy=0.321  Serenity=0.297  Love=0.264  Excitement=0.119  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.2417  Serotonin=+0.0000  Oxytocin=+0.1575  Endorphin=+0.0000  Cortisol=-0.0068  Adrenaline=-0.0632  GABA=+0.0138  Norepinephrine=-0.0491
+
+--- Turn 26 ---
+  Message : สวัสดีครับ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3141)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.640  Serotonin=1.000  Oxytocin=0.722  Endorphin=1.000  Cortisol=0.007  Adrenaline=0.333  GABA=0.986  Norepinephrine=0.314
+  Emotions: Joy=0.314  Serenity=0.309  Love=0.259  Excitement=0.118  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.2343  Serotonin=+0.0000  Oxytocin=-0.1338  Endorphin=+0.0000  Cortisol=+0.0066  Adrenaline=+0.0639  GABA=-0.0137  Norepinephrine=+0.0500
+
+--- Turn 27 ---
+  Message : วันนี้อากาศดีนะ
+  Signals : S=0.800  D=0.100  C=1.200
+  Emotion : Joy(0.32) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3196)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.778  Serotonin=1.000  Oxytocin=0.790  Endorphin=1.000  Cortisol=0.000  Adrenaline=0.258  GABA=1.000  Norepinephrine=0.252
+  Emotions: Joy=0.320  Serenity=0.306  Love=0.262  Excitement=0.112  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=+0.1377  Serotonin=+0.0000  Oxytocin=+0.0683  Endorphin=+0.0000  Cortisol=-0.0066  Adrenaline=-0.0750  GABA=+0.0137  Norepinephrine=-0.0615
+
+--- Turn 28 ---
+  Message : ช่วยเช็คตารางหน่อย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.26)
+  Dominant: Joy (0.3144)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.633  Serotonin=1.000  Oxytocin=0.701  Endorphin=1.000  Cortisol=0.007  Adrenaline=0.331  GABA=0.986  Norepinephrine=0.312
+  Emotions: Joy=0.314  Serenity=0.311  Love=0.258  Excitement=0.117  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.1452  Serotonin=+0.0000  Oxytocin=-0.0893  Endorphin=+0.0000  Cortisol=+0.0068  Adrenaline=+0.0734  GABA=-0.0138  Norepinephrine=+0.0598
+
+--- Turn 29 ---
+  Message : โอเค
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.25)
+  Dominant: Joy (0.3143)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.622  Serotonin=1.000  Oxytocin=0.672  Endorphin=1.000  Cortisol=0.013  Adrenaline=0.342  GABA=0.975  Norepinephrine=0.321
+  Emotions: Joy=0.314  Serenity=0.311  Love=0.255  Excitement=0.120  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.001
+  H Delta : Dopamine=-0.0112  Serotonin=+0.0000  Oxytocin=-0.0288  Endorphin=+0.0000  Cortisol=+0.0063  Adrenaline=+0.0113  GABA=-0.0112  Norepinephrine=+0.0092
+
+--- Turn 30 ---
+  Message : อืม ได้เลย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.25)
+  Dominant: Joy (0.3141)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.621  Serotonin=1.000  Oxytocin=0.663  Endorphin=1.000  Cortisol=0.018  Adrenaline=0.344  GABA=0.966  Norepinephrine=0.323
+  Emotions: Joy=0.314  Serenity=0.310  Love=0.254  Excitement=0.121  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.002
+  H Delta : Dopamine=-0.0009  Serotonin=+0.0000  Oxytocin=-0.0093  Endorphin=+0.0000  Cortisol=+0.0055  Adrenaline=+0.0019  GABA=-0.0090  Norepinephrine=+0.0015
+
+--- Turn 31 ---
+  Message : ครับ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.25)
+  Dominant: Joy (0.3139)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.621  Serotonin=1.000  Oxytocin=0.660  Endorphin=1.000  Cortisol=0.023  Adrenaline=0.345  GABA=0.959  Norepinephrine=0.323
+  Emotions: Joy=0.314  Serenity=0.309  Love=0.253  Excitement=0.121  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.003
+  H Delta : Dopamine=-0.0001  Serotonin=+0.0000  Oxytocin=-0.0031  Endorphin=+0.0000  Cortisol=+0.0048  Adrenaline=+0.0004  GABA=-0.0071  Norepinephrine=+0.0003
+
+--- Turn 32 ---
+  Message : เดี๋ยวค่อยว่ากัน
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.31) + Love(0.25)
+  Dominant: Joy (0.3137)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.659  Endorphin=1.000  Cortisol=0.028  Adrenaline=0.345  GABA=0.953  Norepinephrine=0.323
+  Emotions: Joy=0.314  Serenity=0.308  Love=0.253  Excitement=0.122  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.003
+  H Delta : Dopamine=-0.0000  Serotonin=+0.0000  Oxytocin=-0.0010  Endorphin=+0.0000  Cortisol=+0.0042  Adrenaline=+0.0002  GABA=-0.0057  Norepinephrine=+0.0001
+
+--- Turn 33 ---
+  Message : ไม่แน่ใจเหมือนกัน
+  Signals : S=0.700  D=0.300  C=1.200
+  Emotion : Joy(0.29) + Serenity(0.29) + Love(0.23)
+  Dominant: Joy (0.2943)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.461  Serotonin=1.000  Oxytocin=0.546  Endorphin=1.000  Cortisol=0.215  Adrenaline=0.470  GABA=0.849  Norepinephrine=0.427
+  Emotions: Joy=0.294  Serenity=0.286  Love=0.234  Excitement=0.145  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.041
+  H Delta : Dopamine=-0.1599  Serotonin=+0.0000  Oxytocin=-0.1125  Endorphin=+0.0000  Cortisol=+0.1879  Adrenaline=+0.1258  GABA=-0.1046  Norepinephrine=+0.1039
+
+--- Turn 34 ---
+  Message : ลองดูอีกที
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3079)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.607  Serotonin=1.000  Oxytocin=0.620  Endorphin=1.000  Cortisol=0.193  Adrenaline=0.366  GABA=0.865  Norepinephrine=0.341
+  Emotions: Joy=0.308  Serenity=0.292  Love=0.245  Excitement=0.134  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.021
+  H Delta : Dopamine=+0.1466  Serotonin=+0.0000  Oxytocin=+0.0741  Endorphin=+0.0000  Cortisol=-0.0225  Adrenaline=-0.1043  GABA=+0.0160  Norepinephrine=-0.0864
+
+--- Turn 35 ---
+  Message : งั้นเอาแบบนี้
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3097)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.619  Serotonin=1.000  Oxytocin=0.644  Endorphin=1.000  Cortisol=0.173  Adrenaline=0.350  GABA=0.878  Norepinephrine=0.328
+  Emotions: Joy=0.310  Serenity=0.295  Love=0.249  Excitement=0.130  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.016
+  H Delta : Dopamine=+0.0114  Serotonin=+0.0000  Oxytocin=+0.0241  Endorphin=+0.0000  Cortisol=-0.0197  Adrenaline=-0.0161  GABA=+0.0131  Norepinephrine=-0.0133
+
+--- Turn 36 ---
+  Message : What time is it?
+  Signals : S=0.000  D=0.000  C=1.000
+  Emotion : Serenity(0.42) + Joy(0.31) + Love(0.25)
+  Dominant: Serenity (0.4203)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.107  Serotonin=0.859  Oxytocin=0.254  Endorphin=0.779  Cortisol=0.162  Adrenaline=0.062  GABA=0.752  Norepinephrine=0.071
+  Emotions: Joy=0.305  Serenity=0.420  Love=0.252  Excitement=0.022  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.000
+  H Delta : Dopamine=-0.5117  Serotonin=-0.1407  Oxytocin=-0.3902  Endorphin=-0.2210  Cortisol=-0.0109  Adrenaline=-0.2879  GABA=-0.1253  Norepinephrine=-0.2565
+
+--- Turn 37 ---
+  Message : ฉันกำลังคิดอยู่
+  Signals : S=0.700  D=0.300  C=1.200
+  Emotion : Joy(0.29) + Serenity(0.27) + Love(0.22)
+  Dominant: Joy (0.2901)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.418  Serotonin=0.896  Oxytocin=0.414  Endorphin=0.845  Cortisol=0.334  Adrenaline=0.431  GABA=0.687  Norepinephrine=0.392
+  Emotions: Joy=0.290  Serenity=0.271  Love=0.222  Excitement=0.157  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.059
+  H Delta : Dopamine=+0.3114  Serotonin=+0.0368  Oxytocin=+0.1598  Endorphin=+0.0656  Cortisol=+0.1718  Adrenaline=+0.3693  GABA=-0.0650  Norepinephrine=+0.3206
+
+--- Turn 38 ---
+  Message : เล่าให้ฟังหน่อยสิ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.28) + Love(0.24)
+  Dominant: Joy (0.3045)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.602  Serotonin=1.000  Oxytocin=0.576  Endorphin=0.954  Cortisol=0.297  Adrenaline=0.363  GABA=0.735  Norepinephrine=0.338
+  Emotions: Joy=0.304  Serenity=0.278  Love=0.238  Excitement=0.144  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.036
+  H Delta : Dopamine=+0.1839  Serotonin=+0.1039  Oxytocin=+0.1617  Endorphin=+0.1094  Cortisol=-0.0374  Adrenaline=-0.0684  GABA=+0.0480  Norepinephrine=-0.0541
+
+--- Turn 39 ---
+  Message : อะไรก็ได้
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.28) + Love(0.24)
+  Dominant: Joy (0.3061)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.617  Serotonin=1.000  Oxytocin=0.629  Endorphin=1.000  Cortisol=0.263  Adrenaline=0.352  GABA=0.775  Norepinephrine=0.329
+  Emotions: Joy=0.306  Serenity=0.281  Love=0.244  Excitement=0.139  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.029
+  H Delta : Dopamine=+0.0153  Serotonin=+0.0000  Oxytocin=+0.0530  Endorphin=+0.0460  Cortisol=-0.0337  Adrenaline=-0.0115  GABA=+0.0394  Norepinephrine=-0.0091
+
+--- Turn 40 ---
+  Message : hmm let me think
+  Signals : S=0.700  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.24)
+  Dominant: Joy (0.3052)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.530  Serotonin=1.000  Oxytocin=0.579  Endorphin=1.000  Cortisol=0.268  Adrenaline=0.339  GABA=0.772  Norepinephrine=0.316
+  Emotions: Joy=0.305  Serenity=0.293  Love=0.244  Excitement=0.134  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.024
+  H Delta : Dopamine=-0.0876  Serotonin=+0.0000  Oxytocin=-0.0495  Endorphin=+0.0000  Cortisol=+0.0051  Adrenaline=-0.0126  GABA=-0.0026  Norepinephrine=-0.0125
+
+--- Turn 41 ---
+  Message : ช่วยสรุปให้หน่อย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3074)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.612  Serotonin=1.000  Oxytocin=0.630  Endorphin=1.000  Cortisol=0.238  Adrenaline=0.347  GABA=0.804  Norepinephrine=0.325
+  Emotions: Joy=0.307  Serenity=0.287  Love=0.246  Excitement=0.136  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.024
+  H Delta : Dopamine=+0.0823  Serotonin=+0.0000  Oxytocin=+0.0511  Endorphin=+0.0000  Cortisol=-0.0300  Adrenaline=+0.0084  GABA=+0.0320  Norepinephrine=+0.0088
+
+--- Turn 42 ---
+  Message : พรุ่งนี้ว่างไหม
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3081)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.619  Serotonin=1.000  Oxytocin=0.647  Endorphin=1.000  Cortisol=0.212  Adrenaline=0.348  GABA=0.830  Norepinephrine=0.326
+  Emotions: Joy=0.308  Serenity=0.289  Love=0.248  Excitement=0.134  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.021
+  H Delta : Dopamine=+0.0066  Serotonin=+0.0000  Oxytocin=+0.0167  Endorphin=+0.0000  Cortisol=-0.0260  Adrenaline=+0.0007  GABA=+0.0255  Norepinephrine=+0.0009
+
+--- Turn 43 ---
+  Message : เปิดเพลงให้หน่อย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3088)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.619  Serotonin=1.000  Oxytocin=0.653  Endorphin=1.000  Cortisol=0.190  Adrenaline=0.348  GABA=0.850  Norepinephrine=0.326
+  Emotions: Joy=0.309  Serenity=0.292  Love=0.249  Excitement=0.132  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.019
+  H Delta : Dopamine=+0.0007  Serotonin=+0.0000  Oxytocin=+0.0057  Endorphin=+0.0000  Cortisol=-0.0224  Adrenaline=-0.0003  GABA=+0.0204  Norepinephrine=-0.0002
+
+--- Turn 44 ---
+  Message : จดไว้ด้วยนะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3094)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.655  Endorphin=1.000  Cortisol=0.170  Adrenaline=0.347  GABA=0.866  Norepinephrine=0.325
+  Emotions: Joy=0.309  Serenity=0.294  Love=0.250  Excitement=0.130  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.017
+  H Delta : Dopamine=+0.0002  Serotonin=+0.0000  Oxytocin=+0.0021  Endorphin=+0.0000  Cortisol=-0.0193  Adrenaline=-0.0004  GABA=+0.0162  Norepinephrine=-0.0003
+
+--- Turn 45 ---
+  Message : ตกลง
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3100)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.656  Endorphin=1.000  Cortisol=0.154  Adrenaline=0.347  GABA=0.879  Norepinephrine=0.325
+  Emotions: Joy=0.310  Serenity=0.296  Love=0.250  Excitement=0.129  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.015
+  H Delta : Dopamine=+0.0001  Serotonin=+0.0000  Oxytocin=+0.0009  Endorphin=+0.0000  Cortisol=-0.0166  Adrenaline=-0.0003  GABA=+0.0129  Norepinephrine=-0.0003
+
+--- Turn 46 ---
+  Message : ไม่ค่อยดีเท่าไร
+  Signals : S=0.200  D=0.800  C=1.200
+  Emotion : Fear(0.25) + Anger(0.21) + Surprise(0.21)
+  Dominant: Fear (0.2520)
+  Trust   : 0.9720
+  Hormones: Dopamine=0.000  Serotonin=0.231  Oxytocin=0.000  Endorphin=0.572  Cortisol=1.000  Adrenaline=0.971  GABA=0.227  Norepinephrine=0.833
+  Emotions: Joy=0.013  Serenity=0.000  Love=0.000  Excitement=0.189  Sadness=0.120  Fear=0.252  Anger=0.213  Surprise=0.212
+  H Delta : Dopamine=-0.6196  Serotonin=-0.7686  Oxytocin=-0.6556  Endorphin=-0.4279  Cortisol=+0.8464  Adrenaline=+0.6239  GABA=-0.6517  Norepinephrine=+0.5073
+
+--- Turn 47 ---
+  Message : ผิดอีกแล้ว
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.22) + Excitement(0.22) + Love(0.16)
+  Dominant: Joy (0.2200)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.562  Serotonin=0.516  Oxytocin=0.433  Endorphin=0.745  Cortisol=0.874  Adrenaline=0.455  GABA=0.363  Norepinephrine=0.413
+  Emotions: Joy=0.220  Serenity=0.099  Love=0.161  Excitement=0.217  Sadness=0.000  Fear=0.105  Anger=0.043  Surprise=0.156
+  H Delta : Dopamine=+0.5619  Serotonin=+0.2846  Oxytocin=+0.4326  Endorphin=+0.1724  Cortisol=-0.1257  Adrenaline=-0.5158  GABA=+0.1353  Norepinephrine=-0.4195
+
+--- Turn 48 ---
+  Message : ไม่ใช่แบบนี้
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.28) + Love(0.22) + Excitement(0.19)
+  Dominant: Joy (0.2770)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.608  Serotonin=0.745  Oxytocin=0.575  Endorphin=0.875  Cortisol=0.762  Adrenaline=0.374  GABA=0.474  Norepinephrine=0.347
+  Emotions: Joy=0.277  Serenity=0.189  Love=0.220  Excitement=0.192  Sadness=0.000  Fear=0.017  Anger=0.000  Surprise=0.105
+  H Delta : Dopamine=+0.0460  Serotonin=+0.2292  Oxytocin=+0.1421  Endorphin=+0.1307  Cortisol=-0.1122  Adrenaline=-0.0811  GABA=+0.1110  Norepinephrine=-0.0660
+
+--- Turn 49 ---
+  Message : ทำไมไม่เข้าใจ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.29) + Love(0.23) + Serenity(0.23)
+  Dominant: Joy (0.2915)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.614  Serotonin=0.929  Oxytocin=0.623  Endorphin=0.974  Cortisol=0.664  Adrenaline=0.359  GABA=0.564  Norepinephrine=0.335
+  Emotions: Joy=0.291  Serenity=0.232  Love=0.234  Excitement=0.169  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.073
+  H Delta : Dopamine=+0.0059  Serotonin=+0.1839  Oxytocin=+0.0480  Endorphin=+0.0989  Cortisol=-0.0985  Adrenaline=-0.0148  GABA=+0.0902  Norepinephrine=-0.0120
+
+--- Turn 50 ---
+  Message : เบื่อจัง
+  Signals : S=0.200  D=0.800  C=1.200
+  Emotion : Fear(0.25) + Anger(0.22) + Surprise(0.21)
+  Dominant: Fear (0.2496)
+  Trust   : 0.9720
+  Hormones: Dopamine=0.000  Serotonin=0.168  Oxytocin=0.000  Endorphin=0.550  Cortisol=1.000  Adrenaline=0.979  GABA=0.000  Norepinephrine=0.839
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.185  Sadness=0.135  Fear=0.250  Anger=0.219  Surprise=0.212
+  H Delta : Dopamine=-0.6138  Serotonin=-0.7610  Oxytocin=-0.6228  Endorphin=-0.4243  Cortisol=+0.3363  Adrenaline=+0.6200  GABA=-0.5640  Norepinephrine=+0.5041
+
+--- Turn 51 ---
+  Message : น่าผิดหวัง
+  Signals : S=0.200  D=0.800  C=1.200
+  Emotion : Fear(0.25) + Anger(0.22) + Surprise(0.20)
+  Dominant: Fear (0.2528)
+  Trust   : 0.9440
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.228  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.923
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.162  Sadness=0.160  Fear=0.253  Anger=0.224  Surprise=0.201
+  H Delta : Dopamine=+0.0000  Serotonin=-0.1680  Oxytocin=+0.0000  Endorphin=-0.3217  Cortisol=+0.0000  Adrenaline=+0.0207  GABA=+0.0000  Norepinephrine=+0.0842
+
+--- Turn 52 ---
+  Message : ยังไม่ถูกนะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Excitement(0.23) + Surprise(0.19) + Joy(0.17)
+  Dominant: Excitement (0.2266)
+  Trust   : 0.9820
+  Hormones: Dopamine=0.560  Serotonin=0.330  Oxytocin=0.430  Endorphin=0.488  Cortisol=0.878  Adrenaline=0.462  GABA=0.181  Norepinephrine=0.429
+  Emotions: Joy=0.169  Serenity=0.014  Love=0.127  Excitement=0.227  Sadness=0.012  Fear=0.162  Anger=0.101  Surprise=0.188
+  H Delta : Dopamine=+0.5599  Serotonin=+0.3304  Oxytocin=+0.4302  Endorphin=+0.2599  Cortisol=-0.1219  Adrenaline=-0.5377  GABA=+0.1806  Norepinephrine=-0.4945
+
+--- Turn 53 ---
+  Message : ไม่ตรงประเด็น
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.25) + Excitement(0.21) + Love(0.21)
+  Dominant: Joy (0.2546)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.606  Serotonin=0.596  Oxytocin=0.572  Endorphin=0.684  Cortisol=0.768  Adrenaline=0.377  GABA=0.328  Norepinephrine=0.351
+  Emotions: Joy=0.255  Serenity=0.136  Love=0.207  Excitement=0.209  Sadness=0.000  Fear=0.059  Anger=0.000  Surprise=0.134
+  H Delta : Dopamine=+0.0462  Serotonin=+0.2660  Oxytocin=+0.1419  Endorphin=+0.1958  Cortisol=-0.1098  Adrenaline=-0.0850  GABA=+0.1473  Norepinephrine=-0.0777
+
+--- Turn 54 ---
+  Message : เหนื่อยจังวันนี้
+  Signals : S=0.200  D=0.800  C=1.100
+  Emotion : Fear(0.25) + Anger(0.22) + Surprise(0.20)
+  Dominant: Fear (0.2513)
+  Trust   : 0.9720
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.349  Cortisol=1.000  Adrenaline=0.910  GABA=0.000  Norepinephrine=0.781
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.164  Sadness=0.164  Fear=0.251  Anger=0.221  Surprise=0.200
+  H Delta : Dopamine=-0.6061  Serotonin=-0.5964  Oxytocin=-0.5721  Endorphin=-0.3344  Cortisol=+0.2317  Adrenaline=+0.5327  GABA=-0.3279  Norepinephrine=+0.4299
+
+--- Turn 55 ---
+  Message : เครียดมาก
+  Signals : S=0.200  D=0.800  C=1.200
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2563)
+  Trust   : 0.9440
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.079  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.915
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.154  Sadness=0.167  Fear=0.256  Anger=0.225  Surprise=0.198
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=-0.2706  Cortisol=+0.0000  Adrenaline=+0.0900  GABA=+0.0000  Norepinephrine=+0.1338
+
+--- Turn 56 ---
+  Message : ท้อแท้จัง
+  Signals : S=0.200  D=0.800  C=1.200
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2580)
+  Trust   : 0.9160
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.935
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.151  Sadness=0.169  Fear=0.258  Anger=0.226  Surprise=0.196
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=-0.0789  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=+0.0202
+
+--- Turn 57 ---
+  Message : ไม่สนุกเลย
+  Signals : S=0.200  D=0.800  C=1.200
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2580)
+  Trust   : 0.8880
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.938
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.151  Sadness=0.169  Fear=0.258  Anger=0.226  Surprise=0.196
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=+0.0030
+
+--- Turn 58 ---
+  Message : I'm not feeling well
+  Signals : S=0.200  D=0.800  C=1.100
+  Emotion : Fear(0.26) + Anger(0.22) + Surprise(0.20)
+  Dominant: Fear (0.2584)
+  Trust   : 0.8600
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.875
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.150  Sadness=0.172  Fear=0.258  Anger=0.225  Surprise=0.195
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=-0.0630
+
+--- Turn 59 ---
+  Message : มันยากจัง
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Excitement(0.22) + Surprise(0.19) + Fear(0.18)
+  Dominant: Excitement (0.2198)
+  Trust   : 0.8980
+  Hormones: Dopamine=0.559  Serotonin=0.330  Oxytocin=0.430  Endorphin=0.319  Cortisol=0.879  Adrenaline=0.462  GABA=0.180  Norepinephrine=0.421
+  Emotions: Joy=0.156  Serenity=0.001  Love=0.122  Excitement=0.220  Sadness=0.027  Fear=0.177  Anger=0.108  Surprise=0.189
+  H Delta : Dopamine=+0.5593  Serotonin=+0.3297  Oxytocin=+0.4297  Endorphin=+0.3190  Cortisol=-0.1209  Adrenaline=-0.5377  GABA=+0.1798  Norepinephrine=-0.4535
+
+--- Turn 60 ---
+  Message : ไม่ค่อยเข้าใจเท่าไร
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.25) + Love(0.21) + Excitement(0.21)
+  Dominant: Joy (0.2502)
+  Trust   : 0.9360
+  Hormones: Dopamine=0.606  Serotonin=0.595  Oxytocin=0.572  Endorphin=0.559  Cortisol=0.770  Adrenaline=0.377  GABA=0.327  Norepinephrine=0.350
+  Emotions: Joy=0.250  Serenity=0.130  Love=0.208  Excitement=0.207  Sadness=0.000  Fear=0.069  Anger=0.000  Surprise=0.136
+  H Delta : Dopamine=+0.0463  Serotonin=+0.2656  Oxytocin=+0.1418  Endorphin=+0.2396  Cortisol=-0.1092  Adrenaline=-0.0849  GABA=+0.1469  Norepinephrine=-0.0715
+
+--- Turn 61 ---
+  Message : ห่วยแตก!
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.28) + Love(0.23) + Serenity(0.20)
+  Dominant: Joy (0.2841)
+  Trust   : 0.9740
+  Hormones: Dopamine=0.659  Serotonin=0.834  Oxytocin=0.656  Endorphin=0.765  Cortisol=0.673  Adrenaline=0.388  GABA=0.458  Norepinephrine=0.360
+  Emotions: Joy=0.284  Serenity=0.198  Love=0.234  Excitement=0.187  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.097
+  H Delta : Dopamine=+0.0529  Serotonin=+0.2387  Oxytocin=+0.0846  Endorphin=+0.2064  Cortisol=-0.0973  Adrenaline=+0.0102  GABA=+0.1315  Norepinephrine=+0.0099
+
+--- Turn 62 ---
+  Message : โง่ชะมัด
+  Signals : S=0.000  D=1.000  C=1.000
+  Emotion : Fear(0.25) + Anger(0.22) + Surprise(0.20)
+  Dominant: Fear (0.2518)
+  Trust   : 0.9240
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.283  Cortisol=1.000  Adrenaline=0.999  GABA=0.000  Norepinephrine=0.851
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.165  Sadness=0.161  Fear=0.252  Anger=0.222  Surprise=0.201
+  H Delta : Dopamine=-0.6586  Serotonin=-0.8339  Oxytocin=-0.6561  Endorphin=-0.4823  Cortisol=+0.3274  Adrenaline=+0.6119  GABA=-0.4582  Norepinephrine=+0.4915
+
+--- Turn 63 ---
+  Message : ไร้สาระ!
+  Signals : S=0.200  D=0.800  C=1.100
+  Emotion : Fear(0.26) + Anger(0.22) + Surprise(0.20)
+  Dominant: Fear (0.2574)
+  Trust   : 0.8960
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.047  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.862
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.152  Sadness=0.170  Fear=0.257  Anger=0.224  Surprise=0.196
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=-0.2360  Cortisol=+0.0000  Adrenaline=+0.0006  GABA=+0.0000  Norepinephrine=+0.0106
+
+--- Turn 64 ---
+  Message : ไม่เอาแล้ว!
+  Signals : S=0.000  D=1.000  C=1.000
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2580)
+  Trust   : 0.8460
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.935
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.151  Sadness=0.169  Fear=0.258  Anger=0.226  Surprise=0.196
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=-0.0467  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=+0.0727
+
+--- Turn 65 ---
+  Message : กากมาก
+  Signals : S=0.000  D=1.000  C=1.500
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2576)
+  Trust   : 0.7960
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=1.000
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.151  Sadness=0.167  Fear=0.258  Anger=0.227  Surprise=0.197
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=+0.0653
+
+--- Turn 66 ---
+  Message : ไม่มีประโยชน์เลย
+  Signals : S=0.200  D=0.800  C=1.100
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2583)
+  Trust   : 0.7680
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=0.884
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.150  Sadness=0.171  Fear=0.258  Anger=0.225  Surprise=0.195
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=-0.1157
+
+--- Turn 67 ---
+  Message : โกรธมากเลย
+  Signals : S=0.000  D=1.000  C=1.500
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2576)
+  Trust   : 0.7180
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=1.000
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.151  Sadness=0.167  Fear=0.258  Anger=0.227  Surprise=0.197
+  H Delta : Dopamine=+0.0000  Serotonin=+0.0000  Oxytocin=+0.0000  Endorphin=+0.0000  Cortisol=+0.0000  Adrenaline=+0.0000  GABA=+0.0000  Norepinephrine=+0.1157
+
+--- Turn 68 ---
+  Message : ทำอะไรก็ผิดหมด
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Excitement(0.22) + Surprise(0.19) + Fear(0.18)
+  Dominant: Excitement (0.2196)
+  Trust   : 0.7560
+  Hormones: Dopamine=0.559  Serotonin=0.330  Oxytocin=0.430  Endorphin=0.319  Cortisol=0.879  Adrenaline=0.462  GABA=0.180  Norepinephrine=0.440
+  Emotions: Joy=0.154  Serenity=0.000  Love=0.121  Excitement=0.220  Sadness=0.027  Fear=0.177  Anger=0.110  Surprise=0.190
+  H Delta : Dopamine=+0.5594  Serotonin=+0.3296  Oxytocin=+0.4296  Endorphin=+0.3190  Cortisol=-0.1208  Adrenaline=-0.5376  GABA=+0.1798  Norepinephrine=-0.5597
+
+--- Turn 69 ---
+  Message : worst ever
+  Signals : S=0.000  D=1.000  C=1.500
+  Emotion : Fear(0.26) + Anger(0.23) + Surprise(0.20)
+  Dominant: Fear (0.2576)
+  Trust   : 0.7060
+  Hormones: Dopamine=0.000  Serotonin=0.000  Oxytocin=0.000  Endorphin=0.000  Cortisol=1.000  Adrenaline=1.000  GABA=0.000  Norepinephrine=1.000
+  Emotions: Joy=0.000  Serenity=0.000  Love=0.000  Excitement=0.151  Sadness=0.167  Fear=0.258  Anger=0.227  Surprise=0.197
+  H Delta : Dopamine=-0.5594  Serotonin=-0.3296  Oxytocin=-0.4296  Endorphin=-0.3190  Cortisol=+0.1208  Adrenaline=+0.5376  GABA=-0.1798  Norepinephrine=+0.5597
+
+--- Turn 70 ---
+  Message : จะบ้าตาย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Excitement(0.22) + Surprise(0.19) + Fear(0.18)
+  Dominant: Excitement (0.2196)
+  Trust   : 0.7440
+  Hormones: Dopamine=0.559  Serotonin=0.330  Oxytocin=0.430  Endorphin=0.319  Cortisol=0.879  Adrenaline=0.462  GABA=0.180  Norepinephrine=0.440
+  Emotions: Joy=0.154  Serenity=0.000  Love=0.121  Excitement=0.220  Sadness=0.027  Fear=0.177  Anger=0.110  Surprise=0.190
+  H Delta : Dopamine=+0.5594  Serotonin=+0.3296  Oxytocin=+0.4296  Endorphin=+0.3190  Cortisol=-0.1208  Adrenaline=-0.5376  GABA=+0.1798  Norepinephrine=-0.5597
+
+--- Turn 71 ---
+  Message : ก็ดีนะ แต่ยังไม่ใช่
+  Signals : S=0.700  D=0.300  C=1.200
+  Emotion : Excitement(0.21) + Surprise(0.18) + Fear(0.17)
+  Dominant: Excitement (0.2118)
+  Trust   : 0.7710
+  Hormones: Dopamine=0.446  Serotonin=0.465  Oxytocin=0.459  Endorphin=0.498  Cortisol=0.954  Adrenaline=0.503  GABA=0.227  Norepinephrine=0.457
+  Emotions: Joy=0.160  Serenity=0.033  Love=0.134  Excitement=0.212  Sadness=0.007  Fear=0.171  Anger=0.101  Surprise=0.182
+  H Delta : Dopamine=-0.1136  Serotonin=+0.1354  Oxytocin=+0.0298  Endorphin=+0.1786  Cortisol=+0.0751  Adrenaline=+0.0406  GABA=+0.0468  Norepinephrine=+0.0164
+
+--- Turn 72 ---
+  Message : ขอบคุณ แต่ผิดนะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.26) + Love(0.21) + Excitement(0.20)
+  Dominant: Joy (0.2559)
+  Trust   : 0.8090
+  Hormones: Dopamine=0.598  Serotonin=0.702  Oxytocin=0.581  Endorphin=0.692  Cortisol=0.833  Adrenaline=0.383  GABA=0.364  Norepinephrine=0.355
+  Emotions: Joy=0.256  Serenity=0.151  Love=0.211  Excitement=0.199  Sadness=0.000  Fear=0.058  Anger=0.000  Surprise=0.125
+  H Delta : Dopamine=+0.1520  Serotonin=+0.2374  Oxytocin=+0.1221  Endorphin=+0.1938  Cortisol=-0.1216  Adrenaline=-0.1199  GABA=+0.1379  Norepinephrine=-0.1017
+
+--- Turn 73 ---
+  Message : เก่งขึ้นนะ แต่ยังไม่พอ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.29) + Love(0.23) + Serenity(0.21)
+  Dominant: Joy (0.2859)
+  Trust   : 0.8470
+  Hormones: Dopamine=0.612  Serotonin=0.893  Oxytocin=0.623  Endorphin=0.837  Cortisol=0.726  Adrenaline=0.362  GABA=0.476  Norepinephrine=0.337
+  Emotions: Joy=0.286  Serenity=0.213  Love=0.234  Excitement=0.178  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.089
+  H Delta : Dopamine=+0.0142  Serotonin=+0.1908  Oxytocin=+0.0420  Endorphin=+0.1458  Cortisol=-0.1071  Adrenaline=-0.0209  GABA=+0.1119  Norepinephrine=-0.0176
+
+--- Turn 74 ---
+  Message : โอเค แต่ครั้งหน้าทำให้ดีกว่านี้
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.29) + Serenity(0.24) + Love(0.24)
+  Dominant: Joy (0.2933)
+  Trust   : 0.8850
+  Hormones: Dopamine=0.615  Serotonin=1.000  Oxytocin=0.639  Endorphin=0.947  Cortisol=0.632  Adrenaline=0.357  GABA=0.567  Norepinephrine=0.333
+  Emotions: Joy=0.293  Serenity=0.241  Love=0.238  Excitement=0.162  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.066
+  H Delta : Dopamine=+0.0031  Serotonin=+0.1068  Oxytocin=+0.0157  Endorphin=+0.1096  Cortisol=-0.0937  Adrenaline=-0.0054  GABA=+0.0905  Norepinephrine=-0.0045
+
+--- Turn 75 ---
+  Message : ไม่เลว
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.25) + Love(0.24)
+  Dominant: Joy (0.2970)
+  Trust   : 0.9230
+  Hormones: Dopamine=0.617  Serotonin=1.000  Oxytocin=0.646  Endorphin=1.000  Cortisol=0.550  Adrenaline=0.354  GABA=0.640  Norepinephrine=0.331
+  Emotions: Joy=0.297  Serenity=0.253  Love=0.240  Excitement=0.155  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.055
+  H Delta : Dopamine=+0.0016  Serotonin=+0.0000  Oxytocin=+0.0067  Endorphin=+0.0531  Cortisol=-0.0815  Adrenaline=-0.0026  GABA=+0.0730  Norepinephrine=-0.0021
+
+--- Turn 76 ---
+  Message : พอใช้ได้
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.26) + Love(0.24)
+  Dominant: Joy (0.2998)
+  Trust   : 0.9610
+  Hormones: Dopamine=0.617  Serotonin=1.000  Oxytocin=0.649  Endorphin=1.000  Cortisol=0.480  Adrenaline=0.353  GABA=0.698  Norepinephrine=0.330
+  Emotions: Joy=0.300  Serenity=0.263  Love=0.243  Excitement=0.149  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.046
+  H Delta : Dopamine=+0.0007  Serotonin=+0.0000  Oxytocin=+0.0032  Endorphin=+0.0000  Cortisol=-0.0704  Adrenaline=-0.0016  GABA=+0.0583  Norepinephrine=-0.0013
+
+--- Turn 77 ---
+  Message : ดีขึ้นกว่าเดิมนะ แต่ยังไม่ perfect
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.27) + Love(0.24)
+  Dominant: Joy (0.3021)
+  Trust   : 0.9990
+  Hormones: Dopamine=0.618  Serotonin=1.000  Oxytocin=0.651  Endorphin=1.000  Cortisol=0.419  Adrenaline=0.351  GABA=0.745  Norepinephrine=0.329
+  Emotions: Joy=0.302  Serenity=0.271  Love=0.244  Excitement=0.144  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.038
+  H Delta : Dopamine=+0.0004  Serotonin=+0.0000  Oxytocin=+0.0018  Endorphin=+0.0000  Cortisol=-0.0605  Adrenaline=-0.0013  GABA=+0.0465  Norepinephrine=-0.0010
+
+--- Turn 78 ---
+  Message : ฉันชอบส่วนแรก แต่ท้ายๆ ไม่ดี
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.28) + Love(0.25)
+  Dominant: Joy (0.3040)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.618  Serotonin=1.000  Oxytocin=0.652  Endorphin=1.000  Cortisol=0.367  Adrenaline=0.350  GABA=0.782  Norepinephrine=0.328
+  Emotions: Joy=0.304  Serenity=0.277  Love=0.246  Excitement=0.140  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.033
+  H Delta : Dopamine=+0.0003  Serotonin=+0.0000  Oxytocin=+0.0012  Endorphin=+0.0000  Cortisol=-0.0520  Adrenaline=-0.0010  GABA=+0.0371  Norepinephrine=-0.0008
+
+--- Turn 79 ---
+  Message : Thanks but not quite right
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.28) + Love(0.25)
+  Dominant: Joy (0.3055)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.619  Serotonin=1.000  Oxytocin=0.653  Endorphin=1.000  Cortisol=0.323  Adrenaline=0.350  GABA=0.811  Norepinephrine=0.327
+  Emotions: Joy=0.305  Serenity=0.282  Love=0.247  Excitement=0.137  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.028
+  H Delta : Dopamine=+0.0003  Serotonin=+0.0000  Oxytocin=+0.0009  Endorphin=+0.0000  Cortisol=-0.0447  Adrenaline=-0.0008  GABA=+0.0296  Norepinephrine=-0.0007
+
+--- Turn 80 ---
+  Message : ก็ไม่แย่ แต่ก็ไม่ดี
+  Signals : S=0.500  D=0.500  C=1.000
+  Emotion : Joy(0.18) + Excitement(0.18) + Serenity(0.17)
+  Dominant: Joy (0.1846)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.056  Serotonin=0.723  Oxytocin=0.247  Endorphin=0.825  Cortisol=0.747  Adrenaline=0.572  GABA=0.542  Norepinephrine=0.505
+  Emotions: Joy=0.185  Serenity=0.168  Love=0.147  Excitement=0.183  Sadness=0.000  Fear=0.120  Anger=0.053  Surprise=0.143
+  H Delta : Dopamine=-0.5625  Serotonin=-0.2769  Oxytocin=-0.4062  Endorphin=-0.1752  Cortisol=+0.4242  Adrenaline=+0.2227  GABA=-0.2697  Norepinephrine=+0.1782
+
+--- Turn 81 ---
+  Message : มีทั้งถูกและผิด
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.29) + Serenity(0.24) + Love(0.22)
+  Dominant: Joy (0.2905)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.571  Serotonin=0.911  Oxytocin=0.517  Endorphin=0.936  Cortisol=0.652  Adrenaline=0.389  GABA=0.617  Norepinephrine=0.358
+  Emotions: Joy=0.290  Serenity=0.238  Love=0.224  Excitement=0.171  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.077
+  H Delta : Dopamine=+0.5150  Serotonin=+0.1879  Oxytocin=+0.2708  Endorphin=+0.1114  Cortisol=-0.0950  Adrenaline=-0.1834  GABA=+0.0750  Norepinephrine=-0.1468
+
+--- Turn 82 ---
+  Message : ครึ่งๆ กลางๆ
+  Signals : S=0.500  D=0.500  C=1.000
+  Emotion : Fear(0.20) + Excitement(0.19) + Surprise(0.17)
+  Dominant: Fear (0.1992)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.050  Serotonin=0.648  Oxytocin=0.200  Endorphin=0.775  Cortisol=1.000  Adrenaline=0.583  GABA=0.385  Norepinephrine=0.513
+  Emotions: Joy=0.126  Serenity=0.082  Love=0.097  Excitement=0.187  Sadness=0.007  Fear=0.199  Anger=0.127  Surprise=0.175
+  H Delta : Dopamine=-0.5212  Serotonin=-0.2634  Oxytocin=-0.3180  Endorphin=-0.1610  Cortisol=+0.3481  Adrenaline=+0.1937  GABA=-0.2316  Norepinephrine=+0.1550
+
+--- Turn 83 ---
+  Message : เกือบแล้ว อีกนิดเดียว
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.27) + Love(0.21) + Serenity(0.19)
+  Dominant: Joy (0.2697)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.569  Serotonin=0.848  Oxytocin=0.499  Endorphin=0.898  Cortisol=0.870  Adrenaline=0.394  GABA=0.491  Norepinephrine=0.362
+  Emotions: Joy=0.270  Serenity=0.193  Love=0.207  Excitement=0.188  Sadness=0.000  Fear=0.036  Anger=0.000  Surprise=0.107
+  H Delta : Dopamine=+0.5188  Serotonin=+0.1999  Oxytocin=+0.3000  Endorphin=+0.1225  Cortisol=-0.1302  Adrenaline=-0.1887  GABA=+0.1058  Norepinephrine=-0.1511
+
+--- Turn 84 ---
+  Message : ชอบไอเดียนะ แต่ทำออกมาไม่ดี
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.29) + Serenity(0.24) + Love(0.23)
+  Dominant: Joy (0.2914)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.611  Serotonin=1.000  Oxytocin=0.598  Endorphin=0.991  Cortisol=0.755  Adrenaline=0.363  GABA=0.577  Norepinephrine=0.338
+  Emotions: Joy=0.291  Serenity=0.236  Love=0.232  Excitement=0.167  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.074
+  H Delta : Dopamine=+0.0422  Serotonin=+0.1525  Oxytocin=+0.0988  Endorphin=+0.0931  Cortisol=-0.1144  Adrenaline=-0.0311  GABA=+0.0865  Norepinephrine=-0.0249
+
+--- Turn 85 ---
+  Message : better than before but still wrong
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.25) + Love(0.24)
+  Dominant: Joy (0.2953)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.616  Serotonin=1.000  Oxytocin=0.632  Endorphin=1.000  Cortisol=0.656  Adrenaline=0.356  GABA=0.647  Norepinephrine=0.332
+  Emotions: Joy=0.295  Serenity=0.249  Love=0.238  Excitement=0.158  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.060
+  H Delta : Dopamine=+0.0051  Serotonin=+0.0000  Oxytocin=+0.0336  Endorphin=+0.0093  Cortisol=-0.0996  Adrenaline=-0.0067  GABA=+0.0702  Norepinephrine=-0.0054
+
+--- Turn 86 ---
+  Message : ทำไมผิดอีก!!
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.26) + Love(0.24)
+  Dominant: Joy (0.2983)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.617  Serotonin=1.000  Oxytocin=0.644  Endorphin=1.000  Cortisol=0.570  Adrenaline=0.353  GABA=0.704  Norepinephrine=0.330
+  Emotions: Joy=0.298  Serenity=0.259  Love=0.242  Excitement=0.151  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.050
+  H Delta : Dopamine=+0.0010  Serotonin=+0.0000  Oxytocin=+0.0118  Endorphin=+0.0000  Cortisol=-0.0857  Adrenaline=-0.0024  GABA=+0.0561  Norepinephrine=-0.0019
+
+--- Turn 87 ---
+  Message : ...
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.27) + Love(0.24)
+  Dominant: Joy (0.3007)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.617  Serotonin=1.000  Oxytocin=0.648  Endorphin=1.000  Cortisol=0.496  Adrenaline=0.352  GABA=0.749  Norepinephrine=0.329
+  Emotions: Joy=0.301  Serenity=0.268  Love=0.244  Excitement=0.146  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.042
+  H Delta : Dopamine=+0.0005  Serotonin=+0.0000  Oxytocin=+0.0047  Endorphin=+0.0000  Cortisol=-0.0736  Adrenaline=-0.0015  GABA=+0.0449  Norepinephrine=-0.0011
+
+--- Turn 88 ---
+  Message : เอาใหม่ก็ได้
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.27) + Love(0.25)
+  Dominant: Joy (0.3028)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.618  Serotonin=1.000  Oxytocin=0.651  Endorphin=1.000  Cortisol=0.433  Adrenaline=0.351  GABA=0.784  Norepinephrine=0.328
+  Emotions: Joy=0.303  Serenity=0.274  Love=0.245  Excitement=0.142  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.036
+  H Delta : Dopamine=+0.0004  Serotonin=+0.0000  Oxytocin=+0.0022  Endorphin=+0.0000  Cortisol=-0.0632  Adrenaline=-0.0011  GABA=+0.0359  Norepinephrine=-0.0009
+
+--- Turn 89 ---
+  Message : ครั้งนี้ดีขึ้นแล้ว
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.30) + Serenity(0.28) + Love(0.25)
+  Dominant: Joy (0.3045)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.618  Serotonin=1.000  Oxytocin=0.652  Endorphin=1.000  Cortisol=0.379  Adrenaline=0.350  GABA=0.813  Norepinephrine=0.328
+  Emotions: Joy=0.304  Serenity=0.280  Love=0.247  Excitement=0.138  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.030
+  H Delta : Dopamine=+0.0004  Serotonin=+0.0000  Oxytocin=+0.0013  Endorphin=+0.0000  Cortisol=-0.0543  Adrenaline=-0.0009  GABA=+0.0287  Norepinephrine=-0.0007
+
+--- Turn 90 ---
+  Message : เออ ถูกแล้ว!
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.28) + Love(0.25)
+  Dominant: Joy (0.3059)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.618  Serotonin=1.000  Oxytocin=0.653  Endorphin=1.000  Cortisol=0.332  Adrenaline=0.349  GABA=0.836  Norepinephrine=0.327
+  Emotions: Joy=0.306  Serenity=0.284  Love=0.248  Excitement=0.136  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.026
+  H Delta : Dopamine=+0.0003  Serotonin=+0.0000  Oxytocin=+0.0009  Endorphin=+0.0000  Cortisol=-0.0466  Adrenaline=-0.0008  GABA=+0.0230  Norepinephrine=-0.0006
+
+--- Turn 91 ---
+  Message : เห็นไหม ทำได้!
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3070)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.619  Serotonin=1.000  Oxytocin=0.654  Endorphin=1.000  Cortisol=0.292  Adrenaline=0.349  GABA=0.855  Norepinephrine=0.326
+  Emotions: Joy=0.307  Serenity=0.288  Love=0.248  Excitement=0.134  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.023
+  H Delta : Dopamine=+0.0003  Serotonin=+0.0000  Oxytocin=+0.0007  Endorphin=+0.0000  Cortisol=-0.0400  Adrenaline=-0.0006  GABA=+0.0184  Norepinephrine=-0.0005
+
+--- Turn 92 ---
+  Message : วันนี้เหนื่อยมากเลย
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.28) + Love(0.25)
+  Dominant: Joy (0.3067)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.665  Serotonin=1.000  Oxytocin=0.690  Endorphin=1.000  Cortisol=0.258  Adrenaline=0.374  GABA=0.882  Norepinephrine=0.349
+  Emotions: Joy=0.307  Serenity=0.283  Love=0.248  Excitement=0.137  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.026
+  H Delta : Dopamine=+0.0468  Serotonin=+0.0000  Oxytocin=+0.0368  Endorphin=+0.0000  Cortisol=-0.0348  Adrenaline=+0.0254  GABA=+0.0271  Norepinephrine=+0.0227
+
+--- Turn 93 ---
+  Message : ไม่ไหวแล้วจริงๆ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3085)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.623  Serotonin=1.000  Oxytocin=0.666  Endorphin=1.000  Cortisol=0.228  Adrenaline=0.351  GABA=0.891  Norepinephrine=0.329
+  Emotions: Joy=0.308  Serenity=0.293  Love=0.251  Excitement=0.130  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.018
+  H Delta : Dopamine=-0.0428  Serotonin=+0.0000  Oxytocin=-0.0241  Endorphin=+0.0000  Cortisol=-0.0295  Adrenaline=-0.0226  GABA=+0.0093  Norepinephrine=-0.0201
+
+--- Turn 94 ---
+  Message : แต่ก็ดีที่มีคนรับฟัง
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3094)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.659  Endorphin=1.000  Cortisol=0.203  Adrenaline=0.348  GABA=0.898  Norepinephrine=0.326
+  Emotions: Joy=0.309  Serenity=0.296  Love=0.251  Excitement=0.129  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.015
+  H Delta : Dopamine=-0.0032  Serotonin=+0.0000  Oxytocin=-0.0074  Endorphin=+0.0000  Cortisol=-0.0252  Adrenaline=-0.0037  GABA=+0.0075  Norepinephrine=-0.0032
+
+--- Turn 95 ---
+  Message : รู้สึกดีขึ้นแล้วนะ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3101)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.619  Serotonin=1.000  Oxytocin=0.657  Endorphin=1.000  Cortisol=0.181  Adrenaline=0.347  GABA=0.904  Norepinephrine=0.325
+  Emotions: Joy=0.310  Serenity=0.297  Love=0.251  Excitement=0.128  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.014
+  H Delta : Dopamine=-0.0001  Serotonin=+0.0000  Oxytocin=-0.0022  Endorphin=+0.0000  Cortisol=-0.0216  Adrenaline=-0.0008  GABA=+0.0061  Norepinephrine=-0.0007
+
+--- Turn 96 ---
+  Message : ขอบคุณที่อยู่ด้วย
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3105)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.656  Endorphin=1.000  Cortisol=0.163  Adrenaline=0.347  GABA=0.909  Norepinephrine=0.325
+  Emotions: Joy=0.310  Serenity=0.299  Love=0.251  Excitement=0.127  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.013
+  H Delta : Dopamine=+0.0001  Serotonin=+0.0000  Oxytocin=-0.0005  Endorphin=+0.0000  Cortisol=-0.0185  Adrenaline=-0.0003  GABA=+0.0049  Norepinephrine=-0.0003
+
+--- Turn 97 ---
+  Message : ไม่มีอะไรทำ
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3109)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.620  Serotonin=1.000  Oxytocin=0.656  Endorphin=1.000  Cortisol=0.147  Adrenaline=0.346  GABA=0.913  Norepinephrine=0.325
+  Emotions: Joy=0.311  Serenity=0.300  Love=0.251  Excitement=0.127  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.011
+  H Delta : Dopamine=+0.0001  Serotonin=+0.0000  Oxytocin=-0.0000  Endorphin=+0.0000  Cortisol=-0.0158  Adrenaline=-0.0002  GABA=+0.0040  Norepinephrine=-0.0002
+
+--- Turn 98 ---
+  Message : เล่าเรื่องสนุกๆ ให้ฟังหน่อย
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3098)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.666  Serotonin=1.000  Oxytocin=0.693  Endorphin=1.000  Cortisol=0.133  Adrenaline=0.372  GABA=0.929  Norepinephrine=0.348
+  Emotions: Joy=0.310  Serenity=0.292  Love=0.250  Excitement=0.131  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.016
+  H Delta : Dopamine=+0.0467  Serotonin=+0.0000  Oxytocin=+0.0363  Endorphin=+0.0000  Cortisol=-0.0141  Adrenaline=+0.0258  GABA=+0.0156  Norepinephrine=+0.0230
+
+--- Turn 99 ---
+  Message : 555 ตลกดี
+  Signals : S=0.800  D=0.200  C=1.200
+  Emotion : Joy(0.31) + Serenity(0.29) + Love(0.25)
+  Dominant: Joy (0.3098)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.670  Serotonin=1.000  Oxytocin=0.704  Endorphin=1.000  Cortisol=0.121  Adrenaline=0.376  GABA=0.941  Norepinephrine=0.351
+  Emotions: Joy=0.310  Serenity=0.292  Love=0.251  Excitement=0.131  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.016
+  H Delta : Dopamine=+0.0037  Serotonin=+0.0000  Oxytocin=+0.0118  Endorphin=+0.0000  Cortisol=-0.0122  Adrenaline=+0.0036  GABA=+0.0124  Norepinephrine=+0.0033
+
+--- Turn 100 ---
+  Message : อีกเรื่อง อีกเรื่อง!
+  Signals : S=0.800  D=0.200  C=1.100
+  Emotion : Joy(0.31) + Serenity(0.30) + Love(0.25)
+  Dominant: Joy (0.3114)
+  Trust   : 1.0000
+  Hormones: Dopamine=0.624  Serotonin=1.000  Oxytocin=0.672  Endorphin=1.000  Cortisol=0.111  Adrenaline=0.350  GABA=0.939  Norepinephrine=0.328
+  Emotions: Joy=0.311  Serenity=0.302  Love=0.253  Excitement=0.125  Sadness=0.000  Fear=0.000  Anger=0.000  Surprise=0.009
+  H Delta : Dopamine=-0.0462  Serotonin=+0.0000  Oxytocin=-0.0323  Endorphin=+0.0000  Cortisol=-0.0100  Adrenaline=-0.0256  GABA=-0.0025  Norepinephrine=-0.0228

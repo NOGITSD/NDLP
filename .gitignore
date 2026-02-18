@@ -1,0 +1,34 @@
+# Secrets
+backend/*.json
+backend/.env
+frontend/.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Data
+data/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

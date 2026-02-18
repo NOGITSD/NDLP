@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dev files
+openclaw/
+*.md
+jarvis_export_*.txt
+backend/test_*.py
+
+# Data (mounted as volume)
+data/
+
+# Env files (injected via docker-compose)
+backend/.env
+frontend/.env

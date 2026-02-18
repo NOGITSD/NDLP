@@ -1,0 +1,36 @@
+services:
+  # ── Backend: FastAPI + EVC Engine ──
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: jarvis-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./data:/app/data
+      - ./backend/ndlp-ea287-firebase-adminsdk-fbsvc-0a7288a18e.json:/app/backend/ndlp-ea287-firebase-adminsdk-fbsvc-0a7288a18e.json:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  # ── Frontend: React + Nginx ──
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_GOOGLE_CLIENT_ID: ${VITE_GOOGLE_CLIENT_ID:-}
+    container_name: jarvis-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      backend:
+        condition: service_healthy

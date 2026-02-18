@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Noto Sans Thai', system-ui, sans-serif;
+  --color-jarvis-50: #f0f4ff;
+  --color-jarvis-100: #dbe4ff;
+  --color-jarvis-200: #bac8ff;
+  --color-jarvis-300: #91a7ff;
+  --color-jarvis-400: #748ffc;
+  --color-jarvis-500: #5c7cfa;
+  --color-jarvis-600: #4c6ef5;
+  --color-jarvis-700: #4263eb;
+  --color-jarvis-800: #3b5bdb;
+  --color-jarvis-900: #364fc7;
+  --color-jarvis-950: #1e2a5e;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #0f1117;
+  color: #e4e5e7;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3d45;
+}
+
+/* Smooth message animation */
+@keyframes messageSlideIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-message {
+  animation: messageSlideIn 0.3s ease-out;
+}
+
+/* Pulse glow for active emotion */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+/* Typing indicator */
+@keyframes typingDot {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-4px); }
+}
+.typing-dot:nth-child(1) { animation: typingDot 1.2s infinite 0s; }
+.typing-dot:nth-child(2) { animation: typingDot 1.2s infinite 0.2s; }
+.typing-dot:nth-child(3) { animation: typingDot 1.2s infinite 0.4s; }

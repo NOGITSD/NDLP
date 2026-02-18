@@ -1,0 +1,6802 @@
+[
+  {
+    "turn": 1,
+    "message": "ขอบใจนะ",
+    "input": {
+      "S": 0.5025010755222667,
+      "D": 0.027502931836911926,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.4748,
+      "Serotonin": 0.7735,
+      "Oxytocin": 0.4594,
+      "Endorphin": 0.4547,
+      "Cortisol": 0.1542,
+      "Adrenaline": 0.1175,
+      "GABA": 0.5875,
+      "Norepinephrine": 0.1411
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0252,
+      "Serotonin": 0.1735,
+      "Oxytocin": 0.0594,
+      "Endorphin": 0.1547,
+      "Cortisol": -0.1458,
+      "Adrenaline": -0.0825,
+      "GABA": 0.0875,
+      "Norepinephrine": -0.1589
+    },
+    "emotions": {
+      "Joy": 0.3196,
+      "Serenity": 0.3233,
+      "Love": 0.2663,
+      "Excitement": 0.0907,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3233,
+    "emotion_blend": "Serenity(0.32) + Joy(0.32) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3233
+      ],
+      [
+        "Joy",
+        0.3196
+      ],
+      [
+        "Love",
+        0.2663
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4975,
+      "Serotonin": 0.6173,
+      "Oxytocin": 0.4059,
+      "Endorphin": 0.3155,
+      "Cortisol": 0.2854,
+      "Adrenaline": 0.1917,
+      "GABA": 0.5087,
+      "Norepinephrine": 0.2841
+    },
+    "trust": 0.5288,
+    "output_intensity": 0.171
+  },
+  {
+    "turn": 2,
+    "message": "อืม ได้เลย",
+    "input": {
+      "S": 0.1639537928525144,
+      "D": 0.010249517617150747,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.204,
+      "Serotonin": 0.7452,
+      "Oxytocin": 0.2763,
+      "Endorphin": 0.4308,
+      "Cortisol": 0.1163,
+      "Adrenaline": 0.0527,
+      "GABA": 0.5602,
+      "Norepinephrine": 0.0669
+    },
+    "hormone_delta": {
+      "Dopamine": -0.2708,
+      "Serotonin": -0.0283,
+      "Oxytocin": -0.1832,
+      "Endorphin": -0.024,
+      "Cortisol": -0.0379,
+      "Adrenaline": -0.0648,
+      "GABA": -0.0273,
+      "Norepinephrine": -0.0741
+    },
+    "emotions": {
+      "Joy": 0.3105,
+      "Serenity": 0.3964,
+      "Love": 0.2631,
+      "Excitement": 0.03,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3964,
+    "emotion_blend": "Serenity(0.40) + Joy(0.31) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3964
+      ],
+      [
+        "Joy",
+        0.3105
+      ],
+      [
+        "Love",
+        0.2631
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4681,
+      "Serotonin": 0.6301,
+      "Oxytocin": 0.393,
+      "Endorphin": 0.327,
+      "Cortisol": 0.2685,
+      "Adrenaline": 0.1778,
+      "GABA": 0.5139,
+      "Norepinephrine": 0.2624
+    },
+    "trust": 0.5381,
+    "output_intensity": 0.2133
+  },
+  {
+    "turn": 3,
+    "message": "โอเค แต่ครั้งหน้าทำให้ดีกว่านี้",
+    "input": {
+      "S": 0.2086938832629416,
+      "D": 0.29219218196852703,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.5326,
+      "Oxytocin": 0.0775,
+      "Endorphin": 0.3477,
+      "Cortisol": 0.4126,
+      "Adrenaline": 0.3104,
+      "GABA": 0.3802,
+      "Norepinephrine": 0.2795
+    },
+    "hormone_delta": {
+      "Dopamine": -0.204,
+      "Serotonin": -0.2127,
+      "Oxytocin": -0.1988,
+      "Endorphin": -0.0831,
+      "Cortisol": 0.2963,
+      "Adrenaline": 0.2577,
+      "GABA": -0.18,
+      "Norepinephrine": 0.2126
+    },
+    "emotions": {
+      "Joy": 0.1998,
+      "Serenity": 0.2481,
+      "Love": 0.1548,
+      "Excitement": 0.1481,
+      "Sadness": 0.0,
+      "Fear": 0.114,
+      "Anger": 0.0226,
+      "Surprise": 0.1127
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.2481,
+    "emotion_blend": "Serenity(0.25) + Joy(0.20) + Love(0.15)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.2481
+      ],
+      [
+        "Joy",
+        0.1998
+      ],
+      [
+        "Love",
+        0.1548
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4213,
+      "Serotonin": 0.6204,
+      "Oxytocin": 0.3614,
+      "Endorphin": 0.3291,
+      "Cortisol": 0.2829,
+      "Adrenaline": 0.1911,
+      "GABA": 0.5005,
+      "Norepinephrine": 0.2641
+    },
+    "trust": 0.536,
+    "output_intensity": 0.133
+  },
+  {
+    "turn": 4,
+    "message": "เก่งมากเลยนะ",
+    "input": {
+      "S": 0.7593695239861593,
+      "D": 0.0,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.6682,
+      "Serotonin": 0.8712,
+      "Oxytocin": 0.5282,
+      "Endorphin": 0.6028,
+      "Cortisol": 0.138,
+      "Adrenaline": 0.1349,
+      "GABA": 0.5884,
+      "Norepinephrine": 0.1435
+    },
+    "hormone_delta": {
+      "Dopamine": 0.6682,
+      "Serotonin": 0.3387,
+      "Oxytocin": 0.4507,
+      "Endorphin": 0.2552,
+      "Cortisol": -0.2746,
+      "Adrenaline": -0.1755,
+      "GABA": 0.2082,
+      "Norepinephrine": -0.136
+    },
+    "emotions": {
+      "Joy": 0.3279,
+      "Serenity": 0.3024,
+      "Love": 0.2575,
+      "Excitement": 0.1123,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3279,
+    "emotion_blend": "Joy(0.33) + Serenity(0.30) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3279
+      ],
+      [
+        "Serenity",
+        0.3024
+      ],
+      [
+        "Love",
+        0.2575
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.446,
+      "Serotonin": 0.6455,
+      "Oxytocin": 0.3781,
+      "Endorphin": 0.3564,
+      "Cortisol": 0.2684,
+      "Adrenaline": 0.1855,
+      "GABA": 0.5093,
+      "Norepinephrine": 0.252
+    },
+    "trust": 0.5816,
+    "output_intensity": 0.1907
+  },
+  {
+    "turn": 5,
+    "message": "เก่งมากเลยนะ",
+    "input": {
+      "S": 0.8061245062938613,
+      "D": 0.021601961292240346,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.7422,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.6925,
+      "Endorphin": 0.8083,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1277,
+      "GABA": 0.759,
+      "Norepinephrine": 0.1401
+    },
+    "hormone_delta": {
+      "Dopamine": 0.074,
+      "Serotonin": 0.1288,
+      "Oxytocin": 0.1643,
+      "Endorphin": 0.2055,
+      "Cortisol": -0.138,
+      "Adrenaline": -0.0072,
+      "GABA": 0.1706,
+      "Norepinephrine": -0.0034
+    },
+    "emotions": {
+      "Joy": 0.3245,
+      "Serenity": 0.3128,
+      "Love": 0.2639,
+      "Excitement": 0.0988,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3245,
+    "emotion_blend": "Joy(0.32) + Serenity(0.31) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3245
+      ],
+      [
+        "Serenity",
+        0.3128
+      ],
+      [
+        "Love",
+        0.2639
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4756,
+      "Serotonin": 0.6809,
+      "Oxytocin": 0.4095,
+      "Endorphin": 0.4016,
+      "Cortisol": 0.2416,
+      "Adrenaline": 0.1797,
+      "GABA": 0.5343,
+      "Norepinephrine": 0.2408
+    },
+    "trust": 0.6289,
+    "output_intensity": 0.2041
+  },
+  {
+    "turn": 6,
+    "message": "โอเค แต่ครั้งหน้าทำให้ดีกว่านี้",
+    "input": {
+      "S": 0.24195198209616586,
+      "D": 0.2949209046283853,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0441,
+      "Serotonin": 0.7536,
+      "Oxytocin": 0.2328,
+      "Endorphin": 0.6431,
+      "Cortisol": 0.3012,
+      "Adrenaline": 0.3236,
+      "GABA": 0.5497,
+      "Norepinephrine": 0.293
+    },
+    "hormone_delta": {
+      "Dopamine": -0.6981,
+      "Serotonin": -0.2464,
+      "Oxytocin": -0.4597,
+      "Endorphin": -0.1652,
+      "Cortisol": 0.3012,
+      "Adrenaline": 0.1959,
+      "GABA": -0.2092,
+      "Norepinephrine": 0.1529
+    },
+    "emotions": {
+      "Joy": 0.2733,
+      "Serenity": 0.3322,
+      "Love": 0.2283,
+      "Excitement": 0.1245,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0416
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3322,
+    "emotion_blend": "Serenity(0.33) + Joy(0.27) + Love(0.23)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3322
+      ],
+      [
+        "Joy",
+        0.2733
+      ],
+      [
+        "Love",
+        0.2283
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4325,
+      "Serotonin": 0.6882,
+      "Oxytocin": 0.3919,
+      "Endorphin": 0.4258,
+      "Cortisol": 0.2475,
+      "Adrenaline": 0.1941,
+      "GABA": 0.5358,
+      "Norepinephrine": 0.2461
+    },
+    "trust": 0.6286,
+    "output_intensity": 0.2088
+  },
+  {
+    "turn": 7,
+    "message": "ไม่แน่ใจเหมือนกัน",
+    "input": {
+      "S": 0.13094304566778267,
+      "D": 0.1506498759678061,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0281,
+      "Serotonin": 0.6084,
+      "Oxytocin": 0.1036,
+      "Endorphin": 0.5172,
+      "Cortisol": 0.4211,
+      "Adrenaline": 0.2145,
+      "GABA": 0.4357,
+      "Norepinephrine": 0.1983
+    },
+    "hormone_delta": {
+      "Dopamine": -0.016,
+      "Serotonin": -0.1452,
+      "Oxytocin": -0.1292,
+      "Endorphin": -0.1259,
+      "Cortisol": 0.1199,
+      "Adrenaline": -0.1091,
+      "GABA": -0.114,
+      "Norepinephrine": -0.0947
+    },
+    "emotions": {
+      "Joy": 0.2724,
+      "Serenity": 0.3501,
+      "Love": 0.21,
+      "Excitement": 0.1156,
+      "Sadness": 0.0,
+      "Fear": 0.0086,
+      "Anger": 0.0,
+      "Surprise": 0.0433
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3501,
+    "emotion_blend": "Serenity(0.35) + Joy(0.27) + Love(0.21)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3501
+      ],
+      [
+        "Joy",
+        0.2724
+      ],
+      [
+        "Love",
+        0.21
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.392,
+      "Serotonin": 0.6802,
+      "Oxytocin": 0.363,
+      "Endorphin": 0.4349,
+      "Cortisol": 0.2649,
+      "Adrenaline": 0.1961,
+      "GABA": 0.5258,
+      "Norepinephrine": 0.2413
+    },
+    "trust": 0.629,
+    "output_intensity": 0.2202
+  },
+  {
+    "turn": 8,
+    "message": "สวัสดีครับ",
+    "input": {
+      "S": 0.31981393949882264,
+      "D": 0.08402505165179919,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.2385,
+      "Serotonin": 0.6403,
+      "Oxytocin": 0.217,
+      "Endorphin": 0.5213,
+      "Cortisol": 0.3846,
+      "Adrenaline": 0.1564,
+      "GABA": 0.4442,
+      "Norepinephrine": 0.1528
+    },
+    "hormone_delta": {
+      "Dopamine": 0.2104,
+      "Serotonin": 0.032,
+      "Oxytocin": 0.1134,
+      "Endorphin": 0.0041,
+      "Cortisol": -0.0365,
+      "Adrenaline": -0.0581,
+      "GABA": 0.0084,
+      "Norepinephrine": -0.0455
+    },
+    "emotions": {
+      "Joy": 0.3064,
+      "Serenity": 0.3232,
+      "Love": 0.235,
+      "Excitement": 0.1166,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0189
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3232,
+    "emotion_blend": "Serenity(0.32) + Joy(0.31) + Love(0.23)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3232
+      ],
+      [
+        "Joy",
+        0.3064
+      ],
+      [
+        "Love",
+        0.235
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3767,
+      "Serotonin": 0.6762,
+      "Oxytocin": 0.3484,
+      "Endorphin": 0.4436,
+      "Cortisol": 0.2769,
+      "Adrenaline": 0.1922,
+      "GABA": 0.5176,
+      "Norepinephrine": 0.2324
+    },
+    "trust": 0.6439,
+    "output_intensity": 0.2081
+  },
+  {
+    "turn": 9,
+    "message": "วันนี้มีความสุขมาก",
+    "input": {
+      "S": 0.7215313762107589,
+      "D": 0.02634941290065239,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.6331,
+      "Serotonin": 0.9181,
+      "Oxytocin": 0.5348,
+      "Endorphin": 0.7086,
+      "Cortisol": 0.156,
+      "Adrenaline": 0.1313,
+      "GABA": 0.6124,
+      "Norepinephrine": 0.14
+    },
+    "hormone_delta": {
+      "Dopamine": 0.3946,
+      "Serotonin": 0.2778,
+      "Oxytocin": 0.3177,
+      "Endorphin": 0.1873,
+      "Cortisol": -0.2286,
+      "Adrenaline": -0.0252,
+      "GABA": 0.1683,
+      "Norepinephrine": -0.0128
+    },
+    "emotions": {
+      "Joy": 0.3256,
+      "Serenity": 0.3092,
+      "Love": 0.257,
+      "Excitement": 0.1082,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3256,
+    "emotion_blend": "Joy(0.33) + Serenity(0.31) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3256
+      ],
+      [
+        "Serenity",
+        0.3092
+      ],
+      [
+        "Love",
+        0.257
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4023,
+      "Serotonin": 0.7004,
+      "Oxytocin": 0.3671,
+      "Endorphin": 0.4701,
+      "Cortisol": 0.2648,
+      "Adrenaline": 0.1861,
+      "GABA": 0.5271,
+      "Norepinephrine": 0.2232
+    },
+    "trust": 0.6859,
+    "output_intensity": 0.2233
+  },
+  {
+    "turn": 10,
+    "message": "สุดยอดไปเลย!",
+    "input": {
+      "S": 0.8592745843380148,
+      "D": 0.0,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.8723,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.7932,
+      "Endorphin": 0.951,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1199,
+      "GABA": 0.8352,
+      "Norepinephrine": 0.1362
+    },
+    "hormone_delta": {
+      "Dopamine": 0.2392,
+      "Serotonin": 0.0819,
+      "Oxytocin": 0.2585,
+      "Endorphin": 0.2424,
+      "Cortisol": -0.156,
+      "Adrenaline": -0.0114,
+      "GABA": 0.2228,
+      "Norepinephrine": -0.0038
+    },
+    "emotions": {
+      "Joy": 0.3268,
+      "Serenity": 0.3037,
+      "Love": 0.2646,
+      "Excitement": 0.1049,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3268,
+    "emotion_blend": "Joy(0.33) + Serenity(0.30) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3268
+      ],
+      [
+        "Serenity",
+        0.3037
+      ],
+      [
+        "Love",
+        0.2646
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4493,
+      "Serotonin": 0.7304,
+      "Oxytocin": 0.4097,
+      "Endorphin": 0.5182,
+      "Cortisol": 0.2383,
+      "Adrenaline": 0.1794,
+      "GABA": 0.5579,
+      "Norepinephrine": 0.2145
+    },
+    "trust": 0.7375,
+    "output_intensity": 0.241
+  },
+  {
+    "turn": 11,
+    "message": "ไม่ใช่แบบนี้",
+    "input": {
+      "S": 0.06037260313668911,
+      "D": 0.48071282732743803,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.5159,
+      "Oxytocin": 0.0387,
+      "Endorphin": 0.6153,
+      "Cortisol": 0.5846,
+      "Adrenaline": 0.4764,
+      "GABA": 0.438,
+      "Norepinephrine": 0.4173
+    },
+    "hormone_delta": {
+      "Dopamine": -0.8723,
+      "Serotonin": -0.4841,
+      "Oxytocin": -0.7546,
+      "Endorphin": -0.3357,
+      "Cortisol": 0.5846,
+      "Adrenaline": 0.3565,
+      "GABA": -0.3972,
+      "Norepinephrine": 0.2811
+    },
+    "emotions": {
+      "Joy": 0.1538,
+      "Serenity": 0.1455,
+      "Love": 0.0947,
+      "Excitement": 0.1873,
+      "Sadness": 0.0,
+      "Fear": 0.1615,
+      "Anger": 0.0959,
+      "Surprise": 0.1612
+    },
+    "dominant_emotion": "Excitement",
+    "dominant_score": 0.1873,
+    "emotion_blend": "Excitement(0.19) + Fear(0.16) + Surprise(0.16)",
+    "top3_emotions": [
+      [
+        "Excitement",
+        0.1873
+      ],
+      [
+        "Fear",
+        0.1615
+      ],
+      [
+        "Surprise",
+        0.1612
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.4044,
+      "Serotonin": 0.7089,
+      "Oxytocin": 0.3726,
+      "Endorphin": 0.5279,
+      "Cortisol": 0.2729,
+      "Adrenaline": 0.2091,
+      "GABA": 0.5459,
+      "Norepinephrine": 0.2348
+    },
+    "trust": 0.7171,
+    "output_intensity": 0.1343
+  },
+  {
+    "turn": 12,
+    "message": "ไม่เอาแล้ว!",
+    "input": {
+      "S": 0.003622809145470071,
+      "D": 0.797311576397937,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.185,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.9744,
+      "GABA": 0.0,
+      "Norepinephrine": 0.8281
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.5159,
+      "Oxytocin": -0.0387,
+      "Endorphin": -0.4302,
+      "Cortisol": 0.4154,
+      "Adrenaline": 0.498,
+      "GABA": -0.438,
+      "Norepinephrine": 0.4108
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1581,
+      "Sadness": 0.1667,
+      "Fear": 0.2545,
+      "Anger": 0.2226,
+      "Surprise": 0.1981
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2545,
+    "emotion_blend": "Fear(0.25) + Anger(0.22) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2545
+      ],
+      [
+        "Anger",
+        0.2226
+      ],
+      [
+        "Surprise",
+        0.1981
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.364,
+      "Serotonin": 0.638,
+      "Oxytocin": 0.3353,
+      "Endorphin": 0.4936,
+      "Cortisol": 0.3456,
+      "Adrenaline": 0.2857,
+      "GABA": 0.4913,
+      "Norepinephrine": 0.2941
+    },
+    "trust": 0.6774,
+    "output_intensity": 0.1724
+  },
+  {
+    "turn": 13,
+    "message": "เบื่อจัง",
+    "input": {
+      "S": 0.0,
+      "D": 0.3793178281407093,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0553,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.4886,
+      "GABA": 0.0,
+      "Norepinephrine": 0.4229
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.1297,
+      "Cortisol": 0.0,
+      "Adrenaline": -0.4858,
+      "GABA": 0.0,
+      "Norepinephrine": -0.4052
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1126,
+      "Sadness": 0.2292,
+      "Fear": 0.2692,
+      "Anger": 0.2219,
+      "Surprise": 0.167
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2692,
+    "emotion_blend": "Fear(0.27) + Sadness(0.23) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2692
+      ],
+      [
+        "Sadness",
+        0.2292
+      ],
+      [
+        "Anger",
+        0.2219
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3276,
+      "Serotonin": 0.5742,
+      "Oxytocin": 0.3018,
+      "Endorphin": 0.4498,
+      "Cortisol": 0.4111,
+      "Adrenaline": 0.306,
+      "GABA": 0.4422,
+      "Norepinephrine": 0.307
+    },
+    "trust": 0.6584,
+    "output_intensity": 0.1773
+  },
+  {
+    "turn": 14,
+    "message": "ทำไมไม่เข้าใจ",
+    "input": {
+      "S": 0.007735214525676201,
+      "D": 0.5704571836214924,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.6805,
+      "GABA": 0.0,
+      "Norepinephrine": 0.5825
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.0553,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1919,
+      "GABA": 0.0,
+      "Norepinephrine": 0.1596
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1277,
+      "Sadness": 0.2044,
+      "Fear": 0.2652,
+      "Anger": 0.2234,
+      "Surprise": 0.1792
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2652,
+    "emotion_blend": "Fear(0.27) + Anger(0.22) + Sadness(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2652
+      ],
+      [
+        "Anger",
+        0.2234
+      ],
+      [
+        "Sadness",
+        0.2044
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2948,
+      "Serotonin": 0.5168,
+      "Oxytocin": 0.2716,
+      "Endorphin": 0.4048,
+      "Cortisol": 0.47,
+      "Adrenaline": 0.3434,
+      "GABA": 0.398,
+      "Norepinephrine": 0.3345
+    },
+    "trust": 0.6304,
+    "output_intensity": 0.1672
+  },
+  {
+    "turn": 15,
+    "message": "ชอบคำตอบนี้จัง",
+    "input": {
+      "S": 0.716126331856771,
+      "D": 0.02730683407886919,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.6572,
+      "Serotonin": 0.4312,
+      "Oxytocin": 0.4929,
+      "Endorphin": 0.3416,
+      "Cortisol": 0.6745,
+      "Adrenaline": 0.2299,
+      "GABA": 0.2705,
+      "Norepinephrine": 0.2222
+    },
+    "hormone_delta": {
+      "Dopamine": 0.6572,
+      "Serotonin": 0.4312,
+      "Oxytocin": 0.4929,
+      "Endorphin": 0.3416,
+      "Cortisol": -0.3255,
+      "Adrenaline": -0.4506,
+      "GABA": 0.2705,
+      "Norepinephrine": -0.3603
+    },
+    "emotions": {
+      "Joy": 0.271,
+      "Serenity": 0.1226,
+      "Love": 0.2185,
+      "Excitement": 0.2055,
+      "Sadness": 0.0,
+      "Fear": 0.0572,
+      "Anger": 0.0,
+      "Surprise": 0.1252
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.271,
+    "emotion_blend": "Joy(0.27) + Love(0.22) + Excitement(0.21)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.271
+      ],
+      [
+        "Love",
+        0.2185
+      ],
+      [
+        "Excitement",
+        0.2055
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.331,
+      "Serotonin": 0.5082,
+      "Oxytocin": 0.2937,
+      "Endorphin": 0.3985,
+      "Cortisol": 0.4904,
+      "Adrenaline": 0.3321,
+      "GABA": 0.3852,
+      "Norepinephrine": 0.3233
+    },
+    "trust": 0.672,
+    "output_intensity": 0.1821
+  },
+  {
+    "turn": 16,
+    "message": "รักเลย",
+    "input": {
+      "S": 0.8855317721015147,
+      "D": 0.03664836667552697,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.9913,
+      "Serotonin": 0.953,
+      "Oxytocin": 0.8676,
+      "Endorphin": 0.7435,
+      "Cortisol": 0.297,
+      "Adrenaline": 0.2057,
+      "GABA": 0.5926,
+      "Norepinephrine": 0.2115
+    },
+    "hormone_delta": {
+      "Dopamine": 0.3341,
+      "Serotonin": 0.5218,
+      "Oxytocin": 0.3747,
+      "Endorphin": 0.4019,
+      "Cortisol": -0.3775,
+      "Adrenaline": -0.0241,
+      "GABA": 0.3221,
+      "Norepinephrine": -0.0108
+    },
+    "emotions": {
+      "Joy": 0.3198,
+      "Serenity": 0.2493,
+      "Love": 0.2627,
+      "Excitement": 0.1425,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0257
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3198,
+    "emotion_blend": "Joy(0.32) + Love(0.26) + Serenity(0.25)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3198
+      ],
+      [
+        "Love",
+        0.2627
+      ],
+      [
+        "Serenity",
+        0.2493
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3971,
+      "Serotonin": 0.5527,
+      "Oxytocin": 0.3511,
+      "Endorphin": 0.433,
+      "Cortisol": 0.4711,
+      "Adrenaline": 0.3194,
+      "GABA": 0.406,
+      "Norepinephrine": 0.3121
+    },
+    "trust": 0.7233,
+    "output_intensity": 0.2313
+  },
+  {
+    "turn": 17,
+    "message": "เบื่อจัง",
+    "input": {
+      "S": 0.0,
+      "D": 0.41356844442644003,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.5276,
+      "Oxytocin": 0.0899,
+      "Endorphin": 0.4695,
+      "Cortisol": 0.7268,
+      "Adrenaline": 0.3877,
+      "GABA": 0.2928,
+      "Norepinephrine": 0.3427
+    },
+    "hormone_delta": {
+      "Dopamine": -0.9913,
+      "Serotonin": -0.4254,
+      "Oxytocin": -0.7777,
+      "Endorphin": -0.274,
+      "Cortisol": 0.4297,
+      "Adrenaline": 0.1819,
+      "GABA": -0.2998,
+      "Norepinephrine": 0.1312
+    },
+    "emotions": {
+      "Joy": 0.1186,
+      "Serenity": 0.1017,
+      "Love": 0.0884,
+      "Excitement": 0.1688,
+      "Sadness": 0.009,
+      "Fear": 0.2168,
+      "Anger": 0.1304,
+      "Surprise": 0.1664
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2168,
+    "emotion_blend": "Fear(0.22) + Excitement(0.17) + Surprise(0.17)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2168
+      ],
+      [
+        "Excitement",
+        0.1688
+      ],
+      [
+        "Surprise",
+        0.1664
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3574,
+      "Serotonin": 0.5502,
+      "Oxytocin": 0.325,
+      "Endorphin": 0.4366,
+      "Cortisol": 0.4966,
+      "Adrenaline": 0.3263,
+      "GABA": 0.3947,
+      "Norepinephrine": 0.3152
+    },
+    "trust": 0.7026,
+    "output_intensity": 0.1523
+  },
+  {
+    "turn": 18,
+    "message": "ทำไมไม่เข้าใจ",
+    "input": {
+      "S": 0.0,
+      "D": 0.5355270700227522,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0123,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.1915,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.623,
+      "GABA": 0.0,
+      "Norepinephrine": 0.5352
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.5153,
+      "Oxytocin": -0.0899,
+      "Endorphin": -0.2779,
+      "Cortisol": 0.2732,
+      "Adrenaline": 0.2353,
+      "GABA": -0.2928,
+      "Norepinephrine": 0.1925
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1361,
+      "Sadness": 0.2004,
+      "Fear": 0.2613,
+      "Anger": 0.221,
+      "Surprise": 0.1813
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2613,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Sadness(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2613
+      ],
+      [
+        "Anger",
+        0.221
+      ],
+      [
+        "Sadness",
+        0.2004
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3216,
+      "Serotonin": 0.4964,
+      "Oxytocin": 0.2925,
+      "Endorphin": 0.4121,
+      "Cortisol": 0.547,
+      "Adrenaline": 0.3559,
+      "GABA": 0.3552,
+      "Norepinephrine": 0.3372
+    },
+    "trust": 0.6758,
+    "output_intensity": 0.1766
+  },
+  {
+    "turn": 19,
+    "message": "ไม่แน่ใจเหมือนกัน",
+    "input": {
+      "S": 0.12018203134585514,
+      "D": 0.21835476655366673,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.1488,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.333,
+      "GABA": 0.0,
+      "Norepinephrine": 0.2955
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.0123,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.0427,
+      "Cortisol": 0.0,
+      "Adrenaline": -0.29,
+      "GABA": 0.0,
+      "Norepinephrine": -0.2397
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1001,
+      "Sadness": 0.2534,
+      "Fear": 0.2717,
+      "Anger": 0.2196,
+      "Surprise": 0.1552
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2717,
+    "emotion_blend": "Fear(0.27) + Sadness(0.25) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2717
+      ],
+      [
+        "Sadness",
+        0.2534
+      ],
+      [
+        "Anger",
+        0.2196
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2895,
+      "Serotonin": 0.4468,
+      "Oxytocin": 0.2633,
+      "Endorphin": 0.3858,
+      "Cortisol": 0.5923,
+      "Adrenaline": 0.3536,
+      "GABA": 0.3197,
+      "Norepinephrine": 0.333
+    },
+    "trust": 0.6721,
+    "output_intensity": 0.1826
+  },
+  {
+    "turn": 20,
+    "message": "น่ารักจัง",
+    "input": {
+      "S": 0.6109131005666988,
+      "D": 0.0,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.6402,
+      "Serotonin": 0.4274,
+      "Oxytocin": 0.4791,
+      "Endorphin": 0.4389,
+      "Cortisol": 0.6537,
+      "Adrenaline": 0.1446,
+      "GABA": 0.2732,
+      "Norepinephrine": 0.1504
+    },
+    "hormone_delta": {
+      "Dopamine": 0.6402,
+      "Serotonin": 0.4274,
+      "Oxytocin": 0.4791,
+      "Endorphin": 0.2901,
+      "Cortisol": -0.3463,
+      "Adrenaline": -0.1885,
+      "GABA": 0.2732,
+      "Norepinephrine": -0.1451
+    },
+    "emotions": {
+      "Joy": 0.295,
+      "Serenity": 0.1554,
+      "Love": 0.2358,
+      "Excitement": 0.1932,
+      "Sadness": 0.0,
+      "Fear": 0.0207,
+      "Anger": 0.0,
+      "Surprise": 0.0999
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.295,
+    "emotion_blend": "Joy(0.29) + Love(0.24) + Excitement(0.19)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.295
+      ],
+      [
+        "Love",
+        0.2358
+      ],
+      [
+        "Excitement",
+        0.1932
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3245,
+      "Serotonin": 0.4448,
+      "Oxytocin": 0.2848,
+      "Endorphin": 0.3911,
+      "Cortisol": 0.5984,
+      "Adrenaline": 0.3327,
+      "GABA": 0.315,
+      "Norepinephrine": 0.3147
+    },
+    "trust": 0.7088,
+    "output_intensity": 0.2091
+  },
+  {
+    "turn": 21,
+    "message": "ครับ",
+    "input": {
+      "S": 0.11634024937619283,
+      "D": 0.03794554417576478,
+      "C": 0.7
+    },
+    "hormones": {
+      "Dopamine": 0.1427,
+      "Serotonin": 0.417,
+      "Oxytocin": 0.2252,
+      "Endorphin": 0.3821,
+      "Cortisol": 0.5883,
+      "Adrenaline": 0.0737,
+      "GABA": 0.276,
+      "Norepinephrine": 0.081
+    },
+    "hormone_delta": {
+      "Dopamine": -0.4975,
+      "Serotonin": -0.0104,
+      "Oxytocin": -0.2539,
+      "Endorphin": -0.0568,
+      "Cortisol": -0.0653,
+      "Adrenaline": -0.0709,
+      "GABA": 0.0028,
+      "Norepinephrine": -0.0694
+    },
+    "emotions": {
+      "Joy": 0.2606,
+      "Serenity": 0.2549,
+      "Love": 0.2425,
+      "Excitement": 0.1144,
+      "Sadness": 0.0,
+      "Fear": 0.0739,
+      "Anger": 0.0,
+      "Surprise": 0.0537
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2606,
+    "emotion_blend": "Joy(0.26) + Serenity(0.25) + Love(0.24)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2606
+      ],
+      [
+        "Serenity",
+        0.2549
+      ],
+      [
+        "Love",
+        0.2425
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3064,
+      "Serotonin": 0.442,
+      "Oxytocin": 0.2789,
+      "Endorphin": 0.3902,
+      "Cortisol": 0.5974,
+      "Adrenaline": 0.3068,
+      "GABA": 0.3111,
+      "Norepinephrine": 0.2914
+    },
+    "trust": 0.7139,
+    "output_intensity": 0.186
+  },
+  {
+    "turn": 22,
+    "message": "ไม่เลว",
+    "input": {
+      "S": 0.2719615173970269,
+      "D": 0.13242827344153218,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.1522,
+      "Serotonin": 0.4201,
+      "Oxytocin": 0.1856,
+      "Endorphin": 0.3774,
+      "Cortisol": 0.5959,
+      "Adrenaline": 0.1636,
+      "GABA": 0.2706,
+      "Norepinephrine": 0.1573
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0095,
+      "Serotonin": 0.0031,
+      "Oxytocin": -0.0396,
+      "Endorphin": -0.0047,
+      "Cortisol": 0.0076,
+      "Adrenaline": 0.0899,
+      "GABA": -0.0053,
+      "Norepinephrine": 0.0763
+    },
+    "emotions": {
+      "Joy": 0.2219,
+      "Serenity": 0.1886,
+      "Love": 0.1861,
+      "Excitement": 0.1529,
+      "Sadness": 0.0,
+      "Fear": 0.1246,
+      "Anger": 0.019,
+      "Surprise": 0.1069
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2219,
+    "emotion_blend": "Joy(0.22) + Serenity(0.19) + Love(0.19)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2219
+      ],
+      [
+        "Serenity",
+        0.1886
+      ],
+      [
+        "Love",
+        0.1861
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2909,
+      "Serotonin": 0.4399,
+      "Oxytocin": 0.2695,
+      "Endorphin": 0.3889,
+      "Cortisol": 0.5973,
+      "Adrenaline": 0.2925,
+      "GABA": 0.3071,
+      "Norepinephrine": 0.278
+    },
+    "trust": 0.7236,
+    "output_intensity": 0.1606
+  },
+  {
+    "turn": 23,
+    "message": "ทำดีมากครับ",
+    "input": {
+      "S": 0.6229048071964105,
+      "D": 0.0,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.5678,
+      "Serotonin": 0.7101,
+      "Oxytocin": 0.4778,
+      "Endorphin": 0.5674,
+      "Cortisol": 0.3378,
+      "Adrenaline": 0.1024,
+      "GABA": 0.4584,
+      "Norepinephrine": 0.1137
+    },
+    "hormone_delta": {
+      "Dopamine": 0.4156,
+      "Serotonin": 0.29,
+      "Oxytocin": 0.2922,
+      "Endorphin": 0.19,
+      "Cortisol": -0.258,
+      "Adrenaline": -0.0612,
+      "GABA": 0.1877,
+      "Norepinephrine": -0.0435
+    },
+    "emotions": {
+      "Joy": 0.3241,
+      "Serenity": 0.2818,
+      "Love": 0.26,
+      "Excitement": 0.1245,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0096
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3241,
+    "emotion_blend": "Joy(0.32) + Serenity(0.28) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3241
+      ],
+      [
+        "Serenity",
+        0.2818
+      ],
+      [
+        "Love",
+        0.26
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3186,
+      "Serotonin": 0.4669,
+      "Oxytocin": 0.2904,
+      "Endorphin": 0.4068,
+      "Cortisol": 0.5713,
+      "Adrenaline": 0.2735,
+      "GABA": 0.3222,
+      "Norepinephrine": 0.2615
+    },
+    "trust": 0.7609,
+    "output_intensity": 0.2466
+  },
+  {
+    "turn": 24,
+    "message": "ไม่ค่อยดีเท่าไร",
+    "input": {
+      "S": 0.040116478702232894,
+      "D": 0.35661886052115477,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.3657,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.3582,
+      "Cortisol": 0.7334,
+      "Adrenaline": 0.364,
+      "GABA": 0.2064,
+      "Norepinephrine": 0.3217
+    },
+    "hormone_delta": {
+      "Dopamine": -0.5678,
+      "Serotonin": -0.3444,
+      "Oxytocin": -0.4778,
+      "Endorphin": -0.2093,
+      "Cortisol": 0.3956,
+      "Adrenaline": 0.2616,
+      "GABA": -0.252,
+      "Norepinephrine": 0.208
+    },
+    "emotions": {
+      "Joy": 0.0506,
+      "Serenity": 0.0093,
+      "Love": 0.018,
+      "Excitement": 0.1625,
+      "Sadness": 0.1123,
+      "Fear": 0.2703,
+      "Anger": 0.1917,
+      "Surprise": 0.1853
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2703,
+    "emotion_blend": "Fear(0.27) + Anger(0.19) + Surprise(0.19)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2703
+      ],
+      [
+        "Anger",
+        0.1917
+      ],
+      [
+        "Surprise",
+        0.1853
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2868,
+      "Serotonin": 0.4568,
+      "Oxytocin": 0.2613,
+      "Endorphin": 0.4019,
+      "Cortisol": 0.5875,
+      "Adrenaline": 0.2825,
+      "GABA": 0.3106,
+      "Norepinephrine": 0.2676
+    },
+    "trust": 0.7455,
+    "output_intensity": 0.2015
+  },
+  {
+    "turn": 25,
+    "message": "ไม่ค่อยดีเท่าไร",
+    "input": {
+      "S": 0.021262654405414062,
+      "D": 0.39992312594922774,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0421,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.1769,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.448,
+      "GABA": 0.0,
+      "Norepinephrine": 0.3896
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.3236,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.1812,
+      "Cortisol": 0.2666,
+      "Adrenaline": 0.084,
+      "GABA": -0.2064,
+      "Norepinephrine": 0.0679
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1186,
+      "Sadness": 0.2247,
+      "Fear": 0.2682,
+      "Anger": 0.22,
+      "Surprise": 0.1685
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2682,
+    "emotion_blend": "Fear(0.27) + Sadness(0.22) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2682
+      ],
+      [
+        "Sadness",
+        0.2247
+      ],
+      [
+        "Anger",
+        0.22
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2581,
+      "Serotonin": 0.4153,
+      "Oxytocin": 0.2352,
+      "Endorphin": 0.3794,
+      "Cortisol": 0.6288,
+      "Adrenaline": 0.2991,
+      "GABA": 0.2796,
+      "Norepinephrine": 0.2798
+    },
+    "trust": 0.7268,
+    "output_intensity": 0.1949
+  },
+  {
+    "turn": 26,
+    "message": "ไม่เอาแล้ว!",
+    "input": {
+      "S": 0.0,
+      "D": 0.7139630319525506,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.8853,
+      "GABA": 0.0,
+      "Norepinephrine": 0.7529
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.0421,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.1769,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.4373,
+      "GABA": 0.0,
+      "Norepinephrine": 0.3633
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1428,
+      "Sadness": 0.1825,
+      "Fear": 0.2606,
+      "Anger": 0.224,
+      "Surprise": 0.19
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2606,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Surprise(0.19)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2606
+      ],
+      [
+        "Anger",
+        0.224
+      ],
+      [
+        "Surprise",
+        0.19
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2323,
+      "Serotonin": 0.3738,
+      "Oxytocin": 0.2117,
+      "Endorphin": 0.3415,
+      "Cortisol": 0.6659,
+      "Adrenaline": 0.3577,
+      "GABA": 0.2516,
+      "Norepinephrine": 0.3271
+    },
+    "trust": 0.6911,
+    "output_intensity": 0.1801
+  },
+  {
+    "turn": 27,
+    "message": "ไม่เลว",
+    "input": {
+      "S": 0.303897728966729,
+      "D": 0.17470138116522577,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.125,
+      "Serotonin": 0.067,
+      "Oxytocin": 0.0997,
+      "Endorphin": 0.0894,
+      "Cortisol": 0.9921,
+      "Adrenaline": 0.3305,
+      "GABA": 0.0308,
+      "Norepinephrine": 0.2962
+    },
+    "hormone_delta": {
+      "Dopamine": 0.125,
+      "Serotonin": 0.067,
+      "Oxytocin": 0.0997,
+      "Endorphin": 0.0894,
+      "Cortisol": -0.0079,
+      "Adrenaline": -0.5548,
+      "GABA": 0.0308,
+      "Norepinephrine": -0.4567
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1195,
+      "Sadness": 0.2338,
+      "Fear": 0.2725,
+      "Anger": 0.209,
+      "Surprise": 0.1652
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2725,
+    "emotion_blend": "Fear(0.27) + Sadness(0.23) + Anger(0.21)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2725
+      ],
+      [
+        "Sadness",
+        0.2338
+      ],
+      [
+        "Anger",
+        0.209
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2216,
+      "Serotonin": 0.3431,
+      "Oxytocin": 0.2005,
+      "Endorphin": 0.3163,
+      "Cortisol": 0.6985,
+      "Adrenaline": 0.355,
+      "GABA": 0.2295,
+      "Norepinephrine": 0.324
+    },
+    "trust": 0.7006,
+    "output_intensity": 0.1909
+  },
+  {
+    "turn": 28,
+    "message": "โง่ชะมัด",
+    "input": {
+      "S": 0.039782288360247706,
+      "D": 0.8399400505140397,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.9243
+    },
+    "hormone_delta": {
+      "Dopamine": -0.125,
+      "Serotonin": -0.067,
+      "Oxytocin": -0.0997,
+      "Endorphin": -0.0894,
+      "Cortisol": 0.0079,
+      "Adrenaline": 0.6695,
+      "GABA": -0.0308,
+      "Norepinephrine": 0.6281
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1506,
+      "Sadness": 0.1696,
+      "Fear": 0.2581,
+      "Anger": 0.2258,
+      "Surprise": 0.196
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2581,
+    "emotion_blend": "Fear(0.26) + Anger(0.23) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2581
+      ],
+      [
+        "Anger",
+        0.2258
+      ],
+      [
+        "Surprise",
+        0.196
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1994,
+      "Serotonin": 0.3088,
+      "Oxytocin": 0.1804,
+      "Endorphin": 0.2846,
+      "Cortisol": 0.7287,
+      "Adrenaline": 0.4195,
+      "GABA": 0.2066,
+      "Norepinephrine": 0.384
+    },
+    "trust": 0.661,
+    "output_intensity": 0.1706
+  },
+  {
+    "turn": 29,
+    "message": "อืม ได้เลย",
+    "input": {
+      "S": 0.2497325777989161,
+      "D": 0.013833174489085588,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.2174,
+      "Serotonin": 0.1552,
+      "Oxytocin": 0.1606,
+      "Endorphin": 0.1155,
+      "Cortisol": 0.8301,
+      "Adrenaline": 0.2095,
+      "GABA": 0.1061,
+      "Norepinephrine": 0.206
+    },
+    "hormone_delta": {
+      "Dopamine": 0.2174,
+      "Serotonin": 0.1552,
+      "Oxytocin": 0.1606,
+      "Endorphin": 0.1155,
+      "Cortisol": -0.1699,
+      "Adrenaline": -0.7905,
+      "GABA": 0.1061,
+      "Norepinephrine": -0.7183
+    },
+    "emotions": {
+      "Joy": 0.035,
+      "Serenity": 0.0,
+      "Love": 0.0328,
+      "Excitement": 0.1386,
+      "Sadness": 0.1957,
+      "Fear": 0.2601,
+      "Anger": 0.1749,
+      "Surprise": 0.1629
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2601,
+    "emotion_blend": "Fear(0.26) + Sadness(0.20) + Anger(0.17)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2601
+      ],
+      [
+        "Sadness",
+        0.1957
+      ],
+      [
+        "Anger",
+        0.1749
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2012,
+      "Serotonin": 0.2934,
+      "Oxytocin": 0.1785,
+      "Endorphin": 0.2677,
+      "Cortisol": 0.7388,
+      "Adrenaline": 0.3985,
+      "GABA": 0.1965,
+      "Norepinephrine": 0.3662
+    },
+    "trust": 0.6753,
+    "output_intensity": 0.1757
+  },
+  {
+    "turn": 30,
+    "message": "ก็ดีนะ แต่ยังไม่ใช่",
+    "input": {
+      "S": 0.25909094121737936,
+      "D": 0.30471163754247343,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0706,
+      "Oxytocin": 0.0532,
+      "Endorphin": 0.124,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.3608,
+      "GABA": 0.021,
+      "Norepinephrine": 0.3234
+    },
+    "hormone_delta": {
+      "Dopamine": -0.2174,
+      "Serotonin": -0.0846,
+      "Oxytocin": -0.1074,
+      "Endorphin": 0.0086,
+      "Cortisol": 0.1699,
+      "Adrenaline": 0.1512,
+      "GABA": -0.0851,
+      "Norepinephrine": 0.1175
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1059,
+      "Sadness": 0.2401,
+      "Fear": 0.2759,
+      "Anger": 0.2178,
+      "Surprise": 0.1604
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2759,
+    "emotion_blend": "Fear(0.28) + Sadness(0.24) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2759
+      ],
+      [
+        "Sadness",
+        0.2401
+      ],
+      [
+        "Anger",
+        0.2178
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1811,
+      "Serotonin": 0.2711,
+      "Oxytocin": 0.1659,
+      "Endorphin": 0.2533,
+      "Cortisol": 0.7649,
+      "Adrenaline": 0.3947,
+      "GABA": 0.179,
+      "Norepinephrine": 0.3619
+    },
+    "trust": 0.6756,
+    "output_intensity": 0.1864
+  },
+  {
+    "turn": 31,
+    "message": "ขอบใจนะ",
+    "input": {
+      "S": 0.5152841319348261,
+      "D": 0.015998200172245028,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.4497,
+      "Serotonin": 0.3588,
+      "Oxytocin": 0.3537,
+      "Endorphin": 0.3263,
+      "Cortisol": 0.7412,
+      "Adrenaline": 0.1428,
+      "GABA": 0.2124,
+      "Norepinephrine": 0.1455
+    },
+    "hormone_delta": {
+      "Dopamine": 0.4497,
+      "Serotonin": 0.2882,
+      "Oxytocin": 0.3005,
+      "Endorphin": 0.2022,
+      "Cortisol": -0.2588,
+      "Adrenaline": -0.2179,
+      "GABA": 0.1914,
+      "Norepinephrine": -0.1779
+    },
+    "emotions": {
+      "Joy": 0.2429,
+      "Serenity": 0.1055,
+      "Love": 0.2008,
+      "Excitement": 0.1898,
+      "Sadness": 0.0,
+      "Fear": 0.1153,
+      "Anger": 0.0173,
+      "Surprise": 0.1285
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2429,
+    "emotion_blend": "Joy(0.24) + Love(0.20) + Excitement(0.19)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2429
+      ],
+      [
+        "Love",
+        0.2008
+      ],
+      [
+        "Excitement",
+        0.1898
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2079,
+      "Serotonin": 0.2799,
+      "Oxytocin": 0.1847,
+      "Endorphin": 0.2606,
+      "Cortisol": 0.7626,
+      "Adrenaline": 0.3695,
+      "GABA": 0.1823,
+      "Norepinephrine": 0.3403
+    },
+    "trust": 0.7057,
+    "output_intensity": 0.1714
+  },
+  {
+    "turn": 32,
+    "message": "โง่ชะมัด",
+    "input": {
+      "S": 0.009640903073197385,
+      "D": 0.83847673116745,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.8929
+    },
+    "hormone_delta": {
+      "Dopamine": -0.4497,
+      "Serotonin": -0.3588,
+      "Oxytocin": -0.3537,
+      "Endorphin": -0.3263,
+      "Cortisol": 0.2588,
+      "Adrenaline": 0.8572,
+      "GABA": -0.2124,
+      "Norepinephrine": 0.7473
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1501,
+      "Sadness": 0.1709,
+      "Fear": 0.2583,
+      "Anger": 0.2252,
+      "Surprise": 0.1955
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2583,
+    "emotion_blend": "Fear(0.26) + Anger(0.23) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2583
+      ],
+      [
+        "Anger",
+        0.2252
+      ],
+      [
+        "Surprise",
+        0.1955
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1871,
+      "Serotonin": 0.2519,
+      "Oxytocin": 0.1662,
+      "Endorphin": 0.2346,
+      "Cortisol": 0.7863,
+      "Adrenaline": 0.4326,
+      "GABA": 0.1641,
+      "Norepinephrine": 0.3956
+    },
+    "trust": 0.6644,
+    "output_intensity": 0.1716
+  },
+  {
+    "turn": 33,
+    "message": "ไม่เอาแล้ว!",
+    "input": {
+      "S": 0.002911434509913699,
+      "D": 0.7971078377613618,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.9062
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.0134
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1503,
+      "Sadness": 0.1703,
+      "Fear": 0.2582,
+      "Anger": 0.2255,
+      "Surprise": 0.1957
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2582,
+    "emotion_blend": "Fear(0.26) + Anger(0.23) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2582
+      ],
+      [
+        "Anger",
+        0.2255
+      ],
+      [
+        "Surprise",
+        0.1957
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1684,
+      "Serotonin": 0.2267,
+      "Oxytocin": 0.1496,
+      "Endorphin": 0.2111,
+      "Cortisol": 0.8077,
+      "Adrenaline": 0.4893,
+      "GABA": 0.1477,
+      "Norepinephrine": 0.4466
+    },
+    "trust": 0.6247,
+    "output_intensity": 0.1613
+  },
+  {
+    "turn": 34,
+    "message": "ขอบคุณมากเลย ช่วยได้เยอะ",
+    "input": {
+      "S": 0.7680283410256519,
+      "D": 0.011455174298368662,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.6585,
+      "Serotonin": 0.4353,
+      "Oxytocin": 0.4922,
+      "Endorphin": 0.3394,
+      "Cortisol": 0.6584,
+      "Adrenaline": 0.2592,
+      "GABA": 0.2755,
+      "Norepinephrine": 0.255
+    },
+    "hormone_delta": {
+      "Dopamine": 0.6585,
+      "Serotonin": 0.4353,
+      "Oxytocin": 0.4922,
+      "Endorphin": 0.3394,
+      "Cortisol": -0.3416,
+      "Adrenaline": -0.7408,
+      "GABA": 0.2755,
+      "Norepinephrine": -0.6513
+    },
+    "emotions": {
+      "Joy": 0.2662,
+      "Serenity": 0.118,
+      "Love": 0.2132,
+      "Excitement": 0.2098,
+      "Sadness": 0.0,
+      "Fear": 0.0614,
+      "Anger": 0.0,
+      "Surprise": 0.1314
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2662,
+    "emotion_blend": "Joy(0.27) + Love(0.21) + Excitement(0.21)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2662
+      ],
+      [
+        "Love",
+        0.2132
+      ],
+      [
+        "Excitement",
+        0.2098
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2174,
+      "Serotonin": 0.2476,
+      "Oxytocin": 0.1839,
+      "Endorphin": 0.2239,
+      "Cortisol": 0.7927,
+      "Adrenaline": 0.4663,
+      "GABA": 0.1605,
+      "Norepinephrine": 0.4275
+    },
+    "trust": 0.6702,
+    "output_intensity": 0.1784
+  },
+  {
+    "turn": 35,
+    "message": "โอเค แต่ครั้งหน้าทำให้ดีกว่านี้",
+    "input": {
+      "S": 0.275087779959161,
+      "D": 0.3268598732657446,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0276,
+      "Serotonin": 0.2873,
+      "Oxytocin": 0.1588,
+      "Endorphin": 0.2925,
+      "Cortisol": 0.9005,
+      "Adrenaline": 0.3865,
+      "GABA": 0.1496,
+      "Norepinephrine": 0.3465
+    },
+    "hormone_delta": {
+      "Dopamine": -0.6309,
+      "Serotonin": -0.148,
+      "Oxytocin": -0.3334,
+      "Endorphin": -0.0469,
+      "Cortisol": 0.2421,
+      "Adrenaline": 0.1273,
+      "GABA": -0.1259,
+      "Norepinephrine": 0.0915
+    },
+    "emotions": {
+      "Joy": 0.0209,
+      "Serenity": 0.0,
+      "Love": 0.0315,
+      "Excitement": 0.1476,
+      "Sadness": 0.1595,
+      "Fear": 0.269,
+      "Anger": 0.1926,
+      "Surprise": 0.1791
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.269,
+    "emotion_blend": "Fear(0.27) + Anger(0.19) + Surprise(0.18)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.269
+      ],
+      [
+        "Anger",
+        0.1926
+      ],
+      [
+        "Surprise",
+        0.1791
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1985,
+      "Serotonin": 0.2516,
+      "Oxytocin": 0.1814,
+      "Endorphin": 0.2308,
+      "Cortisol": 0.8035,
+      "Adrenaline": 0.4583,
+      "GABA": 0.1594,
+      "Norepinephrine": 0.4194
+    },
+    "trust": 0.6703,
+    "output_intensity": 0.1803
+  },
+  {
+    "turn": 36,
+    "message": "ผิดอีกแล้ว",
+    "input": {
+      "S": 0.0,
+      "D": 0.4934765250669105,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0731,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.5831,
+      "GABA": 0.0,
+      "Norepinephrine": 0.5026
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0276,
+      "Serotonin": -0.2873,
+      "Oxytocin": -0.1588,
+      "Endorphin": -0.2194,
+      "Cortisol": 0.0995,
+      "Adrenaline": 0.1966,
+      "GABA": -0.1496,
+      "Norepinephrine": 0.1561
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1239,
+      "Sadness": 0.2134,
+      "Fear": 0.2656,
+      "Anger": 0.2222,
+      "Surprise": 0.1749
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2656,
+    "emotion_blend": "Fear(0.27) + Anger(0.22) + Sadness(0.21)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2656
+      ],
+      [
+        "Anger",
+        0.2222
+      ],
+      [
+        "Sadness",
+        0.2134
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1786,
+      "Serotonin": 0.2264,
+      "Oxytocin": 0.1632,
+      "Endorphin": 0.215,
+      "Cortisol": 0.8232,
+      "Adrenaline": 0.4708,
+      "GABA": 0.1434,
+      "Norepinephrine": 0.4277
+    },
+    "trust": 0.6457,
+    "output_intensity": 0.1715
+  },
+  {
+    "turn": 37,
+    "message": "ไม่เอาแล้ว!",
+    "input": {
+      "S": 0.0,
+      "D": 0.7722092061309911,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.9704,
+      "GABA": 0.0,
+      "Norepinephrine": 0.8239
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.0731,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.3873,
+      "GABA": 0.0,
+      "Norepinephrine": 0.3213
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1479,
+      "Sadness": 0.1751,
+      "Fear": 0.2591,
+      "Anger": 0.2242,
+      "Surprise": 0.1937
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2591,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Surprise(0.19)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2591
+      ],
+      [
+        "Anger",
+        0.2242
+      ],
+      [
+        "Surprise",
+        0.1937
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1607,
+      "Serotonin": 0.2038,
+      "Oxytocin": 0.1469,
+      "Endorphin": 0.1935,
+      "Cortisol": 0.8409,
+      "Adrenaline": 0.5208,
+      "GABA": 0.1291,
+      "Norepinephrine": 0.4673
+    },
+    "trust": 0.6071,
+    "output_intensity": 0.1573
+  },
+  {
+    "turn": 38,
+    "message": "เดี๋ยวค่อยว่ากัน",
+    "input": {
+      "S": 0.14718880988701144,
+      "D": 0.17619621990520645,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.0096,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0129,
+      "Endorphin": 0.031,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.3314,
+      "GABA": 0.0,
+      "Norepinephrine": 0.2944
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0096,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0129,
+      "Endorphin": 0.031,
+      "Cortisol": 0.0,
+      "Adrenaline": -0.639,
+      "GABA": 0.0,
+      "Norepinephrine": -0.5295
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.0914,
+      "Sadness": 0.2604,
+      "Fear": 0.276,
+      "Anger": 0.2204,
+      "Surprise": 0.1518
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.276,
+    "emotion_blend": "Fear(0.28) + Sadness(0.26) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.276
+      ],
+      [
+        "Sadness",
+        0.2604
+      ],
+      [
+        "Anger",
+        0.2204
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1456,
+      "Serotonin": 0.1834,
+      "Oxytocin": 0.1335,
+      "Endorphin": 0.1773,
+      "Cortisol": 0.8568,
+      "Adrenaline": 0.5018,
+      "GABA": 0.1162,
+      "Norepinephrine": 0.45
+    },
+    "trust": 0.6071,
+    "output_intensity": 0.1676
+  },
+  {
+    "turn": 39,
+    "message": "ขอบคุณ แต่ผิดนะ",
+    "input": {
+      "S": 0.4412627839344821,
+      "D": 0.4370518569836767,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0064,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0313,
+      "Endorphin": 0.0923,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.521,
+      "GABA": 0.0,
+      "Norepinephrine": 0.4583
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0031,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0184,
+      "Endorphin": 0.0614,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1896,
+      "GABA": 0.0,
+      "Norepinephrine": 0.1639
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1213,
+      "Sadness": 0.2194,
+      "Fear": 0.2664,
+      "Anger": 0.2206,
+      "Surprise": 0.1722
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2664,
+    "emotion_blend": "Fear(0.27) + Anger(0.22) + Sadness(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2664
+      ],
+      [
+        "Anger",
+        0.2206
+      ],
+      [
+        "Sadness",
+        0.2194
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1317,
+      "Serotonin": 0.165,
+      "Oxytocin": 0.1233,
+      "Endorphin": 0.1688,
+      "Cortisol": 0.8711,
+      "Adrenaline": 0.5037,
+      "GABA": 0.1046,
+      "Norepinephrine": 0.4508
+    },
+    "trust": 0.6117,
+    "output_intensity": 0.163
+  },
+  {
+    "turn": 40,
+    "message": "งั้นเอาแบบนี้",
+    "input": {
+      "S": 0.2341669348172467,
+      "D": 0.10076628819776343,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.1449,
+      "Serotonin": 0.0917,
+      "Oxytocin": 0.1218,
+      "Endorphin": 0.1597,
+      "Cortisol": 0.9342,
+      "Adrenaline": 0.2196,
+      "GABA": 0.0547,
+      "Norepinephrine": 0.2044
+    },
+    "hormone_delta": {
+      "Dopamine": 0.1385,
+      "Serotonin": 0.0917,
+      "Oxytocin": 0.0905,
+      "Endorphin": 0.0673,
+      "Cortisol": -0.0658,
+      "Adrenaline": -0.3014,
+      "GABA": 0.0547,
+      "Norepinephrine": -0.2539
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1207,
+      "Sadness": 0.2432,
+      "Fear": 0.2754,
+      "Anger": 0.2004,
+      "Surprise": 0.1603
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2754,
+    "emotion_blend": "Fear(0.28) + Sadness(0.24) + Anger(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2754
+      ],
+      [
+        "Sadness",
+        0.2432
+      ],
+      [
+        "Anger",
+        0.2004
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.133,
+      "Serotonin": 0.1577,
+      "Oxytocin": 0.1231,
+      "Endorphin": 0.1679,
+      "Cortisol": 0.8774,
+      "Adrenaline": 0.4753,
+      "GABA": 0.0996,
+      "Norepinephrine": 0.4262
+    },
+    "trust": 0.6207,
+    "output_intensity": 0.171
+  },
+  {
+    "turn": 41,
+    "message": "ช่วยเช็คตารางหน่อย",
+    "input": {
+      "S": 0.11528392685496347,
+      "D": 0.12625108000751512,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0368,
+      "Serotonin": 0.0848,
+      "Oxytocin": 0.0639,
+      "Endorphin": 0.1535,
+      "Cortisol": 0.9448,
+      "Adrenaline": 0.1853,
+      "GABA": 0.0466,
+      "Norepinephrine": 0.1731
+    },
+    "hormone_delta": {
+      "Dopamine": -0.108,
+      "Serotonin": -0.0069,
+      "Oxytocin": -0.0579,
+      "Endorphin": -0.0061,
+      "Cortisol": 0.0106,
+      "Adrenaline": -0.0343,
+      "GABA": -0.0081,
+      "Norepinephrine": -0.0313
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.0874,
+      "Sadness": 0.2748,
+      "Fear": 0.2847,
+      "Anger": 0.2105,
+      "Surprise": 0.1427
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2847,
+    "emotion_blend": "Fear(0.28) + Sadness(0.27) + Anger(0.21)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2847
+      ],
+      [
+        "Sadness",
+        0.2748
+      ],
+      [
+        "Anger",
+        0.2105
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1234,
+      "Serotonin": 0.1504,
+      "Oxytocin": 0.1172,
+      "Endorphin": 0.1664,
+      "Cortisol": 0.8841,
+      "Adrenaline": 0.4463,
+      "GABA": 0.0943,
+      "Norepinephrine": 0.4009
+    },
+    "trust": 0.6213,
+    "output_intensity": 0.1769
+  },
+  {
+    "turn": 42,
+    "message": "โอเค แต่ครั้งหน้าทำให้ดีกว่านี้",
+    "input": {
+      "S": 0.2953499747653503,
+      "D": 0.34224340806182746,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0026,
+      "Oxytocin": 0.0195,
+      "Endorphin": 0.1541,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.3967,
+      "GABA": 0.0,
+      "Norepinephrine": 0.3521
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0368,
+      "Serotonin": -0.0822,
+      "Oxytocin": -0.0444,
+      "Endorphin": 0.0006,
+      "Cortisol": 0.0552,
+      "Adrenaline": 0.2114,
+      "GABA": -0.0466,
+      "Norepinephrine": 0.179
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1105,
+      "Sadness": 0.2384,
+      "Fear": 0.2689,
+      "Anger": 0.2194,
+      "Surprise": 0.1628
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2689,
+    "emotion_blend": "Fear(0.27) + Sadness(0.24) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2689
+      ],
+      [
+        "Sadness",
+        0.2384
+      ],
+      [
+        "Anger",
+        0.2194
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1111,
+      "Serotonin": 0.1356,
+      "Oxytocin": 0.1074,
+      "Endorphin": 0.1652,
+      "Cortisol": 0.8957,
+      "Adrenaline": 0.4414,
+      "GABA": 0.0848,
+      "Norepinephrine": 0.396
+    },
+    "trust": 0.6219,
+    "output_intensity": 0.1673
+  },
+  {
+    "turn": 43,
+    "message": "ขอบคุณมากเลย ช่วยได้เยอะ",
+    "input": {
+      "S": 0.7598944584460229,
+      "D": 0.04886057080289479,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.6176,
+      "Serotonin": 0.405,
+      "Oxytocin": 0.471,
+      "Endorphin": 0.4383,
+      "Cortisol": 0.7052,
+      "Adrenaline": 0.2018,
+      "GABA": 0.2509,
+      "Norepinephrine": 0.1991
+    },
+    "hormone_delta": {
+      "Dopamine": 0.6176,
+      "Serotonin": 0.4024,
+      "Oxytocin": 0.4515,
+      "Endorphin": 0.2842,
+      "Cortisol": -0.2948,
+      "Adrenaline": -0.1949,
+      "GABA": 0.2509,
+      "Norepinephrine": -0.1529
+    },
+    "emotions": {
+      "Joy": 0.2702,
+      "Serenity": 0.1222,
+      "Love": 0.2157,
+      "Excitement": 0.2063,
+      "Sadness": 0.0,
+      "Fear": 0.0602,
+      "Anger": 0.0,
+      "Surprise": 0.1253
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2702,
+    "emotion_blend": "Joy(0.27) + Love(0.22) + Excitement(0.21)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2702
+      ],
+      [
+        "Love",
+        0.2157
+      ],
+      [
+        "Excitement",
+        0.2063
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1617,
+      "Serotonin": 0.1626,
+      "Oxytocin": 0.1438,
+      "Endorphin": 0.1925,
+      "Cortisol": 0.8767,
+      "Adrenaline": 0.4174,
+      "GABA": 0.1015,
+      "Norepinephrine": 0.3763
+    },
+    "trust": 0.6651,
+    "output_intensity": 0.1797
+  },
+  {
+    "turn": 44,
+    "message": "ขอบใจนะ",
+    "input": {
+      "S": 0.5929098616264618,
+      "D": 0.08787218778231842,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.4992,
+      "Serotonin": 0.6135,
+      "Oxytocin": 0.4951,
+      "Endorphin": 0.5722,
+      "Cortisol": 0.5475,
+      "Adrenaline": 0.1872,
+      "GABA": 0.3785,
+      "Norepinephrine": 0.1854
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1184,
+      "Serotonin": 0.2086,
+      "Oxytocin": 0.0241,
+      "Endorphin": 0.1339,
+      "Cortisol": -0.1577,
+      "Adrenaline": -0.0146,
+      "GABA": 0.1275,
+      "Norepinephrine": -0.0137
+    },
+    "emotions": {
+      "Joy": 0.2975,
+      "Serenity": 0.2239,
+      "Love": 0.2498,
+      "Excitement": 0.1624,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0665
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2975,
+    "emotion_blend": "Joy(0.30) + Love(0.25) + Serenity(0.22)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2975
+      ],
+      [
+        "Love",
+        0.2498
+      ],
+      [
+        "Serenity",
+        0.2239
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1955,
+      "Serotonin": 0.2077,
+      "Oxytocin": 0.1789,
+      "Endorphin": 0.2305,
+      "Cortisol": 0.8438,
+      "Adrenaline": 0.3944,
+      "GABA": 0.1292,
+      "Norepinephrine": 0.3572
+    },
+    "trust": 0.6963,
+    "output_intensity": 0.2071
+  },
+  {
+    "turn": 45,
+    "message": "งั้นเอาแบบนี้",
+    "input": {
+      "S": 0.17394523103380588,
+      "D": 0.07408715924472331,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.1656,
+      "Serotonin": 0.5766,
+      "Oxytocin": 0.259,
+      "Endorphin": 0.5053,
+      "Cortisol": 0.525,
+      "Adrenaline": 0.1304,
+      "GABA": 0.36,
+      "Norepinephrine": 0.13
+    },
+    "hormone_delta": {
+      "Dopamine": -0.3336,
+      "Serotonin": -0.0369,
+      "Oxytocin": -0.2362,
+      "Endorphin": -0.0669,
+      "Cortisol": -0.0225,
+      "Adrenaline": -0.0567,
+      "GABA": -0.0184,
+      "Norepinephrine": -0.0554
+    },
+    "emotions": {
+      "Joy": 0.2891,
+      "Serenity": 0.3017,
+      "Love": 0.2503,
+      "Excitement": 0.1202,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0388
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3017,
+    "emotion_blend": "Serenity(0.30) + Joy(0.29) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3017
+      ],
+      [
+        "Joy",
+        0.2891
+      ],
+      [
+        "Love",
+        0.2503
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1925,
+      "Serotonin": 0.2446,
+      "Oxytocin": 0.1869,
+      "Endorphin": 0.258,
+      "Cortisol": 0.8119,
+      "Adrenaline": 0.368,
+      "GABA": 0.1522,
+      "Norepinephrine": 0.3345
+    },
+    "trust": 0.703,
+    "output_intensity": 0.2121
+  },
+  {
+    "turn": 46,
+    "message": "รักเลย",
+    "input": {
+      "S": 0.8085653452067878,
+      "D": 0.0,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.9174,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.7639,
+      "Endorphin": 0.8398,
+      "Cortisol": 0.141,
+      "Adrenaline": 0.1355,
+      "GABA": 0.6638,
+      "Norepinephrine": 0.1495
+    },
+    "hormone_delta": {
+      "Dopamine": 0.7519,
+      "Serotonin": 0.4234,
+      "Oxytocin": 0.5049,
+      "Endorphin": 0.3344,
+      "Cortisol": -0.384,
+      "Adrenaline": 0.005,
+      "GABA": 0.3038,
+      "Norepinephrine": 0.0195
+    },
+    "emotions": {
+      "Joy": 0.3298,
+      "Serenity": 0.2851,
+      "Love": 0.2629,
+      "Excitement": 0.1222,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3298,
+    "emotion_blend": "Joy(0.33) + Serenity(0.29) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3298
+      ],
+      [
+        "Serenity",
+        0.2851
+      ],
+      [
+        "Love",
+        0.2629
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.265,
+      "Serotonin": 0.3201,
+      "Oxytocin": 0.2446,
+      "Endorphin": 0.3161,
+      "Cortisol": 0.7448,
+      "Adrenaline": 0.3447,
+      "GABA": 0.2034,
+      "Norepinephrine": 0.316
+    },
+    "trust": 0.7515,
+    "output_intensity": 0.2478
+  },
+  {
+    "turn": 47,
+    "message": "น่ารักจัง",
+    "input": {
+      "S": 0.6477984493677333,
+      "D": 0.003270616952951569,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.7558,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.7629,
+      "Endorphin": 0.9788,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1075,
+      "GABA": 0.8225,
+      "Norepinephrine": 0.1237
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1617,
+      "Serotonin": 0.0,
+      "Oxytocin": -0.001,
+      "Endorphin": 0.1391,
+      "Cortisol": -0.141,
+      "Adrenaline": -0.028,
+      "GABA": 0.1587,
+      "Norepinephrine": -0.0258
+    },
+    "emotions": {
+      "Joy": 0.3235,
+      "Serenity": 0.313,
+      "Love": 0.2663,
+      "Excitement": 0.0972,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3235,
+    "emotion_blend": "Joy(0.32) + Serenity(0.31) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3235
+      ],
+      [
+        "Serenity",
+        0.313
+      ],
+      [
+        "Love",
+        0.2663
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3141,
+      "Serotonin": 0.3881,
+      "Oxytocin": 0.2964,
+      "Endorphin": 0.3824,
+      "Cortisol": 0.6703,
+      "Adrenaline": 0.321,
+      "GABA": 0.2653,
+      "Norepinephrine": 0.2968
+    },
+    "trust": 0.7902,
+    "output_intensity": 0.2556
+  },
+  {
+    "turn": 48,
+    "message": "ดีใจที่มีเธอ",
+    "input": {
+      "S": 0.7628391464499763,
+      "D": 0.0,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.9216,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.8975,
+      "Endorphin": 1.0,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1171,
+      "GABA": 1.0,
+      "Norepinephrine": 0.1355
+    },
+    "hormone_delta": {
+      "Dopamine": 0.1658,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.1347,
+      "Endorphin": 0.0212,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.0097,
+      "GABA": 0.1775,
+      "Norepinephrine": 0.0119
+    },
+    "emotions": {
+      "Joy": 0.325,
+      "Serenity": 0.3072,
+      "Love": 0.2701,
+      "Excitement": 0.0976,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.325,
+    "emotion_blend": "Joy(0.33) + Serenity(0.31) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.325
+      ],
+      [
+        "Serenity",
+        0.3072
+      ],
+      [
+        "Love",
+        0.2701
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3748,
+      "Serotonin": 0.4493,
+      "Oxytocin": 0.3566,
+      "Endorphin": 0.4442,
+      "Cortisol": 0.6033,
+      "Adrenaline": 0.3006,
+      "GABA": 0.3388,
+      "Norepinephrine": 0.2806
+    },
+    "trust": 0.836,
+    "output_intensity": 0.2717
+  },
+  {
+    "turn": 49,
+    "message": "ไม่เลว",
+    "input": {
+      "S": 0.2665126958974128,
+      "D": 0.1527673787418254,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.2003,
+      "Serotonin": 0.8783,
+      "Oxytocin": 0.3973,
+      "Endorphin": 0.8353,
+      "Cortisol": 0.1058,
+      "Adrenaline": 0.1738,
+      "GABA": 0.8392,
+      "Norepinephrine": 0.1692
+    },
+    "hormone_delta": {
+      "Dopamine": -0.7213,
+      "Serotonin": -0.1217,
+      "Oxytocin": -0.5003,
+      "Endorphin": -0.1647,
+      "Cortisol": 0.1058,
+      "Adrenaline": 0.0567,
+      "GABA": -0.1608,
+      "Norepinephrine": 0.0336
+    },
+    "emotions": {
+      "Joy": 0.3035,
+      "Serenity": 0.3763,
+      "Love": 0.2577,
+      "Excitement": 0.0626,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3763,
+    "emotion_blend": "Serenity(0.38) + Joy(0.30) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3763
+      ],
+      [
+        "Joy",
+        0.3035
+      ],
+      [
+        "Love",
+        0.2577
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3573,
+      "Serotonin": 0.4922,
+      "Oxytocin": 0.3606,
+      "Endorphin": 0.4833,
+      "Cortisol": 0.5535,
+      "Adrenaline": 0.2879,
+      "GABA": 0.3888,
+      "Norepinephrine": 0.2695
+    },
+    "trust": 0.8443,
+    "output_intensity": 0.3177
+  },
+  {
+    "turn": 50,
+    "message": "โง่ชะมัด",
+    "input": {
+      "S": 0.04643629060074553,
+      "D": 0.8928913493002176,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.3113,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0132,
+      "Norepinephrine": 0.9464
+    },
+    "hormone_delta": {
+      "Dopamine": -0.2003,
+      "Serotonin": -0.8783,
+      "Oxytocin": -0.3973,
+      "Endorphin": -0.5241,
+      "Cortisol": 0.8942,
+      "Adrenaline": 0.8262,
+      "GABA": -0.826,
+      "Norepinephrine": 0.7772
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1669,
+      "Sadness": 0.1557,
+      "Fear": 0.2509,
+      "Anger": 0.2235,
+      "Surprise": 0.203
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2509,
+    "emotion_blend": "Fear(0.25) + Anger(0.22) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2509
+      ],
+      [
+        "Anger",
+        0.2235
+      ],
+      [
+        "Surprise",
+        0.203
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3216,
+      "Serotonin": 0.443,
+      "Oxytocin": 0.3246,
+      "Endorphin": 0.4661,
+      "Cortisol": 0.5982,
+      "Adrenaline": 0.3591,
+      "GABA": 0.3513,
+      "Norepinephrine": 0.3372
+    },
+    "trust": 0.8025,
+    "output_intensity": 0.2014
+  },
+  {
+    "turn": 51,
+    "message": "ช่วยเช็คตารางหน่อย",
+    "input": {
+      "S": 0.17129489728191216,
+      "D": 0.08989922999974292,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.1043,
+      "Serotonin": 0.0682,
+      "Oxytocin": 0.0802,
+      "Endorphin": 0.2995,
+      "Cortisol": 0.9404,
+      "Adrenaline": 0.276,
+      "GABA": 0.0525,
+      "Norepinephrine": 0.2636
+    },
+    "hormone_delta": {
+      "Dopamine": 0.1043,
+      "Serotonin": 0.0682,
+      "Oxytocin": 0.0802,
+      "Endorphin": -0.0118,
+      "Cortisol": -0.0596,
+      "Adrenaline": -0.724,
+      "GABA": 0.0392,
+      "Norepinephrine": -0.6828
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1342,
+      "Sadness": 0.2253,
+      "Fear": 0.266,
+      "Anger": 0.2055,
+      "Surprise": 0.1689
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.266,
+    "emotion_blend": "Fear(0.27) + Sadness(0.23) + Anger(0.21)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.266
+      ],
+      [
+        "Sadness",
+        0.2253
+      ],
+      [
+        "Anger",
+        0.2055
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2999,
+      "Serotonin": 0.4055,
+      "Oxytocin": 0.3001,
+      "Endorphin": 0.4494,
+      "Cortisol": 0.6324,
+      "Adrenaline": 0.3508,
+      "GABA": 0.3214,
+      "Norepinephrine": 0.3298
+    },
+    "trust": 0.8083,
+    "output_intensity": 0.215
+  },
+  {
+    "turn": 52,
+    "message": "ทำไมไม่เข้าใจ",
+    "input": {
+      "S": 0.0,
+      "D": 0.5517575841035591,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0563,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.6275,
+      "GABA": 0.0,
+      "Norepinephrine": 0.5409
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1043,
+      "Serotonin": -0.0682,
+      "Oxytocin": -0.0802,
+      "Endorphin": -0.2431,
+      "Cortisol": 0.0596,
+      "Adrenaline": 0.3515,
+      "GABA": -0.0525,
+      "Norepinephrine": 0.2772
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1269,
+      "Sadness": 0.2081,
+      "Fear": 0.2649,
+      "Anger": 0.2227,
+      "Surprise": 0.1774
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2649,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Sadness(0.21)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2649
+      ],
+      [
+        "Anger",
+        0.2227
+      ],
+      [
+        "Sadness",
+        0.2081
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2699,
+      "Serotonin": 0.3649,
+      "Oxytocin": 0.2701,
+      "Endorphin": 0.4101,
+      "Cortisol": 0.6692,
+      "Adrenaline": 0.3785,
+      "GABA": 0.2893,
+      "Norepinephrine": 0.3509
+    },
+    "trust": 0.7807,
+    "output_intensity": 0.2068
+  },
+  {
+    "turn": 53,
+    "message": "ขอบใจนะ",
+    "input": {
+      "S": 0.5247905613666008,
+      "D": 0.006402589632634494,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.4657,
+      "Serotonin": 0.3147,
+      "Oxytocin": 0.3477,
+      "Endorphin": 0.2826,
+      "Cortisol": 0.7277,
+      "Adrenaline": 0.1756,
+      "GABA": 0.2038,
+      "Norepinephrine": 0.1724
+    },
+    "hormone_delta": {
+      "Dopamine": 0.4657,
+      "Serotonin": 0.3147,
+      "Oxytocin": 0.3477,
+      "Endorphin": 0.2263,
+      "Cortisol": -0.2723,
+      "Adrenaline": -0.4519,
+      "GABA": 0.2038,
+      "Norepinephrine": -0.3685
+    },
+    "emotions": {
+      "Joy": 0.2259,
+      "Serenity": 0.0759,
+      "Love": 0.1837,
+      "Excitement": 0.1994,
+      "Sadness": 0.0,
+      "Fear": 0.1324,
+      "Anger": 0.0386,
+      "Surprise": 0.1442
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2259,
+    "emotion_blend": "Joy(0.23) + Excitement(0.20) + Love(0.18)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2259
+      ],
+      [
+        "Excitement",
+        0.1994
+      ],
+      [
+        "Love",
+        0.1837
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2895,
+      "Serotonin": 0.3599,
+      "Oxytocin": 0.2779,
+      "Endorphin": 0.3974,
+      "Cortisol": 0.675,
+      "Adrenaline": 0.3582,
+      "GABA": 0.2807,
+      "Norepinephrine": 0.3331
+    },
+    "trust": 0.8118,
+    "output_intensity": 0.1834
+  },
+  {
+    "turn": 54,
+    "message": "เก่งมากเลยนะ",
+    "input": {
+      "S": 0.8088308718457233,
+      "D": 0.0,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.7413,
+      "Serotonin": 0.7207,
+      "Oxytocin": 0.6412,
+      "Endorphin": 0.5729,
+      "Cortisol": 0.3929,
+      "Adrenaline": 0.1231,
+      "GABA": 0.4621,
+      "Norepinephrine": 0.1353
+    },
+    "hormone_delta": {
+      "Dopamine": 0.2755,
+      "Serotonin": 0.406,
+      "Oxytocin": 0.2935,
+      "Endorphin": 0.2903,
+      "Cortisol": -0.3348,
+      "Adrenaline": -0.0525,
+      "GABA": 0.2583,
+      "Norepinephrine": -0.0371
+    },
+    "emotions": {
+      "Joy": 0.3207,
+      "Serenity": 0.2491,
+      "Love": 0.2648,
+      "Excitement": 0.1396,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0258
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3207,
+    "emotion_blend": "Joy(0.32) + Love(0.26) + Serenity(0.25)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3207
+      ],
+      [
+        "Love",
+        0.2648
+      ],
+      [
+        "Serenity",
+        0.2491
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3347,
+      "Serotonin": 0.396,
+      "Oxytocin": 0.3142,
+      "Endorphin": 0.4149,
+      "Cortisol": 0.6468,
+      "Adrenaline": 0.3347,
+      "GABA": 0.2988,
+      "Norepinephrine": 0.3133
+    },
+    "trust": 0.8604,
+    "output_intensity": 0.2759
+  },
+  {
+    "turn": 55,
+    "message": "อืม ได้เลย",
+    "input": {
+      "S": 0.15071908389850935,
+      "D": 0.0707840946548454,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.1642,
+      "Serotonin": 0.6523,
+      "Oxytocin": 0.2909,
+      "Endorphin": 0.495,
+      "Cortisol": 0.3907,
+      "Adrenaline": 0.1054,
+      "GABA": 0.4224,
+      "Norepinephrine": 0.109
+    },
+    "hormone_delta": {
+      "Dopamine": -0.5771,
+      "Serotonin": -0.0684,
+      "Oxytocin": -0.3503,
+      "Endorphin": -0.0779,
+      "Cortisol": -0.0022,
+      "Adrenaline": -0.0176,
+      "GABA": -0.0397,
+      "Norepinephrine": -0.0263
+    },
+    "emotions": {
+      "Joy": 0.3017,
+      "Serenity": 0.3474,
+      "Love": 0.267,
+      "Excitement": 0.0838,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3474,
+    "emotion_blend": "Serenity(0.35) + Joy(0.30) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3474
+      ],
+      [
+        "Joy",
+        0.3017
+      ],
+      [
+        "Love",
+        0.267
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3176,
+      "Serotonin": 0.4216,
+      "Oxytocin": 0.3119,
+      "Endorphin": 0.4229,
+      "Cortisol": 0.6212,
+      "Adrenaline": 0.3118,
+      "GABA": 0.3112,
+      "Norepinephrine": 0.2929
+    },
+    "trust": 0.8659,
+    "output_intensity": 0.3008
+  },
+  {
+    "turn": 56,
+    "message": "ทำดีมากครับ",
+    "input": {
+      "S": 0.6228941783811155,
+      "D": 0.04054200130061279,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.5346,
+      "Serotonin": 0.8656,
+      "Oxytocin": 0.4894,
+      "Endorphin": 0.644,
+      "Cortisol": 0.2095,
+      "Adrenaline": 0.1276,
+      "GABA": 0.5558,
+      "Norepinephrine": 0.1348
+    },
+    "hormone_delta": {
+      "Dopamine": 0.3704,
+      "Serotonin": 0.2133,
+      "Oxytocin": 0.1984,
+      "Endorphin": 0.149,
+      "Cortisol": -0.1812,
+      "Adrenaline": 0.0222,
+      "GABA": 0.1334,
+      "Norepinephrine": 0.0258
+    },
+    "emotions": {
+      "Joy": 0.3225,
+      "Serenity": 0.3119,
+      "Love": 0.2593,
+      "Excitement": 0.1063,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3225,
+    "emotion_blend": "Joy(0.32) + Serenity(0.31) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3225
+      ],
+      [
+        "Serenity",
+        0.3119
+      ],
+      [
+        "Love",
+        0.2593
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3393,
+      "Serotonin": 0.466,
+      "Oxytocin": 0.3296,
+      "Endorphin": 0.445,
+      "Cortisol": 0.58,
+      "Adrenaline": 0.2933,
+      "GABA": 0.3357,
+      "Norepinephrine": 0.2771
+    },
+    "trust": 0.9012,
+    "output_intensity": 0.2906
+  },
+  {
+    "turn": 57,
+    "message": "ผิดอีกแล้ว",
+    "input": {
+      "S": 0.0,
+      "D": 0.4738004634368995,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.3414,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.3475,
+      "Cortisol": 0.8367,
+      "Adrenaline": 0.514,
+      "GABA": 0.1696,
+      "Norepinephrine": 0.4459
+    },
+    "hormone_delta": {
+      "Dopamine": -0.5346,
+      "Serotonin": -0.5242,
+      "Oxytocin": -0.4894,
+      "Endorphin": -0.2965,
+      "Cortisol": 0.6272,
+      "Adrenaline": 0.3864,
+      "GABA": -0.3862,
+      "Norepinephrine": 0.3111
+    },
+    "emotions": {
+      "Joy": 0.0193,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1672,
+      "Sadness": 0.1334,
+      "Fear": 0.2729,
+      "Anger": 0.2099,
+      "Surprise": 0.1973
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2729,
+    "emotion_blend": "Fear(0.27) + Anger(0.21) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2729
+      ],
+      [
+        "Anger",
+        0.2099
+      ],
+      [
+        "Surprise",
+        0.1973
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3054,
+      "Serotonin": 0.4536,
+      "Oxytocin": 0.2967,
+      "Endorphin": 0.4353,
+      "Cortisol": 0.6057,
+      "Adrenaline": 0.3154,
+      "GABA": 0.319,
+      "Norepinephrine": 0.294
+    },
+    "trust": 0.8775,
+    "output_intensity": 0.2394
+  },
+  {
+    "turn": 58,
+    "message": "ก็ดีนะ แต่ยังไม่ใช่",
+    "input": {
+      "S": 0.27142368073704387,
+      "D": 0.31323118487250246,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.218,
+      "Oxytocin": 0.0049,
+      "Endorphin": 0.299,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.4149,
+      "GABA": 0.0707,
+      "Norepinephrine": 0.3667
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.1234,
+      "Oxytocin": 0.0049,
+      "Endorphin": -0.0485,
+      "Cortisol": 0.1633,
+      "Adrenaline": -0.0991,
+      "GABA": -0.0989,
+      "Norepinephrine": -0.0792
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1308,
+      "Sadness": 0.2021,
+      "Fear": 0.2765,
+      "Anger": 0.2162,
+      "Surprise": 0.1743
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2765,
+    "emotion_blend": "Fear(0.28) + Anger(0.22) + Sadness(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2765
+      ],
+      [
+        "Anger",
+        0.2162
+      ],
+      [
+        "Sadness",
+        0.2021
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2748,
+      "Serotonin": 0.43,
+      "Oxytocin": 0.2675,
+      "Endorphin": 0.4216,
+      "Cortisol": 0.6451,
+      "Adrenaline": 0.3254,
+      "GABA": 0.2942,
+      "Norepinephrine": 0.3012
+    },
+    "trust": 0.8782,
+    "output_intensity": 0.2429
+  },
+  {
+    "turn": 59,
+    "message": "กากมาก",
+    "input": {
+      "S": 0.0,
+      "D": 0.7972972942944594,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.9716,
+      "GABA": 0.0,
+      "Norepinephrine": 0.8255
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.218,
+      "Oxytocin": -0.0049,
+      "Endorphin": -0.299,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.5567,
+      "GABA": -0.0707,
+      "Norepinephrine": 0.4587
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.148,
+      "Sadness": 0.175,
+      "Fear": 0.259,
+      "Anger": 0.2243,
+      "Surprise": 0.1938
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.259,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Surprise(0.19)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.259
+      ],
+      [
+        "Anger",
+        0.2243
+      ],
+      [
+        "Surprise",
+        0.1938
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2474,
+      "Serotonin": 0.387,
+      "Oxytocin": 0.2407,
+      "Endorphin": 0.3795,
+      "Cortisol": 0.6806,
+      "Adrenaline": 0.39,
+      "GABA": 0.2648,
+      "Norepinephrine": 0.3537
+    },
+    "trust": 0.8383,
+    "output_intensity": 0.2172
+  },
+  {
+    "turn": 60,
+    "message": "ห่วยแตก!",
+    "input": {
+      "S": 0.0,
+      "D": 0.7596930814228824,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.8612
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.0284,
+      "GABA": 0.0,
+      "Norepinephrine": 0.0357
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1497,
+      "Sadness": 0.1722,
+      "Fear": 0.2585,
+      "Anger": 0.2246,
+      "Surprise": 0.1951
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2585,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2585
+      ],
+      [
+        "Anger",
+        0.2246
+      ],
+      [
+        "Surprise",
+        0.1951
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2226,
+      "Serotonin": 0.3483,
+      "Oxytocin": 0.2167,
+      "Endorphin": 0.3415,
+      "Cortisol": 0.7125,
+      "Adrenaline": 0.451,
+      "GABA": 0.2383,
+      "Norepinephrine": 0.4044
+    },
+    "trust": 0.8003,
+    "output_intensity": 0.2069
+  },
+  {
+    "turn": 61,
+    "message": "โง่ชะมัด",
+    "input": {
+      "S": 0.0,
+      "D": 0.8411102276049738,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0,
+      "Norepinephrine": 1.0
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.1388
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1515,
+      "Sadness": 0.1667,
+      "Fear": 0.2576,
+      "Anger": 0.2273,
+      "Surprise": 0.197
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2576,
+    "emotion_blend": "Fear(0.26) + Anger(0.23) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2576
+      ],
+      [
+        "Anger",
+        0.2273
+      ],
+      [
+        "Surprise",
+        0.197
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2004,
+      "Serotonin": 0.3135,
+      "Oxytocin": 0.195,
+      "Endorphin": 0.3074,
+      "Cortisol": 0.7413,
+      "Adrenaline": 0.5059,
+      "GABA": 0.2145,
+      "Norepinephrine": 0.464
+    },
+    "trust": 0.7583,
+    "output_intensity": 0.1953
+  },
+  {
+    "turn": 62,
+    "message": "ทำดีมากครับ",
+    "input": {
+      "S": 0.6673364547293301,
+      "D": 0.04841652113659661,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.5433,
+      "Serotonin": 0.3546,
+      "Oxytocin": 0.4076,
+      "Endorphin": 0.2862,
+      "Cortisol": 0.7354,
+      "Adrenaline": 0.284,
+      "GABA": 0.221,
+      "Norepinephrine": 0.2877
+    },
+    "hormone_delta": {
+      "Dopamine": 0.5433,
+      "Serotonin": 0.3546,
+      "Oxytocin": 0.4076,
+      "Endorphin": 0.2862,
+      "Cortisol": -0.2646,
+      "Adrenaline": -0.716,
+      "GABA": 0.221,
+      "Norepinephrine": -0.7123
+    },
+    "emotions": {
+      "Joy": 0.2128,
+      "Serenity": 0.0605,
+      "Love": 0.1707,
+      "Excitement": 0.2126,
+      "Sadness": 0.0,
+      "Fear": 0.131,
+      "Anger": 0.0519,
+      "Surprise": 0.1605
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2128,
+    "emotion_blend": "Joy(0.21) + Excitement(0.21) + Love(0.17)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2128
+      ],
+      [
+        "Excitement",
+        0.2126
+      ],
+      [
+        "Love",
+        0.1707
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2347,
+      "Serotonin": 0.3176,
+      "Oxytocin": 0.2163,
+      "Endorphin": 0.3053,
+      "Cortisol": 0.7407,
+      "Adrenaline": 0.4837,
+      "GABA": 0.2151,
+      "Norepinephrine": 0.4463
+    },
+    "trust": 0.7959,
+    "output_intensity": 0.1694
+  },
+  {
+    "turn": 63,
+    "message": "สุดยอดไปเลย!",
+    "input": {
+      "S": 0.8560612674077014,
+      "D": 0.02282135884411826,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.8324,
+      "Serotonin": 0.8009,
+      "Oxytocin": 0.7256,
+      "Endorphin": 0.6225,
+      "Cortisol": 0.3883,
+      "Adrenaline": 0.1748,
+      "GABA": 0.5014,
+      "Norepinephrine": 0.1847
+    },
+    "hormone_delta": {
+      "Dopamine": 0.2891,
+      "Serotonin": 0.4464,
+      "Oxytocin": 0.318,
+      "Endorphin": 0.3363,
+      "Cortisol": -0.3471,
+      "Adrenaline": -0.1093,
+      "GABA": 0.2803,
+      "Norepinephrine": -0.1031
+    },
+    "emotions": {
+      "Joy": 0.3171,
+      "Serenity": 0.2417,
+      "Love": 0.2616,
+      "Excitement": 0.1461,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0335
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3171,
+    "emotion_blend": "Joy(0.32) + Love(0.26) + Serenity(0.24)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3171
+      ],
+      [
+        "Love",
+        0.2616
+      ],
+      [
+        "Serenity",
+        0.2417
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2944,
+      "Serotonin": 0.3659,
+      "Oxytocin": 0.2672,
+      "Endorphin": 0.337,
+      "Cortisol": 0.7055,
+      "Adrenaline": 0.4528,
+      "GABA": 0.2438,
+      "Norepinephrine": 0.4202
+    },
+    "trust": 0.8461,
+    "output_intensity": 0.2683
+  },
+  {
+    "turn": 64,
+    "message": "สุดยอดไปเลย!",
+    "input": {
+      "S": 0.8748656333920286,
+      "D": 0.0,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.8997,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.862,
+      "Endorphin": 0.8929,
+      "Cortisol": 0.0484,
+      "Adrenaline": 0.1306,
+      "GABA": 0.751,
+      "Norepinephrine": 0.1467
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0673,
+      "Serotonin": 0.1991,
+      "Oxytocin": 0.1364,
+      "Endorphin": 0.2704,
+      "Cortisol": -0.3399,
+      "Adrenaline": -0.0441,
+      "GABA": 0.2496,
+      "Norepinephrine": -0.0379
+    },
+    "emotions": {
+      "Joy": 0.3259,
+      "Serenity": 0.2914,
+      "Love": 0.27,
+      "Excitement": 0.1127,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3259,
+    "emotion_blend": "Joy(0.33) + Serenity(0.29) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3259
+      ],
+      [
+        "Serenity",
+        0.2914
+      ],
+      [
+        "Love",
+        0.27
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.355,
+      "Serotonin": 0.4293,
+      "Oxytocin": 0.3267,
+      "Endorphin": 0.3926,
+      "Cortisol": 0.6398,
+      "Adrenaline": 0.4206,
+      "GABA": 0.2945,
+      "Norepinephrine": 0.3928
+    },
+    "trust": 0.8986,
+    "output_intensity": 0.2929
+  },
+  {
+    "turn": 65,
+    "message": "ไร้สาระ!",
+    "input": {
+      "S": 0.0,
+      "D": 0.6683488035787233,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.2846,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.4661,
+      "Cortisol": 0.9576,
+      "Adrenaline": 0.7085,
+      "GABA": 0.193,
+      "Norepinephrine": 0.6096
+    },
+    "hormone_delta": {
+      "Dopamine": -0.8997,
+      "Serotonin": -0.7154,
+      "Oxytocin": -0.862,
+      "Endorphin": -0.4268,
+      "Cortisol": 0.9092,
+      "Adrenaline": 0.5779,
+      "GABA": -0.558,
+      "Norepinephrine": 0.4629
+    },
+    "emotions": {
+      "Joy": 0.0126,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1761,
+      "Sadness": 0.1338,
+      "Fear": 0.2618,
+      "Anger": 0.2124,
+      "Surprise": 0.2033
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2618,
+    "emotion_blend": "Fear(0.26) + Anger(0.21) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2618
+      ],
+      [
+        "Anger",
+        0.2124
+      ],
+      [
+        "Surprise",
+        0.2033
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3195,
+      "Serotonin": 0.4149,
+      "Oxytocin": 0.294,
+      "Endorphin": 0.3999,
+      "Cortisol": 0.6715,
+      "Adrenaline": 0.4494,
+      "GABA": 0.2843,
+      "Norepinephrine": 0.4145
+    },
+    "trust": 0.8652,
+    "output_intensity": 0.2265
+  },
+  {
+    "turn": 66,
+    "message": "ไม่เอาแล้ว!",
+    "input": {
+      "S": 0.0,
+      "D": 0.7923265599276013,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0714,
+      "Cortisol": 1.0,
+      "Adrenaline": 1.0,
+      "GABA": 0.0,
+      "Norepinephrine": 0.8564
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": -0.2846,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.3946,
+      "Cortisol": 0.0424,
+      "Adrenaline": 0.2915,
+      "GABA": -0.193,
+      "Norepinephrine": 0.2468
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1534,
+      "Sadness": 0.1693,
+      "Fear": 0.2568,
+      "Anger": 0.2238,
+      "Surprise": 0.1966
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2568,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Surprise(0.20)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2568
+      ],
+      [
+        "Anger",
+        0.2238
+      ],
+      [
+        "Surprise",
+        0.1966
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2875,
+      "Serotonin": 0.3734,
+      "Oxytocin": 0.2646,
+      "Endorphin": 0.3671,
+      "Cortisol": 0.7044,
+      "Adrenaline": 0.5044,
+      "GABA": 0.2559,
+      "Norepinephrine": 0.4587
+    },
+    "trust": 0.8256,
+    "output_intensity": 0.212
+  },
+  {
+    "turn": 67,
+    "message": "ไร้สาระ!",
+    "input": {
+      "S": 0.030802224473170256,
+      "D": 0.7355966892468372,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.0,
+      "Cortisol": 1.0,
+      "Adrenaline": 0.9279,
+      "GABA": 0.0,
+      "Norepinephrine": 0.7903
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.0,
+      "Endorphin": -0.0714,
+      "Cortisol": 0.0,
+      "Adrenaline": -0.0721,
+      "GABA": 0.0,
+      "Norepinephrine": -0.0661
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1455,
+      "Sadness": 0.1786,
+      "Fear": 0.2598,
+      "Anger": 0.2242,
+      "Surprise": 0.1919
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2598,
+    "emotion_blend": "Fear(0.26) + Anger(0.22) + Surprise(0.19)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2598
+      ],
+      [
+        "Anger",
+        0.2242
+      ],
+      [
+        "Surprise",
+        0.1919
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2588,
+      "Serotonin": 0.336,
+      "Oxytocin": 0.2382,
+      "Endorphin": 0.3304,
+      "Cortisol": 0.734,
+      "Adrenaline": 0.5468,
+      "GABA": 0.2303,
+      "Norepinephrine": 0.4919
+    },
+    "trust": 0.7906,
+    "output_intensity": 0.2054
+  },
+  {
+    "turn": 68,
+    "message": "สุดยอดไปเลย!",
+    "input": {
+      "S": 0.8550588329524882,
+      "D": 0.04992824684127266,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.7586,
+      "Serotonin": 0.4901,
+      "Oxytocin": 0.5701,
+      "Endorphin": 0.3965,
+      "Cortisol": 0.6575,
+      "Adrenaline": 0.3044,
+      "GABA": 0.3021,
+      "Norepinephrine": 0.2876
+    },
+    "hormone_delta": {
+      "Dopamine": 0.7586,
+      "Serotonin": 0.4901,
+      "Oxytocin": 0.5701,
+      "Endorphin": 0.3965,
+      "Cortisol": -0.3425,
+      "Adrenaline": -0.6234,
+      "GABA": 0.3021,
+      "Norepinephrine": -0.5027
+    },
+    "emotions": {
+      "Joy": 0.2737,
+      "Serenity": 0.1254,
+      "Love": 0.218,
+      "Excitement": 0.2122,
+      "Sadness": 0.0,
+      "Fear": 0.0426,
+      "Anger": 0.0,
+      "Surprise": 0.1281
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.2737,
+    "emotion_blend": "Joy(0.27) + Love(0.22) + Excitement(0.21)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.2737
+      ],
+      [
+        "Love",
+        0.218
+      ],
+      [
+        "Excitement",
+        0.2122
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3088,
+      "Serotonin": 0.3514,
+      "Oxytocin": 0.2714,
+      "Endorphin": 0.337,
+      "Cortisol": 0.7263,
+      "Adrenaline": 0.5226,
+      "GABA": 0.2375,
+      "Norepinephrine": 0.4714
+    },
+    "trust": 0.8394,
+    "output_intensity": 0.2297
+  },
+  {
+    "turn": 69,
+    "message": "ขอบคุณมากเลย ช่วยได้เยอะ",
+    "input": {
+      "S": 0.7968996257284752,
+      "D": 0.09263669830081277,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.6719,
+      "Serotonin": 0.7828,
+      "Oxytocin": 0.6488,
+      "Endorphin": 0.6246,
+      "Cortisol": 0.448,
+      "Adrenaline": 0.225,
+      "GABA": 0.4799,
+      "Norepinephrine": 0.2213
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0867,
+      "Serotonin": 0.2927,
+      "Oxytocin": 0.0787,
+      "Endorphin": 0.2281,
+      "Cortisol": -0.2095,
+      "Adrenaline": -0.0795,
+      "GABA": 0.1778,
+      "Norepinephrine": -0.0663
+    },
+    "emotions": {
+      "Joy": 0.3059,
+      "Serenity": 0.239,
+      "Love": 0.2564,
+      "Excitement": 0.1516,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0472
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3059,
+    "emotion_blend": "Joy(0.31) + Love(0.26) + Serenity(0.24)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3059
+      ],
+      [
+        "Love",
+        0.2564
+      ],
+      [
+        "Serenity",
+        0.239
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3451,
+      "Serotonin": 0.3946,
+      "Oxytocin": 0.3091,
+      "Endorphin": 0.3657,
+      "Cortisol": 0.6985,
+      "Adrenaline": 0.4928,
+      "GABA": 0.2617,
+      "Norepinephrine": 0.4464
+    },
+    "trust": 0.8826,
+    "output_intensity": 0.27
+  },
+  {
+    "turn": 70,
+    "message": "ครับ",
+    "input": {
+      "S": 0.1166311110603914,
+      "D": 0.04856411254507185,
+      "C": 0.7
+    },
+    "hormones": {
+      "Dopamine": 0.1424,
+      "Serotonin": 0.6966,
+      "Oxytocin": 0.279,
+      "Endorphin": 0.5206,
+      "Cortisol": 0.4179,
+      "Adrenaline": 0.0883,
+      "GABA": 0.4384,
+      "Norepinephrine": 0.0939
+    },
+    "hormone_delta": {
+      "Dopamine": -0.5294,
+      "Serotonin": -0.0862,
+      "Oxytocin": -0.3699,
+      "Endorphin": -0.104,
+      "Cortisol": -0.0301,
+      "Adrenaline": -0.1366,
+      "GABA": -0.0415,
+      "Norepinephrine": -0.1274
+    },
+    "emotions": {
+      "Joy": 0.301,
+      "Serenity": 0.3637,
+      "Love": 0.2665,
+      "Excitement": 0.0688,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3637,
+    "emotion_blend": "Serenity(0.36) + Joy(0.30) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3637
+      ],
+      [
+        "Joy",
+        0.301
+      ],
+      [
+        "Love",
+        0.2665
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3248,
+      "Serotonin": 0.4248,
+      "Oxytocin": 0.3061,
+      "Endorphin": 0.3812,
+      "Cortisol": 0.6704,
+      "Adrenaline": 0.4523,
+      "GABA": 0.2794,
+      "Norepinephrine": 0.4112
+    },
+    "trust": 0.8872,
+    "output_intensity": 0.3227
+  },
+  {
+    "turn": 71,
+    "message": "โอเค",
+    "input": {
+      "S": 0.23646503940302155,
+      "D": 0.14024428655105486,
+      "C": 0.8
+    },
+    "hormones": {
+      "Dopamine": 0.1165,
+      "Serotonin": 0.6214,
+      "Oxytocin": 0.1765,
+      "Endorphin": 0.4618,
+      "Cortisol": 0.4563,
+      "Adrenaline": 0.1508,
+      "GABA": 0.3889,
+      "Norepinephrine": 0.1457
+    },
+    "hormone_delta": {
+      "Dopamine": -0.026,
+      "Serotonin": -0.0752,
+      "Oxytocin": -0.1025,
+      "Endorphin": -0.0588,
+      "Cortisol": 0.0385,
+      "Adrenaline": 0.0625,
+      "GABA": -0.0495,
+      "Norepinephrine": 0.0518
+    },
+    "emotions": {
+      "Joy": 0.2908,
+      "Serenity": 0.3413,
+      "Love": 0.2371,
+      "Excitement": 0.1054,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0253
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3413,
+    "emotion_blend": "Serenity(0.34) + Joy(0.29) + Love(0.24)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3413
+      ],
+      [
+        "Joy",
+        0.2908
+      ],
+      [
+        "Love",
+        0.2371
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.304,
+      "Serotonin": 0.4444,
+      "Oxytocin": 0.2931,
+      "Endorphin": 0.3893,
+      "Cortisol": 0.649,
+      "Adrenaline": 0.4222,
+      "GABA": 0.2903,
+      "Norepinephrine": 0.3846
+    },
+    "trust": 0.8944,
+    "output_intensity": 0.3053
+  },
+  {
+    "turn": 72,
+    "message": "สวัสดีครับ",
+    "input": {
+      "S": 0.2878973118976916,
+      "D": 0.1485308843779726,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.1605,
+      "Serotonin": 0.5831,
+      "Oxytocin": 0.1801,
+      "Endorphin": 0.4465,
+      "Cortisol": 0.504,
+      "Adrenaline": 0.204,
+      "GABA": 0.3568,
+      "Norepinephrine": 0.1919
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0441,
+      "Serotonin": -0.0383,
+      "Oxytocin": 0.0036,
+      "Endorphin": -0.0153,
+      "Cortisol": 0.0477,
+      "Adrenaline": 0.0532,
+      "GABA": -0.0322,
+      "Norepinephrine": 0.0461
+    },
+    "emotions": {
+      "Joy": 0.2659,
+      "Serenity": 0.2705,
+      "Love": 0.2084,
+      "Excitement": 0.1419,
+      "Sadness": 0.0,
+      "Fear": 0.0404,
+      "Anger": 0.0,
+      "Surprise": 0.0729
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.2705,
+    "emotion_blend": "Serenity(0.27) + Joy(0.27) + Love(0.21)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.2705
+      ],
+      [
+        "Joy",
+        0.2659
+      ],
+      [
+        "Love",
+        0.2084
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2896,
+      "Serotonin": 0.4583,
+      "Oxytocin": 0.2818,
+      "Endorphin": 0.395,
+      "Cortisol": 0.6345,
+      "Adrenaline": 0.4004,
+      "GABA": 0.297,
+      "Norepinephrine": 0.3653
+    },
+    "trust": 0.9042,
+    "output_intensity": 0.2446
+  },
+  {
+    "turn": 73,
+    "message": "เดี๋ยวค่อยว่ากัน",
+    "input": {
+      "S": 0.14265180735593336,
+      "D": 0.17851293567941215,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.0232,
+      "Serotonin": 0.4606,
+      "Oxytocin": 0.0758,
+      "Endorphin": 0.3653,
+      "Cortisol": 0.6102,
+      "Adrenaline": 0.2091,
+      "GABA": 0.2736,
+      "Norepinephrine": 0.1934
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1373,
+      "Serotonin": -0.1226,
+      "Oxytocin": -0.1043,
+      "Endorphin": -0.0813,
+      "Cortisol": 0.1061,
+      "Adrenaline": 0.0051,
+      "GABA": -0.0831,
+      "Norepinephrine": 0.0015
+    },
+    "emotions": {
+      "Joy": 0.1615,
+      "Serenity": 0.1797,
+      "Love": 0.1262,
+      "Excitement": 0.1363,
+      "Sadness": 0.0,
+      "Fear": 0.1929,
+      "Anger": 0.0803,
+      "Surprise": 0.1232
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.1929,
+    "emotion_blend": "Fear(0.19) + Serenity(0.18) + Joy(0.16)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.1929
+      ],
+      [
+        "Serenity",
+        0.1797
+      ],
+      [
+        "Joy",
+        0.1615
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.263,
+      "Serotonin": 0.4585,
+      "Oxytocin": 0.2612,
+      "Endorphin": 0.392,
+      "Cortisol": 0.6321,
+      "Adrenaline": 0.3812,
+      "GABA": 0.2946,
+      "Norepinephrine": 0.3481
+    },
+    "trust": 0.9038,
+    "output_intensity": 0.1744
+  },
+  {
+    "turn": 74,
+    "message": "ลองดูอีกที",
+    "input": {
+      "S": 0.14230074859901629,
+      "D": 0.19573176408596732,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.3412,
+      "Oxytocin": 0.0271,
+      "Endorphin": 0.2983,
+      "Cortisol": 0.7412,
+      "Adrenaline": 0.2455,
+      "GABA": 0.1887,
+      "Norepinephrine": 0.2234
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0232,
+      "Serotonin": -0.1193,
+      "Oxytocin": -0.0487,
+      "Endorphin": -0.067,
+      "Cortisol": 0.131,
+      "Adrenaline": 0.0363,
+      "GABA": -0.085,
+      "Norepinephrine": 0.03
+    },
+    "emotions": {
+      "Joy": 0.044,
+      "Serenity": 0.0178,
+      "Love": 0.027,
+      "Excitement": 0.132,
+      "Sadness": 0.1485,
+      "Fear": 0.2829,
+      "Anger": 0.1852,
+      "Surprise": 0.1626
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2829,
+    "emotion_blend": "Fear(0.28) + Anger(0.19) + Surprise(0.16)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2829
+      ],
+      [
+        "Anger",
+        0.1852
+      ],
+      [
+        "Surprise",
+        0.1626
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2367,
+      "Serotonin": 0.4468,
+      "Oxytocin": 0.2378,
+      "Endorphin": 0.3827,
+      "Cortisol": 0.643,
+      "Adrenaline": 0.3677,
+      "GABA": 0.284,
+      "Norepinephrine": 0.3357
+    },
+    "trust": 0.9026,
+    "output_intensity": 0.2554
+  },
+  {
+    "turn": 75,
+    "message": "ไม่เลว",
+    "input": {
+      "S": 0.3161871311950745,
+      "D": 0.14866714116543295,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.1587,
+      "Serotonin": 0.3663,
+      "Oxytocin": 0.135,
+      "Endorphin": 0.3255,
+      "Cortisol": 0.734,
+      "Adrenaline": 0.209,
+      "GABA": 0.2029,
+      "Norepinephrine": 0.1956
+    },
+    "hormone_delta": {
+      "Dopamine": 0.1587,
+      "Serotonin": 0.0251,
+      "Oxytocin": 0.1079,
+      "Endorphin": 0.0273,
+      "Cortisol": -0.0072,
+      "Adrenaline": -0.0365,
+      "GABA": 0.0142,
+      "Norepinephrine": -0.0278
+    },
+    "emotions": {
+      "Joy": 0.1324,
+      "Serenity": 0.0656,
+      "Love": 0.0999,
+      "Excitement": 0.158,
+      "Sadness": 0.0667,
+      "Fear": 0.2137,
+      "Anger": 0.1146,
+      "Surprise": 0.149
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2137,
+    "emotion_blend": "Fear(0.21) + Excitement(0.16) + Surprise(0.15)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2137
+      ],
+      [
+        "Excitement",
+        0.158
+      ],
+      [
+        "Surprise",
+        0.149
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2289,
+      "Serotonin": 0.4388,
+      "Oxytocin": 0.2275,
+      "Endorphin": 0.377,
+      "Cortisol": 0.6521,
+      "Adrenaline": 0.3518,
+      "GABA": 0.2759,
+      "Norepinephrine": 0.3217
+    },
+    "trust": 0.9141,
+    "output_intensity": 0.1953
+  },
+  {
+    "turn": 76,
+    "message": "ช่วยเช็คตารางหน่อย",
+    "input": {
+      "S": 0.1296707825494564,
+      "D": 0.1468709364969159,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0338,
+      "Serotonin": 0.2968,
+      "Oxytocin": 0.0674,
+      "Endorphin": 0.2782,
+      "Cortisol": 0.7918,
+      "Adrenaline": 0.2007,
+      "GABA": 0.1583,
+      "Norepinephrine": 0.1863
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1248,
+      "Serotonin": -0.0695,
+      "Oxytocin": -0.0676,
+      "Endorphin": -0.0473,
+      "Cortisol": 0.0578,
+      "Adrenaline": -0.0082,
+      "GABA": -0.0446,
+      "Norepinephrine": -0.0094
+    },
+    "emotions": {
+      "Joy": 0.0373,
+      "Serenity": 0.0,
+      "Love": 0.0321,
+      "Excitement": 0.1233,
+      "Sadness": 0.1828,
+      "Fear": 0.2849,
+      "Anger": 0.1839,
+      "Surprise": 0.1557
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2849,
+    "emotion_blend": "Fear(0.28) + Anger(0.18) + Sadness(0.18)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2849
+      ],
+      [
+        "Anger",
+        0.1839
+      ],
+      [
+        "Sadness",
+        0.1828
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2094,
+      "Serotonin": 0.4246,
+      "Oxytocin": 0.2115,
+      "Endorphin": 0.3671,
+      "Cortisol": 0.6661,
+      "Adrenaline": 0.3367,
+      "GABA": 0.2642,
+      "Norepinephrine": 0.3081
+    },
+    "trust": 0.9146,
+    "output_intensity": 0.2606
+  },
+  {
+    "turn": 77,
+    "message": "โอเค แต่ครั้งหน้าทำให้ดีกว่านี้",
+    "input": {
+      "S": 0.20609575714765158,
+      "D": 0.2813604809769729,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.1746,
+      "Oxytocin": 0.007,
+      "Endorphin": 0.231,
+      "Cortisol": 0.9831,
+      "Adrenaline": 0.3319,
+      "GABA": 0.0617,
+      "Norepinephrine": 0.2965
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0338,
+      "Serotonin": -0.1222,
+      "Oxytocin": -0.0604,
+      "Endorphin": -0.0472,
+      "Cortisol": 0.1913,
+      "Adrenaline": 0.1312,
+      "GABA": -0.0966,
+      "Norepinephrine": 0.1102
+    },
+    "emotions": {
+      "Joy": 0.0,
+      "Serenity": 0.0,
+      "Love": 0.0,
+      "Excitement": 0.1126,
+      "Sadness": 0.2278,
+      "Fear": 0.2808,
+      "Anger": 0.2164,
+      "Surprise": 0.1624
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2808,
+    "emotion_blend": "Fear(0.28) + Sadness(0.23) + Anger(0.22)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2808
+      ],
+      [
+        "Sadness",
+        0.2278
+      ],
+      [
+        "Anger",
+        0.2164
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.1884,
+      "Serotonin": 0.3996,
+      "Oxytocin": 0.1911,
+      "Endorphin": 0.3535,
+      "Cortisol": 0.6978,
+      "Adrenaline": 0.3362,
+      "GABA": 0.2439,
+      "Norepinephrine": 0.307
+    },
+    "trust": 0.9129,
+    "output_intensity": 0.2564
+  },
+  {
+    "turn": 78,
+    "message": "ทำดีมากครับ",
+    "input": {
+      "S": 0.6584177594458971,
+      "D": 0.00028503829195135333,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.5808,
+      "Serotonin": 0.5277,
+      "Oxytocin": 0.4369,
+      "Endorphin": 0.47,
+      "Cortisol": 0.6616,
+      "Adrenaline": 0.1366,
+      "GABA": 0.2998,
+      "Norepinephrine": 0.1426
+    },
+    "hormone_delta": {
+      "Dopamine": 0.5808,
+      "Serotonin": 0.3531,
+      "Oxytocin": 0.4299,
+      "Endorphin": 0.239,
+      "Cortisol": -0.3215,
+      "Adrenaline": -0.1953,
+      "GABA": 0.2381,
+      "Norepinephrine": -0.1539
+    },
+    "emotions": {
+      "Joy": 0.3008,
+      "Serenity": 0.189,
+      "Love": 0.2382,
+      "Excitement": 0.1777,
+      "Sadness": 0.0,
+      "Fear": 0.0102,
+      "Anger": 0.0,
+      "Surprise": 0.0842
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3008,
+    "emotion_blend": "Joy(0.30) + Love(0.24) + Serenity(0.19)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3008
+      ],
+      [
+        "Love",
+        0.2382
+      ],
+      [
+        "Serenity",
+        0.189
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2277,
+      "Serotonin": 0.4124,
+      "Oxytocin": 0.2156,
+      "Endorphin": 0.3651,
+      "Cortisol": 0.6941,
+      "Adrenaline": 0.3163,
+      "GABA": 0.2495,
+      "Norepinephrine": 0.2905
+    },
+    "trust": 0.9523,
+    "output_intensity": 0.2865
+  },
+  {
+    "turn": 79,
+    "message": "เก่งขึ้นนะ แต่ยังไม่พอ",
+    "input": {
+      "S": 0.3157432727939483,
+      "D": 0.346077890327445,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0377,
+      "Serotonin": 0.3667,
+      "Oxytocin": 0.1546,
+      "Endorphin": 0.4002,
+      "Cortisol": 0.913,
+      "Adrenaline": 0.3891,
+      "GABA": 0.1703,
+      "Norepinephrine": 0.3479
+    },
+    "hormone_delta": {
+      "Dopamine": -0.5431,
+      "Serotonin": -0.161,
+      "Oxytocin": -0.2823,
+      "Endorphin": -0.0698,
+      "Cortisol": 0.2514,
+      "Adrenaline": 0.2525,
+      "GABA": -0.1295,
+      "Norepinephrine": 0.2053
+    },
+    "emotions": {
+      "Joy": 0.0505,
+      "Serenity": 0.0,
+      "Love": 0.0484,
+      "Excitement": 0.1587,
+      "Sadness": 0.1273,
+      "Fear": 0.2569,
+      "Anger": 0.1789,
+      "Surprise": 0.1793
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2569,
+    "emotion_blend": "Fear(0.26) + Surprise(0.18) + Anger(0.18)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2569
+      ],
+      [
+        "Surprise",
+        0.1793
+      ],
+      [
+        "Anger",
+        0.1789
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2087,
+      "Serotonin": 0.4078,
+      "Oxytocin": 0.2095,
+      "Endorphin": 0.3686,
+      "Cortisol": 0.716,
+      "Adrenaline": 0.3235,
+      "GABA": 0.2416,
+      "Norepinephrine": 0.2963
+    },
+    "trust": 0.954,
+    "output_intensity": 0.2451
+  },
+  {
+    "turn": 80,
+    "message": "รักเลย",
+    "input": {
+      "S": 0.8851342545344121,
+      "D": 0.0,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.9849,
+      "Serotonin": 0.9352,
+      "Oxytocin": 0.7861,
+      "Endorphin": 0.7997,
+      "Cortisol": 0.4445,
+      "Adrenaline": 0.1887,
+      "GABA": 0.5409,
+      "Norepinephrine": 0.196
+    },
+    "hormone_delta": {
+      "Dopamine": 0.9473,
+      "Serotonin": 0.5685,
+      "Oxytocin": 0.6315,
+      "Endorphin": 0.3995,
+      "Cortisol": -0.4685,
+      "Adrenaline": -0.2005,
+      "GABA": 0.3706,
+      "Norepinephrine": -0.1519
+    },
+    "emotions": {
+      "Joy": 0.3199,
+      "Serenity": 0.2411,
+      "Love": 0.2542,
+      "Excitement": 0.1499,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0349
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3199,
+    "emotion_blend": "Joy(0.32) + Love(0.25) + Serenity(0.24)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3199
+      ],
+      [
+        "Love",
+        0.2542
+      ],
+      [
+        "Serenity",
+        0.2411
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2863,
+      "Serotonin": 0.4606,
+      "Oxytocin": 0.2672,
+      "Endorphin": 0.4117,
+      "Cortisol": 0.6889,
+      "Adrenaline": 0.3101,
+      "GABA": 0.2715,
+      "Norepinephrine": 0.2862
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3199
+  },
+  {
+    "turn": 81,
+    "message": "น่ารักจัง",
+    "input": {
+      "S": 0.617521255360409,
+      "D": 0.0,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.7331,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.7472,
+      "Endorphin": 0.9338,
+      "Cortisol": 0.1642,
+      "Adrenaline": 0.1117,
+      "GABA": 0.7144,
+      "Norepinephrine": 0.1268
+    },
+    "hormone_delta": {
+      "Dopamine": -0.2518,
+      "Serotonin": 0.0648,
+      "Oxytocin": -0.0389,
+      "Endorphin": 0.134,
+      "Cortisol": -0.2803,
+      "Adrenaline": -0.0769,
+      "GABA": 0.1736,
+      "Norepinephrine": -0.0692
+    },
+    "emotions": {
+      "Joy": 0.3231,
+      "Serenity": 0.3034,
+      "Love": 0.2678,
+      "Excitement": 0.1057,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3231,
+    "emotion_blend": "Joy(0.32) + Serenity(0.30) + Love(0.27)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3231
+      ],
+      [
+        "Serenity",
+        0.3034
+      ],
+      [
+        "Love",
+        0.2678
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.331,
+      "Serotonin": 0.5145,
+      "Oxytocin": 0.3152,
+      "Endorphin": 0.4639,
+      "Cortisol": 0.6364,
+      "Adrenaline": 0.2902,
+      "GABA": 0.3158,
+      "Norepinephrine": 0.2703
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3231
+  },
+  {
+    "turn": 82,
+    "message": "ขอบใจนะ",
+    "input": {
+      "S": 0.594159612722909,
+      "D": 0.05696754101381849,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.5449,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.6129,
+      "Endorphin": 0.9561,
+      "Cortisol": 0.0387,
+      "Adrenaline": 0.1355,
+      "GABA": 0.7726,
+      "Norepinephrine": 0.1431
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1882,
+      "Serotonin": 0.0,
+      "Oxytocin": -0.1343,
+      "Endorphin": 0.0224,
+      "Cortisol": -0.1255,
+      "Adrenaline": 0.0238,
+      "GABA": 0.0581,
+      "Norepinephrine": 0.0163
+    },
+    "emotions": {
+      "Joy": 0.3182,
+      "Serenity": 0.3293,
+      "Love": 0.2612,
+      "Excitement": 0.0912,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3293,
+    "emotion_blend": "Serenity(0.33) + Joy(0.32) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3293
+      ],
+      [
+        "Joy",
+        0.3182
+      ],
+      [
+        "Love",
+        0.2612
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3524,
+      "Serotonin": 0.563,
+      "Oxytocin": 0.345,
+      "Endorphin": 0.5132,
+      "Cortisol": 0.5766,
+      "Adrenaline": 0.2748,
+      "GABA": 0.3615,
+      "Norepinephrine": 0.2576
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3293
+  },
+  {
+    "turn": 83,
+    "message": "ชอบคำตอบนี้จัง",
+    "input": {
+      "S": 0.7119381510332102,
+      "D": 0.0,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.736,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.7218,
+      "Endorphin": 1.0,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1028,
+      "GABA": 0.9134,
+      "Norepinephrine": 0.119
+    },
+    "hormone_delta": {
+      "Dopamine": 0.191,
+      "Serotonin": 0.0,
+      "Oxytocin": 0.1089,
+      "Endorphin": 0.0439,
+      "Cortisol": -0.0387,
+      "Adrenaline": -0.0327,
+      "GABA": 0.1408,
+      "Norepinephrine": -0.0241
+    },
+    "emotions": {
+      "Joy": 0.3236,
+      "Serenity": 0.323,
+      "Love": 0.2637,
+      "Excitement": 0.0897,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3236,
+    "emotion_blend": "Joy(0.32) + Serenity(0.32) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3236
+      ],
+      [
+        "Serenity",
+        0.323
+      ],
+      [
+        "Love",
+        0.2637
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3907,
+      "Serotonin": 0.6067,
+      "Oxytocin": 0.3827,
+      "Endorphin": 0.5618,
+      "Cortisol": 0.519,
+      "Adrenaline": 0.2576,
+      "GABA": 0.4167,
+      "Norepinephrine": 0.2437
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3236
+  },
+  {
+    "turn": 84,
+    "message": "เก่งขึ้นนะ แต่ยังไม่พอ",
+    "input": {
+      "S": 0.3316369845976727,
+      "D": 0.27607656956036325,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.1339,
+      "Serotonin": 0.8161,
+      "Oxytocin": 0.3097,
+      "Endorphin": 0.8285,
+      "Cortisol": 0.248,
+      "Adrenaline": 0.3093,
+      "GABA": 0.7123,
+      "Norepinephrine": 0.2829
+    },
+    "hormone_delta": {
+      "Dopamine": -0.602,
+      "Serotonin": -0.1839,
+      "Oxytocin": -0.4122,
+      "Endorphin": -0.1715,
+      "Cortisol": 0.248,
+      "Adrenaline": 0.2065,
+      "GABA": -0.2012,
+      "Norepinephrine": 0.1639
+    },
+    "emotions": {
+      "Joy": 0.2923,
+      "Serenity": 0.344,
+      "Love": 0.2393,
+      "Excitement": 0.1121,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0122
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.344,
+    "emotion_blend": "Serenity(0.34) + Joy(0.29) + Love(0.24)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.344
+      ],
+      [
+        "Joy",
+        0.2923
+      ],
+      [
+        "Love",
+        0.2393
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3651,
+      "Serotonin": 0.6277,
+      "Oxytocin": 0.3754,
+      "Endorphin": 0.5885,
+      "Cortisol": 0.4919,
+      "Adrenaline": 0.2627,
+      "GABA": 0.4462,
+      "Norepinephrine": 0.2476
+    },
+    "trust": 1.0,
+    "output_intensity": 0.344
+  },
+  {
+    "turn": 85,
+    "message": "ไม่ค่อยดีเท่าไร",
+    "input": {
+      "S": 0.023868595261584604,
+      "D": 0.3895785846791255,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.418,
+      "Oxytocin": 0.0,
+      "Endorphin": 0.5354,
+      "Cortisol": 0.7,
+      "Adrenaline": 0.421,
+      "GABA": 0.3828,
+      "Norepinephrine": 0.3686
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1339,
+      "Serotonin": -0.3981,
+      "Oxytocin": -0.3097,
+      "Endorphin": -0.293,
+      "Cortisol": 0.452,
+      "Adrenaline": 0.1118,
+      "GABA": -0.3295,
+      "Norepinephrine": 0.0858
+    },
+    "emotions": {
+      "Joy": 0.1095,
+      "Serenity": 0.0896,
+      "Love": 0.0561,
+      "Excitement": 0.1785,
+      "Sadness": 0.0269,
+      "Fear": 0.2206,
+      "Anger": 0.1447,
+      "Surprise": 0.174
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2206,
+    "emotion_blend": "Fear(0.22) + Excitement(0.18) + Surprise(0.17)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2206
+      ],
+      [
+        "Excitement",
+        0.1785
+      ],
+      [
+        "Surprise",
+        0.174
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3285,
+      "Serotonin": 0.6067,
+      "Oxytocin": 0.3378,
+      "Endorphin": 0.5832,
+      "Cortisol": 0.5127,
+      "Adrenaline": 0.2786,
+      "GABA": 0.4399,
+      "Norepinephrine": 0.2597
+    },
+    "trust": 0.982,
+    "output_intensity": 0.2166
+  },
+  {
+    "turn": 86,
+    "message": "งั้นเอาแบบนี้",
+    "input": {
+      "S": 0.1957224572570452,
+      "D": 0.14290183317055144,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0797,
+      "Serotonin": 0.3764,
+      "Oxytocin": 0.0681,
+      "Endorphin": 0.4627,
+      "Cortisol": 0.7357,
+      "Adrenaline": 0.2333,
+      "GABA": 0.3242,
+      "Norepinephrine": 0.2143
+    },
+    "hormone_delta": {
+      "Dopamine": 0.0797,
+      "Serotonin": -0.0416,
+      "Oxytocin": 0.0681,
+      "Endorphin": -0.0727,
+      "Cortisol": 0.0357,
+      "Adrenaline": -0.1877,
+      "GABA": -0.0586,
+      "Norepinephrine": -0.1543
+    },
+    "emotions": {
+      "Joy": 0.1408,
+      "Serenity": 0.1161,
+      "Love": 0.0936,
+      "Excitement": 0.1519,
+      "Sadness": 0.0467,
+      "Fear": 0.2057,
+      "Anger": 0.1069,
+      "Surprise": 0.1383
+    },
+    "dominant_emotion": "Fear",
+    "dominant_score": 0.2057,
+    "emotion_blend": "Fear(0.21) + Excitement(0.15) + Joy(0.14)",
+    "top3_emotions": [
+      [
+        "Fear",
+        0.2057
+      ],
+      [
+        "Excitement",
+        0.1519
+      ],
+      [
+        "Joy",
+        0.1408
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3037,
+      "Serotonin": 0.5837,
+      "Oxytocin": 0.3109,
+      "Endorphin": 0.5712,
+      "Cortisol": 0.535,
+      "Adrenaline": 0.274,
+      "GABA": 0.4283,
+      "Norepinephrine": 0.2552
+    },
+    "trust": 0.9866,
+    "output_intensity": 0.2029
+  },
+  {
+    "turn": 87,
+    "message": "น่ารักจัง",
+    "input": {
+      "S": 0.5509315456884246,
+      "D": 0.012115925549309278,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.5791,
+      "Serotonin": 0.6826,
+      "Oxytocin": 0.4534,
+      "Endorphin": 0.6409,
+      "Cortisol": 0.4631,
+      "Adrenaline": 0.1305,
+      "GABA": 0.5026,
+      "Norepinephrine": 0.1378
+    },
+    "hormone_delta": {
+      "Dopamine": 0.4994,
+      "Serotonin": 0.3062,
+      "Oxytocin": 0.3852,
+      "Endorphin": 0.1782,
+      "Cortisol": -0.2726,
+      "Adrenaline": -0.1028,
+      "GABA": 0.1784,
+      "Norepinephrine": -0.0765
+    },
+    "emotions": {
+      "Joy": 0.3195,
+      "Serenity": 0.2688,
+      "Love": 0.2496,
+      "Excitement": 0.1367,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0254
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3195,
+    "emotion_blend": "Joy(0.32) + Serenity(0.27) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3195
+      ],
+      [
+        "Serenity",
+        0.2688
+      ],
+      [
+        "Love",
+        0.2496
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3312,
+      "Serotonin": 0.5936,
+      "Oxytocin": 0.3251,
+      "Endorphin": 0.5781,
+      "Cortisol": 0.5278,
+      "Adrenaline": 0.2597,
+      "GABA": 0.4357,
+      "Norepinephrine": 0.2434
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3195
+  },
+  {
+    "turn": 88,
+    "message": "สุดยอดไปเลย!",
+    "input": {
+      "S": 0.8573260721099634,
+      "D": 0.0,
+      "C": 1.1
+    },
+    "hormones": {
+      "Dopamine": 0.8632,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.7621,
+      "Endorphin": 0.8973,
+      "Cortisol": 0.1195,
+      "Adrenaline": 0.1232,
+      "GABA": 0.7446,
+      "Norepinephrine": 0.1386
+    },
+    "hormone_delta": {
+      "Dopamine": 0.2841,
+      "Serotonin": 0.3174,
+      "Oxytocin": 0.3087,
+      "Endorphin": 0.2563,
+      "Cortisol": -0.3436,
+      "Adrenaline": -0.0073,
+      "GABA": 0.242,
+      "Norepinephrine": 0.0008
+    },
+    "emotions": {
+      "Joy": 0.3276,
+      "Serenity": 0.2963,
+      "Love": 0.2641,
+      "Excitement": 0.112,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3276,
+    "emotion_blend": "Joy(0.33) + Serenity(0.30) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3276
+      ],
+      [
+        "Serenity",
+        0.2963
+      ],
+      [
+        "Love",
+        0.2641
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3844,
+      "Serotonin": 0.6342,
+      "Oxytocin": 0.3688,
+      "Endorphin": 0.61,
+      "Cortisol": 0.487,
+      "Adrenaline": 0.246,
+      "GABA": 0.4666,
+      "Norepinephrine": 0.233
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3276
+  },
+  {
+    "turn": 89,
+    "message": "เดี๋ยวค่อยว่ากัน",
+    "input": {
+      "S": 0.06324565703664672,
+      "D": 0.1349008834964515,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.0612,
+      "Serotonin": 0.7934,
+      "Oxytocin": 0.2504,
+      "Endorphin": 0.6878,
+      "Cortisol": 0.248,
+      "Adrenaline": 0.1462,
+      "GABA": 0.5893,
+      "Norepinephrine": 0.1421
+    },
+    "hormone_delta": {
+      "Dopamine": -0.802,
+      "Serotonin": -0.2066,
+      "Oxytocin": -0.5117,
+      "Endorphin": -0.2095,
+      "Cortisol": 0.1285,
+      "Adrenaline": 0.023,
+      "GABA": -0.1553,
+      "Norepinephrine": 0.0035
+    },
+    "emotions": {
+      "Joy": 0.2961,
+      "Serenity": 0.3928,
+      "Love": 0.2521,
+      "Excitement": 0.0591,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3928,
+    "emotion_blend": "Serenity(0.39) + Joy(0.30) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3928
+      ],
+      [
+        "Joy",
+        0.2961
+      ],
+      [
+        "Love",
+        0.2521
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3521,
+      "Serotonin": 0.6501,
+      "Oxytocin": 0.357,
+      "Endorphin": 0.6178,
+      "Cortisol": 0.4631,
+      "Adrenaline": 0.2361,
+      "GABA": 0.4789,
+      "Norepinephrine": 0.2239
+    },
+    "trust": 0.997,
+    "output_intensity": 0.3916
+  },
+  {
+    "turn": 90,
+    "message": "น่ารักจัง",
+    "input": {
+      "S": 0.6379270242484543,
+      "D": 0.0,
+      "C": 1.2
+    },
+    "hormones": {
+      "Dopamine": 0.6811,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.5912,
+      "Endorphin": 0.86,
+      "Cortisol": 0.0,
+      "Adrenaline": 0.1068,
+      "GABA": 0.7594,
+      "Norepinephrine": 0.1202
+    },
+    "hormone_delta": {
+      "Dopamine": 0.62,
+      "Serotonin": 0.2066,
+      "Oxytocin": 0.3408,
+      "Endorphin": 0.1722,
+      "Cortisol": -0.248,
+      "Adrenaline": -0.0394,
+      "GABA": 0.1701,
+      "Norepinephrine": -0.022
+    },
+    "emotions": {
+      "Joy": 0.3257,
+      "Serenity": 0.3245,
+      "Love": 0.2569,
+      "Excitement": 0.0929,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.3257,
+    "emotion_blend": "Joy(0.33) + Serenity(0.32) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.3257
+      ],
+      [
+        "Serenity",
+        0.3245
+      ],
+      [
+        "Love",
+        0.2569
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.385,
+      "Serotonin": 0.6851,
+      "Oxytocin": 0.3804,
+      "Endorphin": 0.642,
+      "Cortisol": 0.4168,
+      "Adrenaline": 0.2231,
+      "GABA": 0.5069,
+      "Norepinephrine": 0.2135
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3257
+  },
+  {
+    "turn": 91,
+    "message": "สวัสดีครับ",
+    "input": {
+      "S": 0.293818457300771,
+      "D": 0.10432179622615868,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.2549,
+      "Serotonin": 0.9294,
+      "Oxytocin": 0.3515,
+      "Endorphin": 0.7633,
+      "Cortisol": 0.0511,
+      "Adrenaline": 0.1493,
+      "GABA": 0.6855,
+      "Norepinephrine": 0.1485
+    },
+    "hormone_delta": {
+      "Dopamine": -0.4262,
+      "Serotonin": -0.0706,
+      "Oxytocin": -0.2397,
+      "Endorphin": -0.0967,
+      "Cortisol": 0.0511,
+      "Adrenaline": 0.0425,
+      "GABA": -0.0739,
+      "Norepinephrine": 0.0283
+    },
+    "emotions": {
+      "Joy": 0.3101,
+      "Serenity": 0.3699,
+      "Love": 0.2507,
+      "Excitement": 0.0693,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3699,
+    "emotion_blend": "Serenity(0.37) + Joy(0.31) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3699
+      ],
+      [
+        "Joy",
+        0.3101
+      ],
+      [
+        "Love",
+        0.2507
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.372,
+      "Serotonin": 0.7096,
+      "Oxytocin": 0.3775,
+      "Endorphin": 0.6542,
+      "Cortisol": 0.3802,
+      "Adrenaline": 0.2157,
+      "GABA": 0.5248,
+      "Norepinephrine": 0.207
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3699
+  },
+  {
+    "turn": 92,
+    "message": "งั้นเอาแบบนี้",
+    "input": {
+      "S": 0.21116777657259503,
+      "D": 0.14872330636315045,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.1136,
+      "Serotonin": 0.7944,
+      "Oxytocin": 0.1953,
+      "Endorphin": 0.6423,
+      "Cortisol": 0.1772,
+      "Adrenaline": 0.1905,
+      "GABA": 0.5722,
+      "Norepinephrine": 0.18
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1413,
+      "Serotonin": -0.135,
+      "Oxytocin": -0.1562,
+      "Endorphin": -0.121,
+      "Cortisol": 0.1261,
+      "Adrenaline": 0.0412,
+      "GABA": -0.1133,
+      "Norepinephrine": 0.0315
+    },
+    "emotions": {
+      "Joy": 0.3021,
+      "Serenity": 0.3819,
+      "Love": 0.2364,
+      "Excitement": 0.0797,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3819,
+    "emotion_blend": "Serenity(0.38) + Joy(0.30) + Love(0.24)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3819
+      ],
+      [
+        "Joy",
+        0.3021
+      ],
+      [
+        "Love",
+        0.2364
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3461,
+      "Serotonin": 0.718,
+      "Oxytocin": 0.3593,
+      "Endorphin": 0.653,
+      "Cortisol": 0.3599,
+      "Adrenaline": 0.2132,
+      "GABA": 0.5295,
+      "Norepinephrine": 0.2043
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3819
+  },
+  {
+    "turn": 93,
+    "message": "เก่งขึ้นนะ แต่ยังไม่พอ",
+    "input": {
+      "S": 0.3007823107152158,
+      "D": 0.3317104135115462,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0069,
+      "Serotonin": 0.5877,
+      "Oxytocin": 0.0829,
+      "Endorphin": 0.5296,
+      "Cortisol": 0.4836,
+      "Adrenaline": 0.3765,
+      "GABA": 0.3939,
+      "Norepinephrine": 0.3361
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1067,
+      "Serotonin": -0.2067,
+      "Oxytocin": -0.1124,
+      "Endorphin": -0.1127,
+      "Cortisol": 0.3063,
+      "Adrenaline": 0.186,
+      "GABA": -0.1783,
+      "Norepinephrine": 0.1561
+    },
+    "emotions": {
+      "Joy": 0.1955,
+      "Serenity": 0.2146,
+      "Love": 0.1403,
+      "Excitement": 0.1687,
+      "Sadness": 0.0,
+      "Fear": 0.1129,
+      "Anger": 0.0394,
+      "Surprise": 0.1286
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.2146,
+    "emotion_blend": "Serenity(0.21) + Joy(0.20) + Excitement(0.17)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.2146
+      ],
+      [
+        "Joy",
+        0.1955
+      ],
+      [
+        "Excitement",
+        0.1687
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3122,
+      "Serotonin": 0.705,
+      "Oxytocin": 0.3316,
+      "Endorphin": 0.6406,
+      "Cortisol": 0.3723,
+      "Adrenaline": 0.2295,
+      "GABA": 0.516,
+      "Norepinephrine": 0.2175
+    },
+    "trust": 1.0,
+    "output_intensity": 0.2146
+  },
+  {
+    "turn": 94,
+    "message": "งั้นเอาแบบนี้",
+    "input": {
+      "S": 0.24317560394360777,
+      "D": 0.060358650191821156,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.196,
+      "Serotonin": 0.6021,
+      "Oxytocin": 0.1777,
+      "Endorphin": 0.506,
+      "Cortisol": 0.4336,
+      "Adrenaline": 0.1528,
+      "GABA": 0.4015,
+      "Norepinephrine": 0.1488
+    },
+    "hormone_delta": {
+      "Dopamine": 0.1891,
+      "Serotonin": 0.0144,
+      "Oxytocin": 0.0948,
+      "Endorphin": -0.0236,
+      "Cortisol": -0.05,
+      "Adrenaline": -0.2237,
+      "GABA": 0.0076,
+      "Norepinephrine": -0.1873
+    },
+    "emotions": {
+      "Joy": 0.3002,
+      "Serenity": 0.3188,
+      "Love": 0.2269,
+      "Excitement": 0.1224,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0316
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3188,
+    "emotion_blend": "Serenity(0.32) + Joy(0.30) + Love(0.23)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3188
+      ],
+      [
+        "Joy",
+        0.3002
+      ],
+      [
+        "Love",
+        0.2269
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3006,
+      "Serotonin": 0.6947,
+      "Oxytocin": 0.3163,
+      "Endorphin": 0.6272,
+      "Cortisol": 0.3784,
+      "Adrenaline": 0.2219,
+      "GABA": 0.5045,
+      "Norepinephrine": 0.2106
+    },
+    "trust": 1.0,
+    "output_intensity": 0.3188
+  },
+  {
+    "turn": 95,
+    "message": "ดีใจที่มีเธอ",
+    "input": {
+      "S": 0.7764465921487128,
+      "D": 0.03897127070057092,
+      "C": 1.3
+    },
+    "hormones": {
+      "Dopamine": 0.8404,
+      "Serotonin": 1.0,
+      "Oxytocin": 0.6816,
+      "Endorphin": 0.8074,
+      "Cortisol": 0.138,
+      "Adrenaline": 0.1808,
+      "GABA": 0.6524,
+      "Norepinephrine": 0.1866
+    },
+    "hormone_delta": {
+      "Dopamine": 0.6443,
+      "Serotonin": 0.3979,
+      "Oxytocin": 0.5039,
+      "Endorphin": 0.3014,
+      "Cortisol": -0.2956,
+      "Adrenaline": 0.0281,
+      "GABA": 0.2509,
+      "Norepinephrine": 0.0378
+    },
+    "emotions": {
+      "Joy": 0.327,
+      "Serenity": 0.2868,
+      "Love": 0.2567,
+      "Excitement": 0.1259,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0035
+    },
+    "dominant_emotion": "Joy",
+    "dominant_score": 0.327,
+    "emotion_blend": "Joy(0.33) + Serenity(0.29) + Love(0.26)",
+    "top3_emotions": [
+      [
+        "Joy",
+        0.327
+      ],
+      [
+        "Serenity",
+        0.2868
+      ],
+      [
+        "Love",
+        0.2567
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3546,
+      "Serotonin": 0.7252,
+      "Oxytocin": 0.3528,
+      "Endorphin": 0.6452,
+      "Cortisol": 0.3544,
+      "Adrenaline": 0.2178,
+      "GABA": 0.5193,
+      "Norepinephrine": 0.2082
+    },
+    "trust": 1.0,
+    "output_intensity": 0.327
+  },
+  {
+    "turn": 96,
+    "message": "ไม่เลว",
+    "input": {
+      "S": 0.26554479097749906,
+      "D": 0.12817562714578942,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.2121,
+      "Serotonin": 0.8905,
+      "Oxytocin": 0.3386,
+      "Endorphin": 0.6976,
+      "Cortisol": 0.2006,
+      "Adrenaline": 0.1674,
+      "GABA": 0.5761,
+      "Norepinephrine": 0.1631
+    },
+    "hormone_delta": {
+      "Dopamine": -0.6283,
+      "Serotonin": -0.1095,
+      "Oxytocin": -0.343,
+      "Endorphin": -0.1098,
+      "Cortisol": 0.0625,
+      "Adrenaline": -0.0135,
+      "GABA": -0.0763,
+      "Norepinephrine": -0.0234
+    },
+    "emotions": {
+      "Joy": 0.3057,
+      "Serenity": 0.359,
+      "Love": 0.253,
+      "Excitement": 0.0822,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.359,
+    "emotion_blend": "Serenity(0.36) + Joy(0.31) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.359
+      ],
+      [
+        "Joy",
+        0.3057
+      ],
+      [
+        "Love",
+        0.253
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3403,
+      "Serotonin": 0.7418,
+      "Oxytocin": 0.3514,
+      "Endorphin": 0.6504,
+      "Cortisol": 0.339,
+      "Adrenaline": 0.2127,
+      "GABA": 0.525,
+      "Norepinephrine": 0.2037
+    },
+    "trust": 1.0,
+    "output_intensity": 0.359
+  },
+  {
+    "turn": 97,
+    "message": "โอเค",
+    "input": {
+      "S": 0.2217612187138798,
+      "D": 0.0703597312327453,
+      "C": 0.8
+    },
+    "hormones": {
+      "Dopamine": 0.166,
+      "Serotonin": 0.8162,
+      "Oxytocin": 0.2267,
+      "Endorphin": 0.6081,
+      "Cortisol": 0.2033,
+      "Adrenaline": 0.1067,
+      "GABA": 0.5318,
+      "Norepinephrine": 0.1095
+    },
+    "hormone_delta": {
+      "Dopamine": -0.0461,
+      "Serotonin": -0.0743,
+      "Oxytocin": -0.1119,
+      "Endorphin": -0.0895,
+      "Cortisol": 0.0028,
+      "Adrenaline": -0.0606,
+      "GABA": -0.0443,
+      "Norepinephrine": -0.0537
+    },
+    "emotions": {
+      "Joy": 0.3086,
+      "Serenity": 0.386,
+      "Love": 0.2456,
+      "Excitement": 0.0598,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.386,
+    "emotion_blend": "Serenity(0.39) + Joy(0.31) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.386
+      ],
+      [
+        "Joy",
+        0.3086
+      ],
+      [
+        "Love",
+        0.2456
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3229,
+      "Serotonin": 0.7492,
+      "Oxytocin": 0.3389,
+      "Endorphin": 0.6462,
+      "Cortisol": 0.3254,
+      "Adrenaline": 0.2021,
+      "GABA": 0.5257,
+      "Norepinephrine": 0.1943
+    },
+    "trust": 1.0,
+    "output_intensity": 0.386
+  },
+  {
+    "turn": 98,
+    "message": "เดี๋ยวค่อยว่ากัน",
+    "input": {
+      "S": 0.10054090580979873,
+      "D": 0.1251121252069894,
+      "C": 0.9
+    },
+    "hormones": {
+      "Dopamine": 0.0399,
+      "Serotonin": 0.6679,
+      "Oxytocin": 0.102,
+      "Endorphin": 0.4875,
+      "Cortisol": 0.3032,
+      "Adrenaline": 0.1423,
+      "GABA": 0.4338,
+      "Norepinephrine": 0.1369
+    },
+    "hormone_delta": {
+      "Dopamine": -0.1261,
+      "Serotonin": -0.1483,
+      "Oxytocin": -0.1247,
+      "Endorphin": -0.1207,
+      "Cortisol": 0.0999,
+      "Adrenaline": 0.0356,
+      "GABA": -0.0981,
+      "Norepinephrine": 0.0274
+    },
+    "emotions": {
+      "Joy": 0.2964,
+      "Serenity": 0.4058,
+      "Love": 0.2292,
+      "Excitement": 0.0686,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.4058,
+    "emotion_blend": "Serenity(0.41) + Joy(0.30) + Love(0.23)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.4058
+      ],
+      [
+        "Joy",
+        0.2964
+      ],
+      [
+        "Love",
+        0.2292
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2946,
+      "Serotonin": 0.7411,
+      "Oxytocin": 0.3152,
+      "Endorphin": 0.6303,
+      "Cortisol": 0.3232,
+      "Adrenaline": 0.1961,
+      "GABA": 0.5165,
+      "Norepinephrine": 0.1885
+    },
+    "trust": 0.9998,
+    "output_intensity": 0.4057
+  },
+  {
+    "turn": 99,
+    "message": "ทำดีมากครับ",
+    "input": {
+      "S": 0.6092298467712733,
+      "D": 0.0,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.5512,
+      "Serotonin": 0.9032,
+      "Oxytocin": 0.4466,
+      "Endorphin": 0.6459,
+      "Cortisol": 0.0898,
+      "Adrenaline": 0.094,
+      "GABA": 0.586,
+      "Norepinephrine": 0.1061
+    },
+    "hormone_delta": {
+      "Dopamine": 0.5113,
+      "Serotonin": 0.2353,
+      "Oxytocin": 0.3446,
+      "Endorphin": 0.1584,
+      "Cortisol": -0.2134,
+      "Adrenaline": -0.0483,
+      "GABA": 0.1523,
+      "Norepinephrine": -0.0308
+    },
+    "emotions": {
+      "Joy": 0.3261,
+      "Serenity": 0.328,
+      "Love": 0.2539,
+      "Excitement": 0.092,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.328,
+    "emotion_blend": "Serenity(0.33) + Joy(0.33) + Love(0.25)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.328
+      ],
+      [
+        "Joy",
+        0.3261
+      ],
+      [
+        "Love",
+        0.2539
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.3203,
+      "Serotonin": 0.7573,
+      "Oxytocin": 0.3283,
+      "Endorphin": 0.6319,
+      "Cortisol": 0.2999,
+      "Adrenaline": 0.1859,
+      "GABA": 0.5234,
+      "Norepinephrine": 0.1803
+    },
+    "trust": 1.0,
+    "output_intensity": 0.328
+  },
+  {
+    "turn": 100,
+    "message": "ไม่แน่ใจเหมือนกัน",
+    "input": {
+      "S": 0.054408676179905004,
+      "D": 0.18335565386050884,
+      "C": 1.0
+    },
+    "hormones": {
+      "Dopamine": 0.0,
+      "Serotonin": 0.6649,
+      "Oxytocin": 0.1077,
+      "Endorphin": 0.4795,
+      "Cortisol": 0.3027,
+      "Adrenaline": 0.2007,
+      "GABA": 0.4227,
+      "Norepinephrine": 0.1861
+    },
+    "hormone_delta": {
+      "Dopamine": -0.5512,
+      "Serotonin": -0.2383,
+      "Oxytocin": -0.3389,
+      "Endorphin": -0.1664,
+      "Cortisol": 0.2129,
+      "Adrenaline": 0.1067,
+      "GABA": -0.1634,
+      "Norepinephrine": 0.0799
+    },
+    "emotions": {
+      "Joy": 0.2827,
+      "Serenity": 0.3892,
+      "Love": 0.2252,
+      "Excitement": 0.0913,
+      "Sadness": 0.0,
+      "Fear": 0.0,
+      "Anger": 0.0,
+      "Surprise": 0.0116
+    },
+    "dominant_emotion": "Serenity",
+    "dominant_score": 0.3892,
+    "emotion_blend": "Serenity(0.39) + Joy(0.28) + Love(0.23)",
+    "top3_emotions": [
+      [
+        "Serenity",
+        0.3892
+      ],
+      [
+        "Joy",
+        0.2827
+      ],
+      [
+        "Love",
+        0.2252
+      ]
+    ],
+    "memory": {
+      "Dopamine": 0.2882,
+      "Serotonin": 0.7481,
+      "Oxytocin": 0.3063,
+      "Endorphin": 0.6166,
+      "Cortisol": 0.3001,
+      "Adrenaline": 0.1874,
+      "GABA": 0.5134,
+      "Norepinephrine": 0.1809
+    },
+    "trust": 0.9941,
+    "output_intensity": 0.3869
+  }
+]
