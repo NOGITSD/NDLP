@@ -1,9 +1,9 @@
 services:
-  # ── Backend API ──
+  # ── Single service: Backend API + Frontend (served by FastAPI) ──
   - type: web
-    name: jarvis-backend
+    name: jarvis-app
     runtime: docker
-    dockerfilePath: ./backend.Dockerfile
+    dockerfilePath: ./Dockerfile
     plan: free
     healthCheckPath: /health
     envVars:
@@ -17,19 +17,5 @@ services:
         sync: false
       - key: JWT_SECRET
         generateValue: true
-      - key: FRONTEND_ORIGIN
-        value: https://jarvis-frontend.onrender.com
       - key: APP_ENV
         value: production
-
-  # ── Frontend (Nginx + SPA) ──
-  - type: web
-    name: jarvis-frontend
-    runtime: docker
-    dockerfilePath: ./frontend.Dockerfile
-    plan: free
-    envVars:
-      - key: BACKEND_URL
-        value: https://jarvis-backend.onrender.com
-      - key: PORT
-        value: "10000"
