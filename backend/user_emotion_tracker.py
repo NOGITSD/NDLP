@@ -1,27 +1,25 @@
 """
-User Emotion Tracker
-====================
-Tracks user's emotional signals (S, D, C, user_emotion) across turns
-to build a rich emotional profile. Enables Jarvis to answer questions
-like "How am I feeling?" with data-backed insights.
+User Emotion Tracker (with real EVC Engine)
+============================================
+Uses a dedicated EVCEngine instance to model the user's emotional state
+with real hormone dynamics (half-life decay, homeostasis, personality
+sensitivity). This gives accurate hormone/emotion readings instead of
+simple S/D signal mapping.
 """
 
 from __future__ import annotations
 
 from collections import deque
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any
 
-
-# Mood thresholds
-_STRESSED_D_THRESHOLD = 0.45
-_HAPPY_S_THRESHOLD = 0.55
-_NEUTRAL_MARGIN = 0.15
+from evc_core import EVCEngine
+from config import HORMONE_NAMES, EMOTION_NAMES
 
 # Trend detection: compare recent vs older window
 _RECENT_WINDOW = 5
 _OLDER_WINDOW = 15
-_TREND_THRESHOLD = 0.12  # minimum difference to declare a trend
+_TREND_THRESHOLD = 0.12
 
 MAX_HISTORY = 50
 
@@ -39,13 +37,16 @@ class EmotionRecord:
 
 class UserEmotionTracker:
     """
-    Tracks user emotional signals over time and produces
-    human-readable summaries for the LLM system prompt.
+    Tracks user emotional signals using a real EVCEngine instance.
+    Produces rich hormone/emotion summaries for the LLM prompt.
     """
 
     def __init__(self) -> None:
         self.history: deque[EmotionRecord] = deque(maxlen=MAX_HISTORY)
         self.turn_count: int = 0
+        # Dedicated EVC engine for the USER's emotional state
+        self.engine = EVCEngine(name="User")
+        self._last_turn_result: dict = {}
 
     # ── Recording ──
 
@@ -55,9 +56,14 @@ class UserEmotionTracker:
         D: float,
         C: float,
         user_emotion: str,
+        delta_t: float = 1.0,
         message_preview: str = "",
-    ) -> None:
-        """Record one turn of user emotional data."""
+    ) -> dict:
+        """
+        Record one turn of user emotional data and process through EVC engine.
+
+        Returns the EVC engine turn result with full hormone/emotion data.
+        """
         self.turn_count += 1
         self.history.append(EmotionRecord(
             turn=self.turn_count,
@@ -68,6 +74,14 @@ class UserEmotionTracker:
             message_preview=message_preview[:60],
         ))
 
+        # Process through real EVC engine
+        self._last_turn_result = self.engine.process_turn(
+            S=S, D=D, C=C,
+            delta_t=delta_t,
+            message=message_preview[:60],
+        )
+        return self._last_turn_result
+
     # ── Analysis ──
 
     def _avg(self, records: list[EmotionRecord], key: str) -> float:
@@ -77,28 +91,26 @@ class UserEmotionTracker:
 
     def get_current_mood(self) -> str:
         """Get a Thai-friendly label for the user's current mood."""
-        if len(self.history) == 0:
+        if not self._last_turn_result:
             return "ยังไม่มีข้อมูล"
 
-        recent = list(self.history)[-_RECENT_WINDOW:]
-        avg_s = self._avg(recent, "S")
-        avg_d = self._avg(recent, "D")
+        dominant = self._last_turn_result.get("dominant_emotion", "Neutral")
+        score = self._last_turn_result.get("dominant_score", 0)
 
-        # Determine mood from S/D balance
-        if avg_d >= _STRESSED_D_THRESHOLD and avg_d > avg_s:
-            if avg_d >= 0.65:
-                return "เครียดมาก / ไม่สบายใจ"
-            return "ค่อนข้างเครียด / กังวล"
-        elif avg_s >= _HAPPY_S_THRESHOLD and avg_s > avg_d:
-            if avg_s >= 0.7:
-                return "มีความสุขมาก / สดใส"
-            return "ค่อนข้างมีความสุข / สบายใจ"
-        elif abs(avg_s - avg_d) < _NEUTRAL_MARGIN:
-            return "ปกติ / เฉยๆ"
-        elif avg_s > avg_d:
-            return "ค่อนข้างสบายใจ"
-        else:
-            return "อารมณ์ไม่ค่อยดี"
+        mood_map = {
+            "Joy": "มีความสุข / สดใส",
+            "Serenity": "สงบ / สบายใจ",
+            "Love": "รู้สึกอบอุ่น / ผูกพัน",
+            "Excitement": "ตื่นเต้น / กระตือรือร้น",
+            "Sadness": "เศร้า / หดหู่",
+            "Fear": "กลัว / กังวล",
+            "Anger": "หงุดหงิด / โกรธ",
+            "Surprise": "ประหลาดใจ",
+        }
+        base = mood_map.get(dominant, "ปกติ")
+        if score >= 0.4:
+            return f"{base} (ค่อนข้างมาก)"
+        return base
 
     def get_trend(self) -> str:
         """Detect emotional trend: improving, worsening, or stable."""
@@ -143,94 +155,90 @@ class UserEmotionTracker:
 
     def build_user_emotion_summary(self) -> str:
         """
-        Build a rich summary of user's emotional state for injection
-        into the LLM system prompt.
-
+        Build a rich summary of user's emotional state using real EVC data.
         Returns empty string if no data yet.
         """
-        if not self.history:
+        if not self._last_turn_result:
             return ""
 
+        tr = self._last_turn_result
         mood = self.get_current_mood()
         trend = self.get_trend()
         recent_labels = self.get_recent_emotion_labels(5)
-        stats = self.get_emotion_stats()
 
-        # Build recent turn-by-turn signal data
-        recent_records = list(self.history)[-5:]
+        # Real hormone levels from EVC engine
+        hormones = tr.get("hormones", {})
+        emotions = tr.get("emotions", {})
+        dominant = tr.get("dominant_emotion", "Neutral")
+        dominant_score = tr.get("dominant_score", 0)
+        emotion_blend = tr.get("emotion_blend", "N/A")
+        trust = tr.get("trust", 0.5)
 
         lines = [
-            "=== USER EMOTIONAL ANALYSIS (from EVC sensor data) ===",
+            "=== USER EMOTIONAL ANALYSIS (real EVC Engine data) ===",
             f"Overall mood: {mood}",
             f"Trend: {trend}",
-            f"Recent emotion labels: {' → '.join(recent_labels)}",
+            f"Dominant emotion: {dominant} ({dominant_score:.0%})",
+            f"Emotion blend: {emotion_blend}",
             "",
-            "--- Signal History (last turns) ---",
+            "--- User's Hormone Levels (real EVC calculation) ---",
         ]
 
+        # Add real hormone values
+        for name in HORMONE_NAMES:
+            val = hormones.get(name, 0.0)
+            level_label = self._hormone_label(val)
+            lines.append(f"  {name}: {val:.0%} ({level_label})")
+
+        lines.append("")
+        lines.append("--- User's Emotion Scores ---")
+        for name in EMOTION_NAMES:
+            val = emotions.get(name, 0.0)
+            if val > 0.01:  # only show non-zero emotions
+                lines.append(f"  {name}: {val:.0%}")
+
+        # Recent signal history
+        lines.append("")
+        lines.append("--- Recent Signal History ---")
+        lines.append(f"  Recent emotions: {' → '.join(recent_labels)}")
+
+        recent_records = list(self.history)[-3:]
         for r in recent_records:
             lines.append(
-                f"  Turn {r.turn}: S(positive)={r.S:.2f} D(negative)={r.D:.2f} "
-                f"C(intensity)={r.C:.2f} → {r.user_emotion}"
+                f"  Turn {r.turn}: S={r.S:.2f} D={r.D:.2f} C={r.C:.2f} → {r.user_emotion}"
             )
 
-        # Map S/D averages to estimated user hormone levels
-        avg_s = stats["avg_S"]
-        avg_d = stats["avg_D"]
+        # Guidance
+        cortisol = hormones.get("Cortisol", 0.0)
+        dopamine = hormones.get("Dopamine", 0.0)
         lines.append("")
-        lines.append("--- Estimated User Hormone Levels ---")
-        lines.append(f"  Dopamine (motivation/pleasure): {self._estimate_level(avg_s, 'high_positive')}")
-        lines.append(f"  Serotonin (stability/happiness): {self._estimate_level(avg_s - avg_d * 0.5, 'balanced')}")
-        lines.append(f"  Cortisol (stress): {self._estimate_level(avg_d, 'high_negative')}")
-        lines.append(f"  Adrenaline (anxiety/alertness): {self._estimate_level(avg_d * 0.8, 'high_negative')}")
-        lines.append(f"  Oxytocin (connection/trust): {self._estimate_level(avg_s * 0.7, 'high_positive')}")
-        lines.append(f"  Endorphin (comfort): {self._estimate_level(avg_s * 0.6 - avg_d * 0.3, 'balanced')}")
-        lines.append("")
-        lines.append(f"Session averages ({stats['turns']} turns): positivity={avg_s:.2f}, negativity={avg_d:.2f}")
-
-        # Guidance for Jarvis
-        if avg_d >= 0.5:
-            lines.append("⚠ User is significantly stressed. Be extra gentle and supportive.")
-        elif avg_s >= 0.65:
-            lines.append("✨ User is in a great mood! Match their positive energy.")
+        if cortisol >= 0.45:
+            lines.append("⚠ User's Cortisol is elevated — they are stressed. Be supportive.")
+        elif dopamine >= 0.45:
+            lines.append("✨ User's Dopamine is high — they are in a good mood!")
 
         lines.append("")
         lines.append(
-            "IMPORTANT: You HAVE real analytical data about the user's emotional state above. "
-            "When the user asks about their feelings, emotions, or hormone levels, "
-            "reference this data directly and give specific numbers. "
-            "Do NOT say you don't have data — you DO have it from your EVC analysis system."
+            "IMPORTANT: The hormone/emotion data above is REAL data from your EVC analysis system. "
+            "When user asks about their emotional state, feelings, or hormones, "
+            "reference these EXACT numbers. Do NOT say you lack data."
         )
 
         return "\n".join(lines)
 
-    def _estimate_level(self, value: float, mode: str) -> str:
-        """Convert a 0-1 signal value to a human-readable hormone level."""
-        if mode == "high_negative":
-            # Higher value = more negative hormone (cortisol, adrenaline)
-            if value >= 0.6:
-                return f"สูง ({value:.0%}) — ค่อนข้างสูง"
-            elif value >= 0.35:
-                return f"ปานกลาง ({value:.0%})"
-            else:
-                return f"ต่ำ ({value:.0%}) — ปกติดี"
-        elif mode == "high_positive":
-            # Higher value = more positive hormone (dopamine, oxytocin)
-            if value >= 0.6:
-                return f"สูง ({value:.0%}) — ดีมาก"
-            elif value >= 0.35:
-                return f"ปานกลาง ({value:.0%})"
-            else:
-                return f"ต่ำ ({value:.0%}) — ค่อนข้างต่ำ"
-        else:  # balanced
-            if value >= 0.4:
-                return f"ดี ({value:.0%})"
-            elif value >= 0.1:
-                return f"ปานกลาง ({value:.0%})"
-            elif value >= -0.1:
-                return f"ต่ำ ({value:.0%})"
-            else:
-                return f"ต่ำมาก ({value:.0%})"
+    @staticmethod
+    def _hormone_label(value: float) -> str:
+        """Human-readable label for hormone level."""
+        if value >= 0.6:
+            return "สูง"
+        elif value >= 0.4:
+            return "ปานกลาง-สูง"
+        elif value >= 0.25:
+            return "ปานกลาง"
+        elif value >= 0.1:
+            return "ต่ำ"
+        else:
+            return "ต่ำมาก"
 
     # ── Serialization ──
 
@@ -238,6 +246,8 @@ class UserEmotionTracker:
         """Get serializable state for persistence."""
         return {
             "turn_count": self.turn_count,
+            "engine_state": self.engine.get_full_state(),
+            "last_turn_result": self._serialize_turn_result(self._last_turn_result),
             "history": [
                 {
                     "turn": r.turn,
@@ -254,6 +264,16 @@ class UserEmotionTracker:
     def load_state(self, state: dict[str, Any]) -> None:
         """Restore from a previously saved state."""
         self.turn_count = state.get("turn_count", 0)
+
+        # Restore EVC engine state
+        engine_state = state.get("engine_state")
+        if engine_state:
+            self.engine.load_state(engine_state)
+
+        # Restore last turn result
+        self._last_turn_result = state.get("last_turn_result", {})
+
+        # Restore history
         self.history.clear()
         for entry in state.get("history", []):
             self.history.append(EmotionRecord(
@@ -264,3 +284,25 @@ class UserEmotionTracker:
                 user_emotion=entry["user_emotion"],
                 message_preview=entry.get("message_preview", ""),
             ))
+
+    @staticmethod
+    def _serialize_turn_result(result: dict) -> dict:
+        """Make turn result JSON-serializable (convert numpy types)."""
+        if not result:
+            return {}
+        serializable = {}
+        for k, v in result.items():
+            if isinstance(v, dict):
+                serializable[k] = {
+                    sk: float(sv) if hasattr(sv, '__float__') else sv
+                    for sk, sv in v.items()
+                }
+            elif isinstance(v, (list, tuple)):
+                serializable[k] = [
+                    (float(x) if hasattr(x, '__float__') else x) for x in v
+                ]
+            elif hasattr(v, '__float__') and not isinstance(v, (int, float, str, bool)):
+                serializable[k] = float(v)
+            else:
+                serializable[k] = v
+        return serializable

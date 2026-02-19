@@ -465,7 +465,10 @@ def chat(payload: ChatRequest,
     D = _clamp(analysis.D, 0.0, 1.0)
     C = _clamp(analysis.C, 0.5, 1.5)
 
-    # 3b. User Emotion Tracking — record signals and build context
+    # 3b. Compute delta_t FIRST so both user tracker and bot EVC use the same value
+    delta_t = _compute_delta_t_turns(state, now_ts)
+
+    # 3c. User Emotion Tracking — record signals through real EVC engine
     user_tracker: UserEmotionTracker = state.data.get("user_emotion_tracker")
     if user_tracker is None:
         user_tracker = UserEmotionTracker()
@@ -473,13 +476,12 @@ def chat(payload: ChatRequest,
     user_tracker.record_turn(
         S=S, D=D, C=C,
         user_emotion=analysis.user_emotion,
+        delta_t=delta_t,
         message_preview=payload.message[:60],
     )
     user_emotion_context = user_tracker.build_user_emotion_summary()
 
-    # 4. EVC engine — update hormones/emotions/trust
-    # delta_t uses last_turn_ts from DB (if restored), so real elapsed time applies half-life decay
-    delta_t = _compute_delta_t_turns(state, now_ts)
+    # 4. EVC engine (Jarvis's emotions) — update hormones/emotions/trust
     turn_result = state.engine.process_turn(
         S=S,
         D=D,
