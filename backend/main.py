@@ -594,14 +594,10 @@ def chat(payload: ChatRequest,
         "signals": {"S": S, "D": D, "C": C},
         "delta_t": round(delta_t, 4),
         "bot_state": turn_result,
+        "user_evc": user_tracker._last_turn_result if user_tracker else None,
         "matched_skill": matched_skill.name if matched_skill else None,
         "memory_used": bool(memory_context),
         "learned_facts": learned_facts,
-        "user_mood": {
-            "current": user_tracker.get_current_mood() if user_tracker else "",
-            "trend": user_tracker.get_trend() if user_tracker else "",
-            "stats": user_tracker.get_emotion_stats() if user_tracker else {},
-        },
     }
 
 

@@ -39,7 +39,7 @@ function AppContent() {
 }
 
 function ChatApp({ user, logout, isGuest }) {
-  const { messages, isLoading, botState, send, reset, sessionId, conversations, activeConvId, loadConversation } = useChat();
+  const { messages, isLoading, botState, userState, send, reset, sessionId, conversations, activeConvId, loadConversation } = useChat();
   const [showEVC, setShowEVC] = useState(true);
   const [showExport, setShowExport] = useState(false);
   const [showAutoTest, setShowAutoTest] = useState(false);
@@ -126,7 +126,7 @@ function ChatApp({ user, logout, isGuest }) {
       {/* EVC Panel */}
       {showEVC && (
         <div className="w-64 flex-shrink-0 border-l border-[#1e2028] bg-[#14161e] hidden lg:block">
-          <EVCPanel botState={botState} />
+          <EVCPanel botState={botState} userState={userState} />
         </div>
       )}
       {/* Export Modal */}

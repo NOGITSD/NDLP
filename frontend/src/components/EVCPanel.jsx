@@ -1,14 +1,15 @@
-import { Activity, Heart, Brain, Shield, TrendingUp } from 'lucide-react';
+import { useState } from 'react';
+import { Activity, Heart, Brain, Shield, TrendingUp, User, Bot } from 'lucide-react';
 
 const EMOTION_CONFIG = {
-  Joy:        { color: '#fbbf24', emoji: '😊' },
-  Serenity:   { color: '#34d399', emoji: '😌' },
-  Love:       { color: '#f472b6', emoji: '🥰' },
+  Joy: { color: '#fbbf24', emoji: '😊' },
+  Serenity: { color: '#34d399', emoji: '😌' },
+  Love: { color: '#f472b6', emoji: '🥰' },
   Excitement: { color: '#fb923c', emoji: '🤩' },
-  Sadness:    { color: '#60a5fa', emoji: '😢' },
-  Fear:       { color: '#a78bfa', emoji: '😨' },
-  Anger:      { color: '#f87171', emoji: '😠' },
-  Surprise:   { color: '#2dd4bf', emoji: '😲' },
+  Sadness: { color: '#60a5fa', emoji: '😢' },
+  Fear: { color: '#a78bfa', emoji: '😨' },
+  Anger: { color: '#f87171', emoji: '😠' },
+  Surprise: { color: '#2dd4bf', emoji: '😲' },
 };
 
 const HORMONE_NAMES = [
@@ -73,22 +74,40 @@ function TrustMeter({ value }) {
   );
 }
 
-export default function EVCPanel({ botState }) {
-  if (!botState) {
-    return (
-      <div className="h-full flex flex-col items-center justify-center text-[#555] text-sm gap-2 p-6">
-        <Activity size={32} className="text-[#333]" />
-        <p>เริ่มสนทนาเพื่อดูสถานะ EVC</p>
-      </div>
-    );
-  }
+function ViewToggle({ activeView, onToggle }) {
+  return (
+    <div className="flex bg-[#1a1c24] rounded-lg p-0.5 gap-0.5">
+      <button
+        onClick={() => onToggle('jarvis')}
+        className={`flex items-center gap-1 px-2.5 py-1 rounded-md text-[10px] font-semibold transition-all ${activeView === 'jarvis'
+            ? 'bg-jarvis-500/20 text-jarvis-300 shadow-sm'
+            : 'text-[#555] hover:text-[#888]'
+          }`}
+      >
+        <Bot size={11} />
+        Jarvis
+      </button>
+      <button
+        onClick={() => onToggle('user')}
+        className={`flex items-center gap-1 px-2.5 py-1 rounded-md text-[10px] font-semibold transition-all ${activeView === 'user'
+            ? 'bg-cyan-500/20 text-cyan-300 shadow-sm'
+            : 'text-[#555] hover:text-[#888]'
+          }`}
+      >
+        <User size={11} />
+        User
+      </button>
+    </div>
+  );
+}
 
-  const emotions = botState.emotions || {};
-  const hormones = botState.hormones || {};
-  const trust = botState.trust ?? 0.5;
-  const dominant = botState.dominant_emotion || 'Neutral';
-  const blend = botState.emotion_blend || '';
-  const turn = botState.turn || 0;
+function EVCStateView({ state, label, accentColor }) {
+  const emotions = state.emotions || {};
+  const hormones = state.hormones || {};
+  const trust = state.trust ?? 0.5;
+  const dominant = state.dominant_emotion || 'Neutral';
+  const blend = state.emotion_blend || '';
+  const turn = state.turn || 0;
 
   const emotionEntries = Object.entries(emotions).sort((a, b) => b[1] - a[1]);
   const hormoneValues = HORMONE_NAMES.map(name => {
@@ -99,16 +118,7 @@ export default function EVCPanel({ botState }) {
   const dominantConfig = EMOTION_CONFIG[dominant] || { color: '#888', emoji: '🤖' };
 
   return (
-    <div className="h-full flex flex-col overflow-y-auto">
-      {/* Header */}
-      <div className="p-4 border-b border-[#1e2028]">
-        <div className="flex items-center gap-2 mb-1">
-          <Activity size={14} className="text-jarvis-400" />
-          <span className="text-xs font-semibold text-jarvis-300 uppercase tracking-wider">EVC Engine</span>
-          <span className="text-[10px] text-[#555] ml-auto">Turn {turn}</span>
-        </div>
-      </div>
-
+    <>
       {/* Dominant Emotion */}
       <div className="p-4 border-b border-[#1e2028]">
         <div className="flex items-center gap-3">
@@ -158,6 +168,59 @@ export default function EVCPanel({ botState }) {
           ))}
         </div>
       </div>
+    </>
+  );
+}
+
+export default function EVCPanel({ botState, userState }) {
+  const [activeView, setActiveView] = useState('jarvis');
+
+  const hasData = activeView === 'jarvis' ? !!botState : !!userState;
+  const currentState = activeView === 'jarvis' ? botState : userState;
+  const turn = currentState?.turn || botState?.turn || 0;
+
+  if (!botState && !userState) {
+    return (
+      <div className="h-full flex flex-col items-center justify-center text-[#555] text-sm gap-2 p-6">
+        <Activity size={32} className="text-[#333]" />
+        <p>เริ่มสนทนาเพื่อดูสถานะ EVC</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="h-full flex flex-col overflow-y-auto">
+      {/* Header with Toggle */}
+      <div className="p-4 border-b border-[#1e2028]">
+        <div className="flex items-center gap-2 mb-2">
+          <Activity size={14} className="text-jarvis-400" />
+          <span className="text-xs font-semibold text-jarvis-300 uppercase tracking-wider">EVC Engine</span>
+          <span className="text-[10px] text-[#555] ml-auto">Turn {turn}</span>
+        </div>
+        <ViewToggle activeView={activeView} onToggle={setActiveView} />
+      </div>
+
+      {/* Label */}
+      <div className="px-4 pt-2 pb-1">
+        <span className={`text-[10px] font-semibold uppercase tracking-wider ${activeView === 'jarvis' ? 'text-jarvis-400' : 'text-cyan-400'
+          }`}>
+          {activeView === 'jarvis' ? '🤖 Jarvis\'s Emotions' : '👤 User\'s Emotions'}
+        </span>
+      </div>
+
+      {/* Content */}
+      {hasData ? (
+        <EVCStateView
+          state={currentState}
+          label={activeView === 'jarvis' ? 'Jarvis' : 'User'}
+          accentColor={activeView === 'jarvis' ? '#22d3ee' : '#06b6d4'}
+        />
+      ) : (
+        <div className="flex-1 flex flex-col items-center justify-center text-[#555] text-xs gap-2 p-6">
+          <User size={24} className="text-[#333]" />
+          <p>ยังไม่มีข้อมูล{activeView === 'user' ? ' User' : ''}</p>
+        </div>
+      )}
     </div>
   );
 }

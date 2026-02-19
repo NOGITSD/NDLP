@@ -9,6 +9,7 @@ export function useChat() {
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [botState, setBotState] = useState(null);
+  const [userState, setUserState] = useState(null);
   const [error, setError] = useState(null);
   const [conversations, setConversations] = useState([]);
   const [activeConvId, setActiveConvId] = useState(null);
@@ -85,6 +86,7 @@ export function useChat() {
       };
       setMessages(prev => [...prev, botMsg]);
       setBotState(data.bot_state);
+      if (data.user_evc) setUserState(data.user_evc);
       // Refresh conversation list (new conversation may have been created)
       loadConversations();
     } catch (err) {
@@ -106,12 +108,13 @@ export function useChat() {
     sessionIdRef.current = generateSessionId();
     setMessages([]);
     setBotState(null);
+    setUserState(null);
     setError(null);
     setActiveConvId(null);
   }, []);
 
   return {
-    messages, isLoading, botState, error, send, reset, sessionId,
+    messages, isLoading, botState, userState, error, send, reset, sessionId,
     conversations, activeConvId, loadConversation, loadConversations,
   };
 }
