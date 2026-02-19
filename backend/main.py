@@ -83,7 +83,8 @@ def _compute_delta_t_turns(state: Any, now_ts: float) -> float:
 
 
 def create_evc_engine() -> EVCEngine:
-    return EVCEngine(name="Jarvis")
+    from config import PERSONALITY_CHEERFUL
+    return EVCEngine(personality=PERSONALITY_CHEERFUL, name="Jarvis")
 
 
 DATA_DIR = str(ROOT_DIR / "data" / "users")
