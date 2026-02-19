@@ -29,7 +29,7 @@ Thumbs.db
 openclaw/
 *.md
 jarvis_export_*.txt
-backend/test_*.py
+backend/test_e2e_auth.py
 
 # Data (mounted as volume)
 data/

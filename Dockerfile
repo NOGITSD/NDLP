@@ -37,8 +37,8 @@ COPY skills/ ./skills/
 # Copy built frontend into frontend_dist/ (FastAPI serves this)
 COPY --from=frontend-build /app/dist ./frontend_dist/
 
-# Remove test files
-RUN rm -f backend/test_*.py
+# Keep backend/test_messages.py for /api/autotest; remove only heavy e2e file
+RUN rm -f backend/test_e2e_auth.py
 
 # Create data directory
 RUN mkdir -p /app/data
