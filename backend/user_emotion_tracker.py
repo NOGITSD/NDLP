@@ -156,28 +156,81 @@ class UserEmotionTracker:
         recent_labels = self.get_recent_emotion_labels(5)
         stats = self.get_emotion_stats()
 
+        # Build recent turn-by-turn signal data
+        recent_records = list(self.history)[-5:]
+
         lines = [
-            f"User's current mood: {mood}",
-            f"Emotional trend: {trend}",
-            f"Recent emotions (last {len(recent_labels)} turns): {' → '.join(recent_labels)}",
-            f"Session stats ({stats['turns']} turns): avg positivity={stats['avg_S']:.2f}, avg negativity={stats['avg_D']:.2f}",
+            "=== USER EMOTIONAL ANALYSIS (from EVC sensor data) ===",
+            f"Overall mood: {mood}",
+            f"Trend: {trend}",
+            f"Recent emotion labels: {' → '.join(recent_labels)}",
+            "",
+            "--- Signal History (last turns) ---",
         ]
 
-        # Add specific guidance
-        if stats["avg_D"] >= 0.5:
+        for r in recent_records:
             lines.append(
-                "⚠ User appears significantly stressed. Be extra gentle and supportive."
-            )
-        elif stats["avg_S"] >= 0.65:
-            lines.append(
-                "✨ User is in a great mood! Match their positive energy."
+                f"  Turn {r.turn}: S(positive)={r.S:.2f} D(negative)={r.D:.2f} "
+                f"C(intensity)={r.C:.2f} → {r.user_emotion}"
             )
 
+        # Map S/D averages to estimated user hormone levels
+        avg_s = stats["avg_S"]
+        avg_d = stats["avg_D"]
+        lines.append("")
+        lines.append("--- Estimated User Hormone Levels ---")
+        lines.append(f"  Dopamine (motivation/pleasure): {self._estimate_level(avg_s, 'high_positive')}")
+        lines.append(f"  Serotonin (stability/happiness): {self._estimate_level(avg_s - avg_d * 0.5, 'balanced')}")
+        lines.append(f"  Cortisol (stress): {self._estimate_level(avg_d, 'high_negative')}")
+        lines.append(f"  Adrenaline (anxiety/alertness): {self._estimate_level(avg_d * 0.8, 'high_negative')}")
+        lines.append(f"  Oxytocin (connection/trust): {self._estimate_level(avg_s * 0.7, 'high_positive')}")
+        lines.append(f"  Endorphin (comfort): {self._estimate_level(avg_s * 0.6 - avg_d * 0.3, 'balanced')}")
+        lines.append("")
+        lines.append(f"Session averages ({stats['turns']} turns): positivity={avg_s:.2f}, negativity={avg_d:.2f}")
+
+        # Guidance for Jarvis
+        if avg_d >= 0.5:
+            lines.append("⚠ User is significantly stressed. Be extra gentle and supportive.")
+        elif avg_s >= 0.65:
+            lines.append("✨ User is in a great mood! Match their positive energy.")
+
+        lines.append("")
         lines.append(
-            "If user asks how they feel, use the above data to give an empathetic, personalized answer."
+            "IMPORTANT: You HAVE real analytical data about the user's emotional state above. "
+            "When the user asks about their feelings, emotions, or hormone levels, "
+            "reference this data directly and give specific numbers. "
+            "Do NOT say you don't have data — you DO have it from your EVC analysis system."
         )
 
         return "\n".join(lines)
+
+    def _estimate_level(self, value: float, mode: str) -> str:
+        """Convert a 0-1 signal value to a human-readable hormone level."""
+        if mode == "high_negative":
+            # Higher value = more negative hormone (cortisol, adrenaline)
+            if value >= 0.6:
+                return f"สูง ({value:.0%}) — ค่อนข้างสูง"
+            elif value >= 0.35:
+                return f"ปานกลาง ({value:.0%})"
+            else:
+                return f"ต่ำ ({value:.0%}) — ปกติดี"
+        elif mode == "high_positive":
+            # Higher value = more positive hormone (dopamine, oxytocin)
+            if value >= 0.6:
+                return f"สูง ({value:.0%}) — ดีมาก"
+            elif value >= 0.35:
+                return f"ปานกลาง ({value:.0%})"
+            else:
+                return f"ต่ำ ({value:.0%}) — ค่อนข้างต่ำ"
+        else:  # balanced
+            if value >= 0.4:
+                return f"ดี ({value:.0%})"
+            elif value >= 0.1:
+                return f"ปานกลาง ({value:.0%})"
+            elif value >= -0.1:
+                return f"ต่ำ ({value:.0%})"
+            else:
+                return f"ต่ำมาก ({value:.0%})"
 
     # ── Serialization ──
 
