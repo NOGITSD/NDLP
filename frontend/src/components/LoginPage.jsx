@@ -6,6 +6,7 @@ export default function LoginPage() {
   const { login, register, googleLogin, guest, error, setError } = useAuth();
   const googleBtnRef = useRef(null);
   const googleInitRef = useRef(false);
+  const [googleClientId, setGoogleClientId] = useState('');
   const [mode, setMode] = useState('login'); // login | register
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -44,11 +45,26 @@ export default function LoginPage() {
     setSubmitting(false);
   }, [googleLogin, setError]);
 
+  // Fetch runtime config (supports deployments where VITE_* build env is not available)
+  useEffect(() => {
+    let alive = true;
+    fetch('/api/config')
+      .then(r => r.ok ? r.json() : null)
+      .then(cfg => {
+        if (!alive || !cfg) return;
+        if (typeof cfg.google_client_id === 'string') {
+          setGoogleClientId(cfg.google_client_id);
+        }
+      })
+      .catch(() => { /* best-effort */ });
+    return () => { alive = false; };
+  }, []);
+
   // Initialize Google Sign-In
   useEffect(() => {
     if (googleInitRef.current) return;
     const initGoogle = () => {
-      const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+      const clientId = googleClientId || import.meta.env.VITE_GOOGLE_CLIENT_ID;
       if (!clientId || !window.google?.accounts?.id) return;
       googleInitRef.current = true;
       window.google.accounts.id.initialize({
@@ -78,9 +94,9 @@ export default function LoginPage() {
       }, 200);
       return () => clearInterval(timer);
     }
-  }, [handleGoogleCallback]);
+  }, [handleGoogleCallback, googleClientId]);
 
-  const hasGoogleClientId = !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
+  const hasGoogleClientId = !!googleClientId || !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
   return (
     <div className="h-full flex bg-[#0f1117]">
