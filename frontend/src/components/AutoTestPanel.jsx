@@ -9,13 +9,17 @@ const EMOTION_COLORS = {
 
 export default function AutoTestPanel({ onClose, onDone }) {
   const [status, setStatus] = useState('idle'); // idle | running | done | error
-  const [total, setTotal] = useState(100);
+  const [total, setTotal] = useState(0);
   const [current, setCurrent] = useState(0);
   const [logs, setLogs] = useState([]);
   const [sessionId, setSessionId] = useState('autotest_' + Date.now());
   const [doneSessionId, setDoneSessionId] = useState(null);
   const abortRef = useRef(null);
   const logEndRef = useRef(null);
+  const statusRef = useRef('idle');
+  const totalRef = useRef(0);
+  const currentRef = useRef(0);
+  const doneRef = useRef(false);
 
   useEffect(() => {
     if (logEndRef.current) {
@@ -24,6 +28,8 @@ export default function AutoTestPanel({ onClose, onDone }) {
   }, [logs]);
 
   const startTest = async () => {
+    doneRef.current = false;
+    statusRef.current = 'running';
     setStatus('running');
     setCurrent(0);
     setLogs([]);
@@ -39,6 +45,10 @@ export default function AutoTestPanel({ onClose, onDone }) {
         signal: controller.signal,
       });
 
+      if (!res.ok) {
+        throw new Error(`Server error: ${res.status} ${res.statusText}`);
+      }
+
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let buffer = '';
@@ -53,7 +63,8 @@ export default function AutoTestPanel({ onClose, onDone }) {
 
         for (const line of lines) {
           if (!line.startsWith('data: ')) continue;
-          const jsonStr = line.slice(6);
+          const jsonStr = line.slice(6).trim();
+          if (!jsonStr) continue;
           try {
             const event = JSON.parse(jsonStr);
 
@@ -65,6 +76,8 @@ export default function AutoTestPanel({ onClose, onDone }) {
             } else if (event.type === 'error') {
               setLogs(prev => [...prev, { ...event, isError: true }]);
             } else if (event.type === 'done') {
+              doneRef.current = true;
+              statusRef.current = 'done';
               setStatus('done');
               setDoneSessionId(event.session_id);
             }
@@ -72,16 +85,20 @@ export default function AutoTestPanel({ onClose, onDone }) {
         }
       }
 
-      if (status !== 'done') {
+      // Fallback if server closed stream without sending 'done' event
+      if (!doneRef.current) {
+        statusRef.current = 'done';
         setStatus('done');
         setDoneSessionId(sid);
       }
     } catch (err) {
       if (err.name === 'AbortError') {
+        statusRef.current = 'idle';
         setStatus('idle');
       } else {
+        statusRef.current = 'error';
         setStatus('error');
-        setLogs(prev => [...prev, { type: 'error', turn: current, error: err.message, isError: true }]);
+        setLogs(prev => [...prev, { type: 'error', turn: 0, error: err.message, isError: true }]);
       }
     }
   };
