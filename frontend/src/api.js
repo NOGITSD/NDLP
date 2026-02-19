@@ -112,6 +112,12 @@ export async function getUserConversations(limit = 50) {
   return res.json();
 }
 
+export async function getConversationMessages(convId, limit = 100) {
+  const res = await fetch(`${BASE}/api/conversations/${encodeURIComponent(convId)}/messages?limit=${limit}`, { headers: authHeaders() });
+  if (!res.ok) return [];
+  return res.json();
+}
+
 // ── Chat API (with auth token) ──
 
 export async function sendChat(sessionId, message) {

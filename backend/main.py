@@ -350,6 +350,58 @@ def list_user_conversations(limit: int = 50,
              "created_at": c.created_at, "updated_at": c.updated_at} for c in convs]
 
 
+@app.get("/api/conversations/{conv_id}/messages")
+def get_conversation_messages(conv_id: str, limit: int = 100,
+                              user: UserDTO = Depends(_require_user)) -> dict:
+    conv = db_repo.get_conversation(conv_id)
+    if not conv or conv.user_id != user.id:
+        raise HTTPException(status_code=404, detail="Conversation not found")
+    msgs = db_repo.get_messages(conv_id, limit=limit)
+    # Load saved EVC state so frontend can display hormones/emotions on resume
+    evc_state, last_turn_ts = None, None
+    try:
+        evc_state, last_turn_ts = db_repo.get_evc_state(conv_id)
+    except Exception:
+        pass
+    # Compute time-decayed bot_state for display (without mutating engine)
+    bot_state = None
+    if evc_state:
+        from evc_core import EVCEngine
+        from emotions import EmotionMapper
+        tmp_engine = EVCEngine()
+        tmp_engine.load_state(evc_state)
+        # Apply time-based half-life decay preview
+        if last_turn_ts:
+            elapsed = max(time.time() - float(last_turn_ts), 0.0)
+            delta_t = _clamp(elapsed / TURN_SECONDS, MIN_DELTA_T, MAX_DELTA_T)
+            # Dry-run decay: simulate a neutral turn to show decayed state
+            tmp_engine.hormones.apply_decay(delta_t)
+            tmp_engine.hormones.apply_homeostasis()
+        emotions = tmp_engine.emotions.compute(tmp_engine.hormones.H)
+        dominant_name, dominant_score = tmp_engine.emotions.get_dominant()
+        bot_state = {
+            "turn": tmp_engine.turn,
+            "hormones": tmp_engine.hormones.get_state_dict(),
+            "emotions": tmp_engine.emotions.get_state_dict(),
+            "dominant_emotion": dominant_name,
+            "dominant_score": round(dominant_score, 4),
+            "emotion_blend": tmp_engine.emotions.get_emotion_label(),
+            "trust": round(float(tmp_engine.trust), 4),
+        }
+    return {
+        "messages": [
+            {
+                "id": m.id, "role": m.role, "content": m.content,
+                "signals_s": m.signals_s, "signals_d": m.signals_d, "signals_c": m.signals_c,
+                "dominant_emotion": m.dominant_emotion, "trust_level": m.trust_level,
+                "metadata": m.metadata, "created_at": m.created_at,
+            }
+            for m in msgs
+        ],
+        "bot_state": bot_state,
+    }
+
+
 @app.post("/api/chat")
 def chat(payload: ChatRequest,
          user: UserDTO | None = Depends(_optional_user)) -> dict[str, Any]:
@@ -357,7 +409,22 @@ def chat(payload: ChatRequest,
     memory = _get_memory(payload.session_id)
     now_ts = time.time()
 
-    # 0. User memory context (if authenticated)
+    # 0a. Restore EVC state from DB if resuming a conversation (conv_ prefix)
+    if (not state.data.get("evc_restored")
+            and payload.session_id.startswith("conv_")
+            and user and not user.is_guest):
+        resume_id = payload.session_id[5:]
+        try:
+            saved_evc, saved_ts = db_repo.get_evc_state(resume_id)
+            if saved_evc:
+                state.engine.load_state(saved_evc)
+                if saved_ts:
+                    state.data["last_turn_ts"] = float(saved_ts)
+        except Exception:
+            pass  # best-effort
+        state.data["evc_restored"] = True
+
+    # 0b. User memory context (if authenticated)
     user_profile_context = ""
     user_memory_context = ""
     if user and not user.is_guest:
@@ -386,6 +453,7 @@ def chat(payload: ChatRequest,
     C = _clamp(analysis.C, 0.5, 1.5)
 
     # 4. EVC engine — update hormones/emotions/trust
+    # delta_t uses last_turn_ts from DB (if restored), so real elapsed time applies half-life decay
     delta_t = _compute_delta_t_turns(state, now_ts)
     turn_result = state.engine.process_turn(
         S=S,
@@ -397,7 +465,18 @@ def chat(payload: ChatRequest,
     state.turn = turn_result["turn"]
     state.data["latest_turn"] = turn_result
 
-    # 5. Generate reply with memory + skill + emotion context
+    # 5. Build chat history for LLM continuity
+    chat_history = state.data.get("chat_history", [])
+    # If resuming and history is empty, load from DB
+    if not chat_history and payload.session_id.startswith("conv_") and user and not user.is_guest:
+        resume_id = payload.session_id[5:]
+        try:
+            db_msgs = db_repo.get_messages(resume_id, limit=20)
+            chat_history = [{"role": m.role, "content": m.content} for m in db_msgs]
+        except Exception:
+            pass
+
+    # Generate reply with memory + skill + emotion context + history
     reply = groq.generate_reply(
         payload.message,
         turn_result,
@@ -405,8 +484,15 @@ def chat(payload: ChatRequest,
         memory_context=memory_context,
         long_term_memory=long_term,
         skill_context=skill_context,
+        chat_history=chat_history,
     )
     state.data["last_reply"] = reply
+
+    # Append to in-memory chat history for subsequent turns
+    chat_history.append({"role": "user", "content": payload.message})
+    chat_history.append({"role": "assistant", "content": reply})
+    # Keep last 30 messages to prevent unbounded growth
+    state.data["chat_history"] = chat_history[-30:]
 
     # 6. Write to daily log
     dominant = turn_result.get("dominant_emotion", "Neutral")
@@ -418,6 +504,13 @@ def chat(payload: ChatRequest,
     # 7. Persist messages to DB for authenticated (non-guest) users
     if user and not user.is_guest:
         conv_id = state.data.get("conversation_id")
+        # Support resuming: session_id = "conv_{uuid}" means append to existing conversation
+        if not conv_id and payload.session_id.startswith("conv_"):
+            resume_id = payload.session_id[5:]
+            existing = db_repo.get_conversation(resume_id)
+            if existing and existing.user_id == user.id:
+                conv_id = resume_id
+                state.data["conversation_id"] = conv_id
         if not conv_id:
             conv_id = str(uuid.uuid4())
             db_repo.create_conversation(ConversationDTO(
@@ -439,6 +532,11 @@ def chat(payload: ChatRequest,
             trust_level=turn_result.get("trust", 0),
             metadata=json.dumps({"matched_skill": matched_skill.name if matched_skill else None}),
         ))
+        # Save EVC state + timestamp for resuming with half-life decay
+        try:
+            db_repo.save_evc_state(conv_id, state.engine.get_full_state(), now_ts)
+        except Exception:
+            pass  # best-effort
 
     # 8. Auto-extract facts from user message (non-blocking, best-effort)
     learned_facts = []

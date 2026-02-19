@@ -15,7 +15,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from .prompts import ANALYZER_SYSTEM_PROMPT, CHAT_SYSTEM_PROMPT_TEMPLATE, FACT_EXTRACTOR_PROMPT
+from .prompts import ANALYZER_SYSTEM_PROMPT, CHAT_SYSTEM_PROMPT_TEMPLATE, EMOTION_EXPRESSION_MAP, FACT_EXTRACTOR_PROMPT
 
 # Ensure .env is loaded from the backend directory
 _BACKEND_DIR = Path(__file__).resolve().parent
@@ -84,15 +84,41 @@ class GroqBridge:
         memory_context: str = "",
         long_term_memory: str = "",
         skill_context: str = "",
+        chat_history: list[dict[str, str]] | None = None,
     ) -> str:
         if not self.client:
             return "รับทราบครับ เดี๋ยวฉันช่วยคุณต่อจากบริบทเดิมให้นะ"
 
+        dominant = bot_state.get("dominant_emotion", "Neutral")
+        dominant_score = float(bot_state.get("dominant_score", 0.25))
+        trust = float(bot_state.get("trust", 0.5))
+
+        # Build hormone summary for the prompt
+        hormones = bot_state.get("hormones", {})
+        hormone_lines = []
+        if hormones:
+            high = [f"{k}({v:.0%})" for k, v in hormones.items() if v > 0.55]
+            low = [f"{k}({v:.0%})" for k, v in hormones.items() if v < 0.25]
+            if high:
+                hormone_lines.append(f"High: {', '.join(high)}")
+            if low:
+                hormone_lines.append(f"Low: {', '.join(low)}")
+        hormone_summary = "\n".join(hormone_lines) if hormone_lines else "Hormones: balanced"
+
+        # Get emotion-specific expression guide
+        emotion_guide = EMOTION_EXPRESSION_MAP.get(
+            dominant,
+            "Express your current emotional state naturally through tone and word choice."
+        )
+
         system_prompt = CHAT_SYSTEM_PROMPT_TEMPLATE.format(
-            dominant_emotion=bot_state.get("dominant_emotion", "Neutral"),
+            dominant_emotion=dominant,
+            dominant_score=dominant_score,
             emotion_blend=bot_state.get("emotion_blend", "N/A"),
-            trust=float(bot_state.get("trust", 0.5)),
+            trust=trust,
             user_emotion=user_emotion,
+            hormone_summary=hormone_summary,
+            emotion_expression_guide=emotion_guide,
         )
 
         # Inject long-term memory (user profile)
@@ -107,13 +133,19 @@ class GroqBridge:
         if skill_context:
             system_prompt += f"\n\n{skill_context[:1000]}"
 
+        # Build messages with conversation history for continuity
+        messages: list[dict[str, str]] = [{"role": "system", "content": system_prompt}]
+        if chat_history:
+            # Include recent history (last 20 messages max to stay within token limits)
+            for msg in chat_history[-20:]:
+                messages.append({"role": msg["role"], "content": msg["content"]})
+        # Always append current user message as last
+        messages.append({"role": "user", "content": user_message})
+
         completion = self.client.chat.completions.create(
             model=self.chat_model,
             temperature=0.6,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_message},
-            ],
+            messages=messages,
         )
         return completion.choices[0].message.content or ""
 

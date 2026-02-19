@@ -91,9 +91,20 @@ class HormoneSystem:
         return np.exp(-dynamic_lambda * delta_t)
 
     def _soft_clip01(self, x: np.ndarray) -> np.ndarray:
-        """Smoothly bound values to [0,1] to reduce hard clipping artifacts."""
-        z = (x - 0.5) * SOFT_CLAMP_SHARPNESS
-        return 1.0 / (1.0 + np.exp(-z))
+        """Smoothly bound values to [0,1] without distorting the interior range.
+
+        Uses softplus-based clamping instead of centered sigmoid.
+        Values in ~[0.05, 0.95] pass through nearly unchanged;
+        only values near 0 or 1 get gently curved back.
+        """
+        k = SOFT_CLAMP_SHARPNESS
+        # Soft lower bound at 0
+        kx = k * x
+        x = np.where(kx > 20, x, np.log1p(np.exp(kx)) / k)
+        # Soft upper bound at 1
+        kt = k * (1.0 - x)
+        x = 1.0 - np.where(kt > 20, 1.0 - x, np.log1p(np.exp(kt)) / k)
+        return x
     
     def update(self, S: float, D: float, C: float, delta_t: float = 1.0) -> np.ndarray:
         """
@@ -145,6 +156,17 @@ class HormoneSystem:
         
         return self.H
     
+    def apply_decay(self, delta_t: float = 1.0):
+        """Apply half-life decay only (no stimulus). Used for time-elapsed preview."""
+        decay_factor = self._compute_decay_factor(D=0.0, C=1.0, delta_t=delta_t)
+        self.H = self.H * decay_factor
+        self.H = self._soft_clip01(self.H)
+
+    def apply_homeostasis(self):
+        """Apply homeostasis pull toward baseline. Used for time-elapsed preview."""
+        self.H = self.H + RECOVERY_RATE * (H_BASELINE - self.H)
+        self.H = self._soft_clip01(self.H)
+
     def get_delta(self) -> np.ndarray:
         """
         Get hormone change from last turn.

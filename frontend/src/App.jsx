@@ -39,7 +39,7 @@ function AppContent() {
 }
 
 function ChatApp({ user, logout, isGuest }) {
-  const { messages, isLoading, botState, send, reset, sessionId } = useChat();
+  const { messages, isLoading, botState, send, reset, sessionId, conversations, activeConvId, loadConversation } = useChat();
   const [showEVC, setShowEVC] = useState(true);
   const [showExport, setShowExport] = useState(false);
   const [showAutoTest, setShowAutoTest] = useState(false);
@@ -56,7 +56,7 @@ function ChatApp({ user, logout, isGuest }) {
     <div className="h-full flex bg-[#0f1117]">
       {/* Sidebar */}
       <div className="w-56 flex-shrink-0 hidden md:block">
-        <Sidebar sessionId={sessionId} onReset={reset} user={user} onLogout={logout} isGuest={isGuest} />
+        <Sidebar sessionId={sessionId} onReset={reset} user={user} onLogout={logout} isGuest={isGuest} conversations={conversations} activeConvId={activeConvId} onSelectConversation={loadConversation} />
       </div>
 
       {/* Main Chat Area */}

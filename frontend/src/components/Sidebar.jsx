@@ -1,6 +1,6 @@
-import { Plus, RotateCcw, Cpu, Sparkles, LogOut, User, Zap, Shield } from 'lucide-react';
+import { Plus, RotateCcw, Cpu, Sparkles, LogOut, User, Zap, Shield, MessageSquare } from 'lucide-react';
 
-export default function Sidebar({ sessionId, onReset, user, onLogout, isGuest }) {
+export default function Sidebar({ sessionId, onReset, user, onLogout, isGuest, conversations, activeConvId, onSelectConversation }) {
   return (
     <div className="h-full flex flex-col bg-[#12141b] border-r border-[#1e2028]">
       {/* Logo */}
@@ -55,8 +55,30 @@ export default function Sidebar({ sessionId, onReset, user, onLogout, isGuest })
         </button>
       </div>
 
-      {/* Spacer */}
-      <div className="flex-1" />
+      {/* Conversation list */}
+      {conversations && conversations.length > 0 && (
+        <div className="flex-1 overflow-y-auto px-2 pb-2">
+          <p className="text-[9px] text-[#555] uppercase tracking-wider px-2 mb-1">Recent chats</p>
+          {conversations.map((conv) => (
+            <button
+              key={conv.id}
+              onClick={() => onSelectConversation && onSelectConversation(conv.id)}
+              className={`flex items-center gap-2 w-full px-2.5 py-2 rounded-lg text-xs transition-colors truncate ${
+                activeConvId === conv.id
+                  ? 'bg-jarvis-700/20 text-jarvis-400 border border-jarvis-600/30'
+                  : 'text-[#888] hover:text-[#ccc] hover:bg-[#1a1c24]'
+              }`}
+              title={conv.title}
+            >
+              <MessageSquare size={12} className="flex-shrink-0" />
+              <span className="truncate">{conv.title || 'Untitled'}</span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Spacer (only when no conversations) */}
+      {(!conversations || conversations.length === 0) && <div className="flex-1" />}
 
       {/* Session info + logout */}
       <div className="p-4 border-t border-[#1e2028]">

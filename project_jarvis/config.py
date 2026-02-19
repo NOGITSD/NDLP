@@ -57,14 +57,14 @@ H_BASELINE = np.array([
 # ============================================================
 
 HALF_LIFE_TURNS = np.array([
-    0.4,   # Dopamine      (~2 min real → decays fast)
-    6.0,   # Serotonin     (~30 min real → decays slow)
-    0.8,   # Oxytocin      (~4 min real → decays fast)
-    4.0,   # Endorphin     (~20 min real → medium)
-    15.0,  # Cortisol      (~75 min real → very slow!)
-    0.5,   # Adrenaline    (~2.5 min real → decays fast)
-    6.0,   # GABA          (~30 min real → slow)
-    0.5,   # Norepinephrine (~2.5 min real → decays fast)
+    2.0,   # Dopamine      (tonic DA level, not synaptic clearance — Schultz 2007)
+    15.0,  # Serotonin     (most stable, changes over days/weeks — Cowen & Browning 2015)
+    3.0,   # Oxytocin      (cumulative bonding effect — Feldman 2012)
+    6.0,   # Endorphin     (moderate persistence)
+    25.0,  # Cortisol      (HPA axis 15-30 min lag + slow clearance — Dickerson & Kemeny 2004)
+    1.5,   # Adrenaline    (fast but not instant)
+    10.0,  # GABA          (inhibitory tone is relatively stable)
+    1.5,   # Norepinephrine (similar to adrenaline)
 ])
 
 # Decay constants: λ = ln(2) / half_life
@@ -91,13 +91,13 @@ HALF_LIFE_STRESS_SENS = np.array([
 # How current activation level (|H - baseline|) changes each half-life.
 # Helps highly activated hormones linger realistically.
 HALF_LIFE_ACTIVATION_SENS = np.array([
-    0.25,  # Dopamine
-    0.20,  # Serotonin
-    0.20,  # Oxytocin
+    0.30,  # Dopamine
+    0.15,  # Serotonin      (very stable, minimal activation effect)
+    0.25,  # Oxytocin
     0.20,  # Endorphin
-    0.70,  # Cortisol
+    0.80,  # Cortisol       (allostatic load — McEwen 1998: elevated cortisol persists longer)
     0.40,  # Adrenaline
-    0.20,  # GABA
+    0.15,  # GABA
     0.35,  # Norepinephrine
 ])
 
@@ -108,28 +108,28 @@ HALF_LIFE_ACTIVATION_SENS = np.array([
 
 # P_pos: When user sends positive signal (praise, thanks, love)
 P_POS = np.array([
-    0.80,  # Dopamine ↑ (reward!)
-    0.50,  # Serotonin ↑ (feels good)
-    0.60,  # Oxytocin ↑ (bonding)
-    0.40,  # Endorphin ↑ (comfort)
-   -0.30,  # Cortisol ↓ (less stress)
-    0.10,  # Adrenaline ↑ slight (excitement)
-    0.30,  # GABA ↑ (relaxed)
-    0.10,  # Norepinephrine ↑ slight
+    0.65,  # Dopamine ↑ (reward — moderate, tonic level shift)
+    0.35,  # Serotonin ↑ (slow responder, small per-turn effect)
+    0.50,  # Oxytocin ↑ (bonding — cumulative, not explosive)
+    0.35,  # Endorphin ↑ (comfort)
+   -0.20,  # Cortisol ↓ (mild stress relief per positive turn)
+    0.08,  # Adrenaline ↑ slight
+    0.25,  # GABA ↑ (relaxed)
+    0.08,  # Norepinephrine ↑ slight
 ])
 
 # P_neg: When user sends negative signal (insult, anger, frustration)
 # Positive values = hormone DECREASES when D is high
 # Negative values = hormone INCREASES when D is high
 P_NEG = np.array([
-    0.60,  # Dopamine ↓ (less pleasure)
-    0.50,  # Serotonin ↓ (less calm)
-    0.40,  # Oxytocin ↓ (less trust)
-    0.20,  # Endorphin ↓ slightly
-   -0.80,  # Cortisol ↑↑ (MORE stress!)
-   -0.60,  # Adrenaline ↑↑ (fight/flight!)
-    0.40,  # GABA ↓ (less relaxed)
-   -0.50,  # Norepinephrine ↑ (alert!)
+    0.50,  # Dopamine ↓ (less pleasure)
+    0.40,  # Serotonin ↓ (slow responder — Cowen 2015)
+    0.35,  # Oxytocin ↓ (less trust)
+    0.18,  # Endorphin ↓ slightly
+   -0.55,  # Cortisol ↑ (rises but with HPA lag — Dickerson 2004)
+   -0.45,  # Adrenaline ↑ (fight/flight)
+    0.30,  # GABA ↓ (less relaxed)
+   -0.40,  # Norepinephrine ↑ (alert)
 ])
 
 # ============================================================
@@ -158,7 +158,7 @@ H_INTERACT = np.array([
     [ 0.03, -0.02, -0.02, 0.00,  0.04, 0.05,-0.06, 0.00],  # Norepinephrine (GABA inhibits)
 ])
 
-INTERACTION_STRENGTH = 0.15  # Scale factor (0=off, 1=full)
+INTERACTION_STRENGTH = 0.08  # Scale factor (0=off, 1=full) — reduced to prevent compounding
 
 # ============================================================
 # NEGATIVITY BIAS
@@ -166,7 +166,7 @@ INTERACTION_STRENGTH = 0.15  # Scale factor (0=off, 1=full)
 # (Baumeister et al., 2001 "Bad is Stronger than Good")
 # ============================================================
 
-NEGATIVITY_BIAS = 1.5  # Reduced from 2.5 — cross-interaction already compounds negative effects
+NEGATIVITY_BIAS = 1.5  # Baumeister et al. 2001: ~2-3× range; 1.5 conservative with lower STIMULUS_GAIN
 
 # ============================================================
 # W MATRIX: Hormone → Emotion (8×8)
@@ -192,9 +192,9 @@ W_MATRIX = np.array([
 # ============================================================
 
 ALPHA = 0.85       # Inertia (general, used as fallback)
-RECOVERY_RATE = 0.10  # How fast hormones drift back to baseline
-STIMULUS_GAIN = 0.60  # Global gain to reduce clipping/saturation
-SOFT_CLAMP_SHARPNESS = 2.8  # lower = softer bound near [0,1]
+RECOVERY_RATE = 0.06  # How fast hormones drift back to baseline (slower = more gradual transitions)
+STIMULUS_GAIN = 0.22  # Global gain — calibrated for max ΔH ~5-15% per turn (research-calibrated)
+SOFT_CLAMP_SHARPNESS = 12.0  # Softplus sharpness: higher = sharper boundary near 0 and 1
 
 # Personality: sensitivity per hormone (K_i)
 # Default "balanced" personality

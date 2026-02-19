@@ -229,6 +229,20 @@ class FirebaseRepository(BaseRepository):
         })
         return conv
 
+    def save_evc_state(self, conv_id: str, evc_state: dict, last_turn_ts: float):
+        self._db.collection("conversations").document(conv_id).update({
+            "evc_state": evc_state,
+            "last_turn_ts": last_turn_ts,
+            "updated_at": _now_iso(),
+        })
+
+    def get_evc_state(self, conv_id: str) -> tuple[Optional[dict], Optional[float]]:
+        doc = self._db.collection("conversations").document(conv_id).get()
+        if not doc.exists:
+            return None, None
+        d = doc.to_dict()
+        return d.get("evc_state"), d.get("last_turn_ts")
+
     # ── Messages ──
 
     def create_message(self, msg: MessageDTO) -> MessageDTO:
