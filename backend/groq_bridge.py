@@ -85,6 +85,7 @@ class GroqBridge:
         long_term_memory: str = "",
         skill_context: str = "",
         chat_history: list[dict[str, str]] | None = None,
+        user_emotion_context: str = "",
     ) -> str:
         if not self.client:
             return "รับทราบครับ เดี๋ยวฉันช่วยคุณต่อจากบริบทเดิมให้นะ"
@@ -117,6 +118,7 @@ class GroqBridge:
             emotion_blend=bot_state.get("emotion_blend", "N/A"),
             trust=trust,
             user_emotion=user_emotion,
+            user_emotion_detail=user_emotion_context,
             hormone_summary=hormone_summary,
             emotion_expression_guide=emotion_guide,
         )

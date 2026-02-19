@@ -36,6 +36,7 @@ from .db.base_repository import UserDTO, MessageDTO, ConversationDTO
 from .user_memory import UserMemoryService
 from evc_core import EVCEngine
 from config import HORMONE_NAMES, EMOTION_NAMES
+from .user_emotion_tracker import UserEmotionTracker
 try:
     from .test_messages import TEST_MESSAGES_100
 except ImportError:
@@ -425,6 +426,11 @@ def chat(payload: ChatRequest,
             saved_evc, saved_ts = db_repo.get_evc_state(resume_id)
             if saved_evc:
                 state.engine.load_state(saved_evc)
+                # Restore user emotion tracker state
+                if "user_emotion_tracker" in saved_evc:
+                    tracker = UserEmotionTracker()
+                    tracker.load_state(saved_evc["user_emotion_tracker"])
+                    state.data["user_emotion_tracker"] = tracker
                 if saved_ts:
                     state.data["last_turn_ts"] = float(saved_ts)
         except Exception:
@@ -459,6 +465,18 @@ def chat(payload: ChatRequest,
     D = _clamp(analysis.D, 0.0, 1.0)
     C = _clamp(analysis.C, 0.5, 1.5)
 
+    # 3b. User Emotion Tracking — record signals and build context
+    user_tracker: UserEmotionTracker = state.data.get("user_emotion_tracker")
+    if user_tracker is None:
+        user_tracker = UserEmotionTracker()
+        state.data["user_emotion_tracker"] = user_tracker
+    user_tracker.record_turn(
+        S=S, D=D, C=C,
+        user_emotion=analysis.user_emotion,
+        message_preview=payload.message[:60],
+    )
+    user_emotion_context = user_tracker.build_user_emotion_summary()
+
     # 4. EVC engine — update hormones/emotions/trust
     # delta_t uses last_turn_ts from DB (if restored), so real elapsed time applies half-life decay
     delta_t = _compute_delta_t_turns(state, now_ts)
@@ -492,6 +510,7 @@ def chat(payload: ChatRequest,
         long_term_memory=long_term,
         skill_context=skill_context,
         chat_history=chat_history,
+        user_emotion_context=user_emotion_context,
     )
     state.data["last_reply"] = reply
 
@@ -539,9 +558,12 @@ def chat(payload: ChatRequest,
             trust_level=turn_result.get("trust", 0),
             metadata=json.dumps({"matched_skill": matched_skill.name if matched_skill else None}),
         ))
-        # Save EVC state + timestamp for resuming with half-life decay
+        # Save EVC state + user emotion tracker state for resuming
         try:
-            db_repo.save_evc_state(conv_id, state.engine.get_full_state(), now_ts)
+            evc_full = state.engine.get_full_state()
+            if user_tracker:
+                evc_full["user_emotion_tracker"] = user_tracker.get_state()
+            db_repo.save_evc_state(conv_id, evc_full, now_ts)
         except Exception:
             pass  # best-effort
 
@@ -573,6 +595,11 @@ def chat(payload: ChatRequest,
         "matched_skill": matched_skill.name if matched_skill else None,
         "memory_used": bool(memory_context),
         "learned_facts": learned_facts,
+        "user_mood": {
+            "current": user_tracker.get_current_mood() if user_tracker else "",
+            "trend": user_tracker.get_trend() if user_tracker else "",
+            "stats": user_tracker.get_emotion_stats() if user_tracker else {},
+        },
     }
 
 
